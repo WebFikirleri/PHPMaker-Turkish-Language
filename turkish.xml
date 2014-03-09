@@ -46,7 +46,7 @@
 	<phrase id="AuditTrailLogin" value="giriş"/>
 	<phrase id="AuditTrailLogout" value="çıkış"/>
 	<phrase id="AutoLogin" value="Ben çıkış yapana kadar oturumu kapatma."/>
-	<phrase id="Average" value="Average"/>
+	<phrase id="Average" value="Ortalama"/>
 	<phrase id="BackToList" value="Listeye Geri Dön"/>
 	<phrase id="BackToLogin" value="Giriş sayfasına geri dön."/>
 	<phrase id="BackToMasterRecordPage" value="Ana tabloya geri dön."/>
@@ -60,7 +60,7 @@
 	<phrase id="BatchUpdateRollback" value="*** Toplu güncelleme geri alınıyor ***"/>
 	<phrase id="BatchUpdateSuccess" value="*** Toplu güncelleme başarılı ***"/>
 	<phrase id="BreadcrumbDivider" value="/"/>
-	<phrase id="ButtonActions" value="Actions"/>
+	<phrase id="ButtonActions" value="Eylemler"/>
 	<phrase id="ButtonAddEdit" value="Ekle / Düzenle"/>
 	<phrase id="ButtonDetails" value="Master/Detail"/>
 	<phrase id="ButtonExport" value="Çıktı Al"/>
@@ -80,7 +80,7 @@
 	<phrase id="Count" value="Say"/>
 	<phrase id="CustomActionCompleted" value="Tamamlanan : '%s'"/>
 	<phrase id="CustomActionCancelled" value="İptal Edilen: '%s'"/>
-	<phrase id="CustomView" value="CUSTOM VIEW"/>
+	<phrase id="CustomView" value="ÖZEL GÖRÜNÜM"/>
 	<phrase id="Delete" value="Sil"/>
 	<phrase id="DeleteBtn" value="Sil"/>
 	<phrase id="DeleteCancelled" value="Silme işlemi iptal edildi"/>
@@ -108,23 +108,23 @@
 	<phrase id="EnterUserName" value="Kullanıcı adını giriniz." client="1"/>
 	<phrase id="EnterValidateCode" value="Lütfen doğrulama kodunu giriniz." client="1"/>
 	<phrase id="EnterSenderEmail" value="Lütfen gönderici e-posta adresini giriniz." client="1"/>
-	<phrase id="EnterProperSenderEmail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
-	<phrase id="EnterRecipientEmail" value="Please enter recipient email" client="1"/>
-	<phrase id="EnterProperRecipientEmail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
-	<phrase id="EnterProperCcEmail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
-	<phrase id="EnterProperBccEmail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
-	<phrase id="EnterSubject" value="Please enter subject" client="1"/>
-	<phrase id="EmailFormSender" value="From"/>
+	<phrase id="EnterProperSenderEmail" value="Üst e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+	<phrase id="EnterRecipientEmail" value="Lütfen alıcının e-posta adresini giriniz" client="1"/>
+	<phrase id="EnterProperRecipientEmail" value="Üst e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+	<phrase id="EnterProperCcEmail" value="Üst CC e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+	<phrase id="EnterProperBccEmail" value="Üst BCC e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+	<phrase id="EnterSubject" value="Lütfen konu giriniz" client="1"/>
+	<phrase id="EmailFormSender" value="Kimden"/>
 	<phrase id="EmailFormRecipient" value="Kime"/>
-	<phrase id="EmailFormCc" value="Cc"/>
-	<phrase id="EmailFormBcc" value="Bcc"/>
-	<phrase id="EmailFormSubject" value="Subject"/>
-	<phrase id="EmailFormMessage" value="Message"/>
-	<phrase id="EmailFormContentType" value="Send as"/>
+	<phrase id="EmailFormCc" value="CC"/>
+	<phrase id="EmailFormBcc" value="BCC"/>
+	<phrase id="EmailFormSubject" value="Konu"/>
+	<phrase id="EmailFormMessage" value="Mesaj"/>
+	<phrase id="EmailFormContentType" value="E-Posta İçerik Tipi"/>
 	<phrase id="EmailFormContentTypeUrl" value="URL"/>
 	<phrase id="EmailFormContentTypeHtml" value="HTML"/>
-	<phrase id="EnterUid" value="Please enter user ID" client="1"/>
-	<phrase id="EnterValidEmail" value="Please enter valid Email Address!" client="1"/>
+	<phrase id="EnterUid" value="Lütfen kullanıcı ID'sini giriniz." client="1"/>
+	<phrase id="EnterValidEmail" value="Lütfen geçerli bir e-posta adresi giriniz!" client="1"/>
 	<phrase id="ExactPhrase" value="Tamı tamına arama"/>
 	<phrase id="ExceedMaxRetry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
 	<phrase id="ExceedMaxEmailExport" value="Exceed maximum export email count. Please try again later"/>
