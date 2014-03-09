@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2013/08/02" version="10.0.1" id="tr" name="Turkish" desc="Turkish" author="e.World Technology Ltd.">
+<locale>
+	<phrase id="locale" value=""/><!-- *** system locale for this language -->	
+	<phrase id="use_system_locale" value="0"/><!-- *** change to "0" to disable system locale and use the following settings *** -->	
+	<phrase id="decimal_point" value=","/>
+	<phrase id="thousands_sep" value="."/>
+	<phrase id="mon_decimal_point" value=","/>
+	<phrase id="mon_thousands_sep" value="."/>
+	<phrase id="currency_symbol" value="TL"/>
+	<phrase id="positive_sign" value=""/>
+	<phrase id="negative_sign" value="-"/>
+	<phrase id="frac_digits" value="2"/>
+	<phrase id="p_cs_precedes" value="1"/>
+	<phrase id="p_sep_by_space" value="0"/>
+	<phrase id="n_cs_precedes" value="1"/>
+	<phrase id="n_sep_by_space" value="0"/>
+	<phrase id="p_sign_posn" value="3"/>
+	<phrase id="n_sign_posn" value="3"/>
+	<phrase id="time_zone" value="Europe/Istanbul"/><!-- *** used for multi-language site only *** -->
+</locale>
+<global>
+	<phrase id="ActionDeleted" value="Silindi"/>
+	<phrase id="ActionInserted" value="Eklendi"/>
+	<phrase id="ActionInsertedGridAdd" value="Eklendi(Grid-Ekleme)"/>
+	<phrase id="ActionUpdated" value="Güncellendi"/>
+	<phrase id="ActionUpdatedGridEdit" value="Güncellendi (Grid-Güncelleme)"/>
+	<phrase id="ActionUpdatedMultiUpdate" value="Güncellendi (Çoklu Güncelleme)"/>
+	<phrase id="ActivateAccount" value="Hesabınız aktive edilmiştir."/>
+	<phrase id="ActivateFailed" value="Aktivasyon hatası!"/>
+	<phrase id="Add" value="Ekle"/>
+	<phrase id="AddBlankRow" value="Boş Satır Ekle" imageurl="{_images}/addblankrow.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="AddBtn" value="Ekle"/>
+	<phrase id="AddLink" value="Ekle"/>
+	<phrase id="AddMasterDetailLink" value="Ekle Master/Detail"/>
+	<phrase id="AddSuccess" value="Ekleme Başarılı"/>
+	<phrase id="AdvancedSearch" value="Detaylı Arama"/>
+	<phrase id="AllRecords" value="Tümü"/>
+	<phrase id="AllWord" value="Tüm Kelimeler"/>
+	<phrase id="AlwaysAsk" value="Kullanıcı adı ve parolayı her zaman sor."/>
+	<phrase id="AnyWord" value="Herhangi Bir Kelime"/>
+	<phrase id="AuditTrailAutoLogin" value="otomatik giriş"/>
+	<phrase id="AuditTrailFailedAttempt" value="hatalı deneme sayısı: %n"/>
+	<phrase id="AuditTrailUserLoggedIn" value="kullanıcı giriş yapmış."/>
+	<phrase id="AuditTrailPasswordExpired" value="parola zaman aşımına uğramış"/>
+	<phrase id="AuditTrailLogin" value="giriş"/>
+	<phrase id="AuditTrailLogout" value="çıkış"/>
+	<phrase id="AutoLogin" value="Ben çıkış yapana kadar oturumu kapatma."/>
+	<phrase id="Average" value="Average"/>
+	<phrase id="BackToList" value="Listeye Geri Dön"/>
+	<phrase id="BackToLogin" value="Giriş sayfasına geri dön."/>
+	<phrase id="BackToMasterRecordPage" value="Ana tabloya geri dön."/>
+	<phrase id="BatchDeleteBegin" value="*** Toplu silme işlemi başladı ***"/>
+	<phrase id="BatchDeleteRollback" value="*** Toplu silme geri alınıyor ***"/>
+	<phrase id="BatchDeleteSuccess" value="*** Toplu silme başarılı ***"/>
+	<phrase id="BatchInsertBegin" value="*** Toplu ekleme başladı ***"/>
+	<phrase id="BatchInsertRollback" value="*** Toplu ekleme geri alınıyor ***"/>
+	<phrase id="BatchInsertSuccess" value="*** Toplu ekleme başarılı ***"/>
+	<phrase id="BatchUpdateBegin" value="*** Toplu güncelleme başladı ***"/>
+	<phrase id="BatchUpdateRollback" value="*** Toplu güncelleme geri alınıyor ***"/>
+	<phrase id="BatchUpdateSuccess" value="*** Toplu güncelleme başarılı ***"/>
+	<phrase id="BreadcrumbDivider" value="/"/>
+	<phrase id="ButtonActions" value="Actions"/>
+	<phrase id="ButtonAddEdit" value="Ekle / Düzenle"/>
+	<phrase id="ButtonDetails" value="Master/Detail"/>
+	<phrase id="ButtonExport" value="Çıktı Al"/>
+	<phrase id="ButtonListOptions" value="Ayarlar"/>
+	<phrase id="CancelBtn" value="İptal"/>
+	<phrase id="CancelLink" value="İptal" imageurl="{_images}/cancel.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ChangePwd" value="Parola Değiştir"/>
+	<phrase id="ChangePwdPage" value="Parola Değiştir"/>
+	<phrase id="ChangePwdBtn" value="Değiştir"/>
+	<phrase id="ChooseFile" value="Seçiniz..."/>
+	<phrase id="Confirm" value="Onay"/>
+	<phrase id="ConfirmBtn" value="Onay"/>
+	<phrase id="ConfirmPassword" value="Parola Onayla"/>
+	<phrase id="ConflictCancelLink" value="İptal"/>
+	<phrase id="Copy" value="Kopyala"/>
+	<phrase id="CopyLink" value="Kopyala" imageurl="{_images}/copy.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="Count" value="Say"/>
+	<phrase id="CustomActionCompleted" value="Tamamlanan : '%s'"/>
+	<phrase id="CustomActionCancelled" value="İptal Edilen: '%s'"/>
+	<phrase id="CustomView" value="CUSTOM VIEW"/>
+	<phrase id="Delete" value="Sil"/>
+	<phrase id="DeleteBtn" value="Sil"/>
+	<phrase id="DeleteCancelled" value="Silme işlemi iptal edildi"/>
+	<phrase id="DeleteConfirmMsg" value="Bu kaydı silmek istediğinizden emin misiniz?" client="1"/>
+	<phrase id="DeleteLink" value="Sil" imageurl="{_images}/delete.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="DeleteMultiConfirmMsg" value="Seçili kayıtları silmek istiyor musunuz?" client="1"/>
+	<phrase id="DeleteSelectedLink" value="Seçili Kayıtları Sil"/>
+	<phrase id="DeleteSuccess" value="Silme işlemi başarılı"/>
+	<phrase id="DetailLink" value=""/>
+	<phrase id="DetailCount" value="(%c)"/>
+	<phrase id="MasterDetailCopyLink" value="Master/Detail Kopyala"/>
+	<phrase id="MasterDetailEditLink" value="Master/Detail Düzenle"/>
+	<phrase id="MasterDetailViewLink" value="Master/Detail Göster"/>
+	<phrase id="DupIndex" value="Benzersiz index '%f' için tekrarlanan değer '%v'"/>
+	<phrase id="DupKey" value="Tekrarlanan birincil anahtar: '%f'"/>
+	<phrase id="Edit" value="Düzenle"/>
+	<phrase id="EditBtn" value="Düzenle"/>
+	<phrase id="EditLink" value="Düzenle" imageurl="{_images}/edit.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="EnterNewPassword" value="Lütfen yeni parolanızı giriniz" client="1"/>
+	<phrase id="EnterOldPassword" value="Lütfen eski parolanızı giriniz" client="1"/>
+	<phrase id="EnterPassword" value="Lütfen parolanızı giriniz" client="1"/>
+	<phrase id="EnterPwd" value="Lütfen Parolanızı Giriniz" client="1"/>
+	<phrase id="EnterRequiredField" value="Lütfen gerekli alanları giriniz" client="1"/>
+	<phrase id="EnterSearchCriteria" value="Lütfen arama kriterini giriniz."/>
+	<phrase id="EnterUserName" value="Kullanıcı adını giriniz." client="1"/>
+	<phrase id="EnterValidateCode" value="Lütfen doğrulama kodunu giriniz." client="1"/>
+	<phrase id="EnterSenderEmail" value="Lütfen gönderici e-posta adresini giriniz." client="1"/>
+	<phrase id="EnterProperSenderEmail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+	<phrase id="EnterRecipientEmail" value="Please enter recipient email" client="1"/>
+	<phrase id="EnterProperRecipientEmail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+	<phrase id="EnterProperCcEmail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+	<phrase id="EnterProperBccEmail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+	<phrase id="EnterSubject" value="Please enter subject" client="1"/>
+	<phrase id="EmailFormSender" value="From"/>
+	<phrase id="EmailFormRecipient" value="Kime"/>
+	<phrase id="EmailFormCc" value="Cc"/>
+	<phrase id="EmailFormBcc" value="Bcc"/>
+	<phrase id="EmailFormSubject" value="Subject"/>
+	<phrase id="EmailFormMessage" value="Message"/>
+	<phrase id="EmailFormContentType" value="Send as"/>
+	<phrase id="EmailFormContentTypeUrl" value="URL"/>
+	<phrase id="EmailFormContentTypeHtml" value="HTML"/>
+	<phrase id="EnterUid" value="Please enter user ID" client="1"/>
+	<phrase id="EnterValidEmail" value="Please enter valid Email Address!" client="1"/>
+	<phrase id="ExactPhrase" value="Tamı tamına arama"/>
+	<phrase id="ExceedMaxRetry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+	<phrase id="ExceedMaxEmailExport" value="Exceed maximum export email count. Please try again later"/>
+	<phrase id="ExportToCsv" value="Export to CSV" imageurl="{_images}/exportcsv.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToCsvText" value="CSV"/>
+	<phrase id="ExportToEmail" value="Email" imageurl="{_images}/exportemail.gif" client="1" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToEmailText" value="Email" client="1"/>
+	<phrase id="ExportToExcel" value="Export to Excel" imageurl="{_images}/exportxls.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToExcelText" value="Excel"/>
+	<phrase id="ExportToHtml" value="Export to HTML" imageurl="{_images}/exporthtml.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToHtmlText" value="HTML"/>
+	<phrase id="ExportToPDF" value="Export to PDF" imageurl="{_images}/exportpdf.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToPDFText" value="PDF"/>
+	<phrase id="ExportToWord" value="Export to Word" imageurl="{_images}/exportdoc.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToWordText" value="Word"/>
+	<phrase id="ExportToXml" value="Export to XML" imageurl="{_images}/exportxml.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToXmlText" value="XML"/>
+	<phrase id="FailedToSendMail" value="Failed to send mail. "/>
+	<phrase id="FieldName" value="Field Name"/>
+	<phrase id="FieldRequiredIndicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+	<phrase id="FileNotFound" value="Dosya bulunamadi!"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+	<phrase id="OverwriteBtn" value="Overwrite"/>
+	<phrase id="OverwriteLink" value="Overwrite"/>
+	<phrase id="ForgotPwd" value="Parolamı Unuttum"/>
+	<phrase id="GoBack" value="Go Back"/>
+	<phrase id="GridAddLink" value="Grid Add"/>
+	<phrase id="GridCancelLink" value="Cancel" imageurl="{_images}/cancel.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="GridEditLink" value="Grid Edit"/>
+	<phrase id="GridInsertLink" value="Insert" imageurl="{_images}/insert.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="GridSaveLink" value="Save" imageurl="{_images}/update.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="HideHighlight" value="Hide highlight" client="1"/>
+	<phrase id="HomePage" value="Ana Sayfa"/>
+	<phrase id="IncorrectCreditCard" value="Incorrect credit card number"/>
+	<phrase id="IncorrectDateYMD" value="Incorrect date, format = yyyy%smm%sdd"/>
+	<phrase id="IncorrectDateMDY" value="Incorrect date, format = mm%sdd%syyyy"/>
+	<phrase id="IncorrectDateDMY" value="Incorrect date, format = dd%smm%syyyy"/>
+	<phrase id="IncorrectShortDateYMD" value="Incorrect date, format = yy%smm%sdd"/>
+	<phrase id="IncorrectShortDateMDY" value="Incorrect date, format = mm%sdd%syy"/>
+	<phrase id="IncorrectShortDateDMY" value="Incorrect date, format = dd%smm%syy"/>
+	<phrase id="IncorrectEmail" value="Incorrect email" client="1"/>
+	<phrase id="IncorrectField" value="Incorrect field" client="1"/>
+	<phrase id="IncorrectFloat" value="Incorrect floating point number" client="1"/>
+	<phrase id="IncorrectGUID" value="Incorrect GUID" client="1"/>
+	<phrase id="IncorrectInteger" value="Incorrect integer" client="1"/>
+	<phrase id="IncorrectPhone" value="Incorrect phone number" client="1"/>
+	<phrase id="IncorrectRegExp" value="Regular expression not matched" client="1"/>
+	<phrase id="IncorrectRange" value="Number must be between %1 and %2" client="1"/>
+	<phrase id="IncorrectSSN" value="Incorrect social security number" client="1"/>
+	<phrase id="IncorrectTime" value="Incorrect time (hh:mm:ss)" client="1"/>
+	<phrase id="IncorrectZip" value="Incorrect ZIP code" client="1"/>
+	<phrase id="InlineAddLink" value="Inline Add"/>
+	<phrase id="InlineCopyLink" value="Inline Copy" imageurl="{_images}/inlinecopy.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="InlineEditLink" value="Inline Edit" imageurl="{_images}/inlineedit.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="InsertCancelled" value="Insert cancelled"/>
+	<phrase id="InsertFailed" value="Insert failed" client="1"/>
+	<phrase id="InsertLink" value="Insert" imageurl="{_images}/insert.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="InsertSuccess" value="Insert succeeded"/>
+	<phrase id="InvalidEmail" value="Invalid Email"/>
+	<phrase id="InvalidField" value="Invalid Field"/>
+	<phrase id="InvalidKeyValue" value="Invalid key value"/>
+	<phrase id="InvalidRecord" value="Invalid Record! Key is null" client="1"/>
+	<phrase id="InvalidParameter" value="Invalid Parameter"/>
+	<phrase id="InvalidPassword" value="Geçersiz Parola"/>
+	<phrase id="InvalidNewPassword" value="Invalid New Password"/>
+	<phrase id="InvalidUidPwd" value="Incorrect user ID or password"/>
+	<phrase id="Keep" value="Keep"/>
+	<phrase id="Language" value="Language"/>
+	<phrase id="Loading" value="Loading..." client="1"/>
+	<phrase id="Login" value="Kullanıcı Girişi"/>
+	<phrase id="LoginCancelled" value="Giriş İptal Edildi"/>
+	<phrase id="LoginPage" value="Kullanıcı Girişi"/>
+	<phrase id="Logout" value="Çıkış Yap"/>
+	<phrase id="MasterRecord" value="Master Record: "/>
+	<phrase id="MaxFileSize" value="Max. file size (%s bytes) exceeded." client="1"/>
+	<phrase id="MessageOK" value="OK" client="1"/>
+	<phrase id="MismatchPassword" value="Mismatch Password" client="1"/>
+	<phrase id="MissingLookupTableName" value="Missing lookup table name"/>
+	<phrase id="MissingDisplayFieldName" value="Missing display field name"/>
+	<phrase id="MissingDisplayFieldValue" value="Missing display field value"/>
+	<phrase id="MissingUserLevelID" value="Missing User Level ID"/>
+	<phrase id="MissingUserLevelName" value="Missing User Level name"/>
+	<phrase id="MobileMenu" value="Menu"/>
+	<phrase id="MultipleMasterDetails" value="Master/Detail"/>
+	<phrase id="New" value="New"/>
+	<phrase id="NewPassword" value="New Password"/>
+	<phrase id="NewValue" value="New Value"/>
+	<phrase id="Next" value="Sonraki"/>
+	<phrase id="NoAddRecord" value="No records to be added" client="1"/>
+	<phrase id="NoFieldSelected" value="No field selected for update" client="1"/>
+	<phrase id="NoPermission" value="You do not have permission to access the page."/>
+	<phrase id="NoAddPermission" value="You do not have permission to add the record."/>
+	<phrase id="NoDeletePermission" value="You do not have permission to delete the record."/>
+	<phrase id="NoEditPermission" value="You do not have permission to edit the record."/>
+	<phrase id="NoRecord" value="Gösterilecek Kayıt Bulunamadı"/>
+	<phrase id="NoRecordForKey" value="No record found for key = "/>
+	<phrase id="NoRecordSelected" value="No records selected" client="1"/>
+	<phrase id="NoTableGenerated" value="No tables generated"/>
+	<phrase id="NoUserLevel" value="No user level settings."/>
+	<phrase id="Of" value="arasında. Toplam: "/>
+	<phrase id="Old" value="Old"/>
+	<phrase id="OldPassword" value="Old Password"/>
+	<phrase id="OptionAlreadyExist" value="Option already exists"/>
+	<phrase id="Page" value="Page"/>
+	<phrase id="PagerFirst" value="İlk"/>
+	<phrase id="PagerLast" value="Son"/>
+	<phrase id="PagerNext" value="Sonraki"/>
+	<phrase id="PagerPrevious" value="Önceki"/>
+	<phrase id="Password" value="Parola"/>
+	<phrase id="PasswordRequest" value="Parola Gerekli"/>
+	<phrase id="PasswordChanged" value="Parola Değiştirildi"/>
+	<phrase id="PasswordExpired" value="Parolanızın geçerlilik süresi dolmuştur. Lütfen parolanızı değiştiriniz."/>
+	<phrase id="Permission" value="Permissions"/>
+	<phrase id="PermissionAddCopy" value="Add/Copy"/>
+	<phrase id="PermissionDelete" value="Delete"/>
+	<phrase id="PermissionEdit" value="Edit"/>
+	<phrase id="PermissionListSearchView" value="List/Search/View"/>
+	<phrase id="PermissionList" value="List"/>
+	<phrase id="PermissionSearch" value="Ara"/>
+	<phrase id="PermissionView" value="View"/>
+	<phrase id="PickDate" value="Pick a date"/>
+	<phrase id="PleaseSelect" value="Lütfen Seçiniz"/>
+	<phrase id="PleaseWait" value="Please wait..." client="1"/>
+	<phrase id="PrimaryKeyUnspecified" value="Primary key unspecified"/>
+	<phrase id="PrinterFriendly" value="Printer Friendly" imageurl="{_images}/print.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="PrinterFriendlyText" value="Printer Friendly"/>
+	<phrase id="Prev" value="Prev"/>
+	<phrase id="PwdEmailSent" value="Password sent to your email"/>
+	<phrase id="ResetPwdEmailSent" value="The reset password email has been sent to you"/>
+	<phrase id="QuickSearch" value="Hızlı Arama"/>
+	<phrase id="QuickSearchBtn" value="Ara"/>
+	<phrase id="Record" value="Kayıtlar"/>
+	<phrase id="RecordChangedByOtherUser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+	<phrase id="RecordDeleted" value="record(s) deleted"/>
+	<phrase id="RecordInserted" value="record(s) inserted"/>
+	<phrase id="RecordUpdated" value="record(s) updated"/>
+	<phrase id="RecordsPerPage" value="Page Size"/>
+	<phrase id="Register" value="Register"/>
+	<phrase id="RegisterBtn" value="Register"/>
+	<phrase id="RegisterSuccess" value="Registration succeeded"/>
+	<phrase id="RegisterSuccessActivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+	<phrase id="RegisterPage" value="Registration"/>
+	<phrase id="RelatedRecordRequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'"/>
+	<phrase id="RelatedRecordExists" value="You cannot delete a record because related records exist in the detail table '%t'"/>
+	<phrase id="ReloadBtn" value="Yeniden Yükle"/>
+	<phrase id="ReloadLink" value="Yeniden Yükle"/>
+	<phrase id="RememberMe" value="Beni Hatırla"/>
+	<phrase id="Remove" value="Kaldır"/>
+	<phrase id="Replace" value="Değiştir"/>
+	<phrase id="Report" value="Rapor"/>
+	<phrase id="RequestPwdPage" value="Parola İste"/>
+	<phrase id="Reset" value="Sıfırla"/>
+	<phrase id="ResetSearch" value="Sıfırla"/>
+	<phrase id="RptAvg" value="Average"/>
+	<phrase id="RptDtlRec" value="Detail Records"/>
+	<phrase id="RptGrandTotal" value="Grand Total"/>
+	<phrase id="RptMax" value="Maximum"/>
+	<phrase id="RptMin" value="Minimum"/>
+	<phrase id="RptSum" value="Sum"/>
+	<phrase id="RptSumHead" value="Summary for"/>
+	<phrase id="SaveUserName" value="Kullanıcı adımı kaydet"/>
+	<phrase id="Search" value="Ara"/>
+	<phrase id="SendEmailBtn" value="Send"/>
+	<phrase id="SendEmailSuccess" value="Email sent successfully" client="1"/>
+	<phrase id="SendPwd" value="Send"/>
+	<phrase id="SequenceNumber" value="%s."/>
+	<phrase id="ShowAll" value="Tümünü Göster"/>
+	<phrase id="ShowHighlight" value="Show highlight" client="1"/>
+	<phrase id="SrchLegend" value=""/>
+	<phrase id="Table" value="TABLE"/>
+	<phrase id="TblTypeTABLE" value="Table: "/>
+	<phrase id="TblTypeVIEW" value="Göster: "/>
+	<phrase id="TblTypeCUSTOMVIEW" value="Custom View: "/>
+	<phrase id="TblTypeREPORT" value="Report: "/>
+	<phrase id="To" value="ile"/>
+	<phrase id="Total" value="Total"/>
+	<phrase id="UnauthorizedUserID" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+	<phrase id="UnauthorizedParentUserID" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+	<phrase id="UnauthorizedMasterUserID" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+	<phrase id="UnmatchedValue" value="Value does not exist" imageurl="{_images}/warn.gif" imagewidth="16" imageheight="15"/>
+	<phrase id="Update" value="Update"/>
+	<phrase id="UpdateBtn" value="Update"/>
+	<phrase id="UpdateCancelled" value="Update cancelled"/>
+	<phrase id="UpdateFailed" value="Update failed"/>
+	<phrase id="UpdateLink" value="Update" imageurl="{_images}/update.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="UpdateSelectedLink" value="Seçili Kayıtları Güncelle"/>
+	<phrase id="UpdateSuccess" value="Update succeeded"/>
+	<phrase id="Uploading" value="Yükleniyor..." client="1"/>
+	<phrase id="UploadStart" value="Başlat" client="1"/>
+	<phrase id="UploadCancel" value="İptal" client="1"/>
+	<phrase id="UploadDelete" value="Sil" client="1"/>
+	<phrase id="UploadOverwrite" value="Eski dosyanın üzerine yazılsın mı?" client="1"/>
+	<phrase id="UploadErrMsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini"/>
+	<phrase id="UploadErrMsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"/>
+	<phrase id="UploadErrMsg3" value="The uploaded file was only partially uploaded"/>
+	<phrase id="UploadErrMsg4" value="No file was uploaded"/>
+	<phrase id="UploadErrMsg6" value="Missing a temporary folder"/>
+	<phrase id="UploadErrMsg7" value="Failed to write file to disk"/>
+	<phrase id="UploadErrMsg8" value="A PHP extension stopped the file upload"/>
+	<phrase id="UploadErrMsgPostMaxSize" value="The uploaded file exceeds the post_max_size directive in php.ini"/>
+	<phrase id="UploadErrMsgMaxFileSize" value="File is too big"/>
+	<phrase id="UploadErrMsgMinFileSize" value="File is too small"/>
+	<phrase id="UploadErrMsgAcceptFileTypes" value="Filetype not allowed"/>
+	<phrase id="UploadErrMsgMaxNumberOfFiles" value="Maximum number of files exceeded" client="1"/>
+	<phrase id="UploadErrMsgMaxWidth" value="Image exceeds maximum width"/>
+	<phrase id="UploadErrMsgMinWidth" value="Image requires a minimum width"/>
+	<phrase id="UploadErrMsgMaxHeight" value="Image exceeds maximum height"/>
+	<phrase id="UploadErrMsgMinHeight" value="Image requires a minimum height"/>
+	<phrase id="UploadErrMsgMaxFileLength" value="Total length of file names exceeds field length" client="1"/>
+	<phrase id="UpdateValue" value="Update"/>
+	<phrase id="UserEmail" value="Email"/>
+	<phrase id="UserExists" value="User already exists"/>
+	<phrase id="UserLevel" value="User Level: "/>
+	<phrase id="UserLevelAdministratorName" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+	<phrase id="UserLevelPermission" value="User Level Permissions"/>
+	<phrase id="UserLevelIDInteger" value="User Level ID must be integer" client="1"/>
+	<phrase id="UserLevelDefaultName" value="User level name for user level 0 must be 'Default'" client="1"/>
+	<phrase id="UserLevelIDIncorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+	<phrase id="UserLevelNameIncorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+	<phrase id="UserLoggedIn" value="Kullanıcı '%u' zaten giriş yapmış!"/>
+	<phrase id="UserName" value="Kullanıcı Adı"/>
+	<phrase id="UserProfileCorrupted" value="Kullanıcı profili bozulmuş. Lütfen çıkış yaptıktan sonra tekrar giriş yapınız."/>
+	<phrase id="View" value="Göster"/>
+	<phrase id="ViewLink" value="Göster" imageurl="{_images}/view.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ViewPageAddLink" value="Ekle"/>
+	<phrase id="ViewPageCopyLink" value="Kopyala"/>
+	<phrase id="ViewPageDeleteLink" value="Sil"/>
+	<phrase id="ViewPageDetailLink" value=""/>
+	<phrase id="ViewPageEditLink" value="Düzenle"/>
+	<phrase id="WrongFileType" value="Dosya türü gereçli değildir." client="1"/>
+	<phrase id="TableOrView" value="Tablolar"/>
+	<phrase id="=" value=""/>
+	<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+	<phrase id="&lt;" value="&lt;"/>
+	<phrase id="&lt;=" value="&lt;="/>
+	<phrase id="&gt;" value="&gt;"/>
+	<phrase id="&gt;=" value="&gt;="/>
+	<phrase id="LIKE" value="içerir"/>
+	<phrase id="NOT LIKE" value="içermez"/>
+	<phrase id="STARTS WITH" value="ile başlar"/>
+	<phrase id="ENDS WITH" value="ile biter"/>
+	<phrase id="IS NULL" value="null değer"/>
+	<phrase id="IS NOT NULL" value="null değildir"/>
+	<phrase id="BETWEEN" value="arasında"/>
+	<phrase id="AND" value="ve"/>
+	<phrase id="OR" value="ya da"/>
+</global>
+</ew-language>
