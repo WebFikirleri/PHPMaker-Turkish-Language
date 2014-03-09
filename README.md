@@ -1,7 +1,7 @@
 PHPMaker-Turkish-Language
 =========================
 
-PHPMaker Turkish Language
+PHPMaker Turkish Language File XML
 
 ##Usage
 Copy turkish.xml languages directory at PHPMaker directory.
