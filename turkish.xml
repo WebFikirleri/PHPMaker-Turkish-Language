@@ -126,82 +126,82 @@
 	<phrase id="EnterUid" value="Lütfen kullanıcı ID'sini giriniz." client="1"/>
 	<phrase id="EnterValidEmail" value="Lütfen geçerli bir e-posta adresi giriniz!" client="1"/>
 	<phrase id="ExactPhrase" value="Tamı tamına arama"/>
-	<phrase id="ExceedMaxRetry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
-	<phrase id="ExceedMaxEmailExport" value="Exceed maximum export email count. Please try again later"/>
-	<phrase id="ExportToCsv" value="Export to CSV" imageurl="{_images}/exportcsv.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExceedMaxRetry" value="Maksimum giriş denemesi aşıldı. Hesap kilitlendi. Lütfen %t dakika sonra tekrar deneyiniz."/>
+	<phrase id="ExceedMaxEmailExport" value="Maksimum e-posta çıktı sayısı aşıldı. Lütfen daha sonra tekrar deneyiniz."/>
+	<phrase id="ExportToCsv" value="Çıktı: CSV" imageurl="{_images}/exportcsv.gif" imagewidth="16" imageheight="16"/>
 	<phrase id="ExportToCsvText" value="CSV"/>
-	<phrase id="ExportToEmail" value="Email" imageurl="{_images}/exportemail.gif" client="1" imagewidth="16" imageheight="16"/>
-	<phrase id="ExportToEmailText" value="Email" client="1"/>
-	<phrase id="ExportToExcel" value="Export to Excel" imageurl="{_images}/exportxls.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToEmail" value="E-Posta" imageurl="{_images}/exportemail.gif" client="1" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToEmailText" value="E-Posta" client="1"/>
+	<phrase id="ExportToExcel" value="Çıktı: Excel" imageurl="{_images}/exportxls.gif" imagewidth="16" imageheight="16"/>
 	<phrase id="ExportToExcelText" value="Excel"/>
-	<phrase id="ExportToHtml" value="Export to HTML" imageurl="{_images}/exporthtml.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToHtml" value="Çıktı: HTML" imageurl="{_images}/exporthtml.gif" imagewidth="16" imageheight="16"/>
 	<phrase id="ExportToHtmlText" value="HTML"/>
-	<phrase id="ExportToPDF" value="Export to PDF" imageurl="{_images}/exportpdf.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToPDF" value="Çıktı: PDF" imageurl="{_images}/exportpdf.gif" imagewidth="16" imageheight="16"/>
 	<phrase id="ExportToPDFText" value="PDF"/>
-	<phrase id="ExportToWord" value="Export to Word" imageurl="{_images}/exportdoc.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToWord" value="Çıktı: Word" imageurl="{_images}/exportdoc.gif" imagewidth="16" imageheight="16"/>
 	<phrase id="ExportToWordText" value="Word"/>
-	<phrase id="ExportToXml" value="Export to XML" imageurl="{_images}/exportxml.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="ExportToXml" value="Çıktı: XML" imageurl="{_images}/exportxml.gif" imagewidth="16" imageheight="16"/>
 	<phrase id="ExportToXmlText" value="XML"/>
-	<phrase id="FailedToSendMail" value="Failed to send mail. "/>
-	<phrase id="FieldName" value="Field Name"/>
+	<phrase id="FailedToSendMail" value="E-Posta gönderilirken hata oldu. "/>
+	<phrase id="FieldName" value="Alan Adı"/>
 	<phrase id="FieldRequiredIndicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
 	<phrase id="FileNotFound" value="Dosya bulunamadi!"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
-	<phrase id="OverwriteBtn" value="Overwrite"/>
-	<phrase id="OverwriteLink" value="Overwrite"/>
+	<phrase id="OverwriteBtn" value="Üzerine Yaz"/>
+	<phrase id="OverwriteLink" value="Üzerine Yaz"/>
 	<phrase id="ForgotPwd" value="Parolamı Unuttum"/>
-	<phrase id="GoBack" value="Go Back"/>
-	<phrase id="GridAddLink" value="Grid Add"/>
-	<phrase id="GridCancelLink" value="Cancel" imageurl="{_images}/cancel.gif" imagewidth="16" imageheight="16"/>
-	<phrase id="GridEditLink" value="Grid Edit"/>
-	<phrase id="GridInsertLink" value="Insert" imageurl="{_images}/insert.gif" imagewidth="16" imageheight="16"/>
-	<phrase id="GridSaveLink" value="Save" imageurl="{_images}/update.gif" imagewidth="16" imageheight="16"/>
-	<phrase id="HideHighlight" value="Hide highlight" client="1"/>
+	<phrase id="GoBack" value="Geri Dön"/>
+	<phrase id="GridAddLink" value="Hızlı Ekle"/>
+	<phrase id="GridCancelLink" value="İptal" imageurl="{_images}/cancel.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="GridEditLink" value="Hızlı Düzenle"/>
+	<phrase id="GridInsertLink" value="Ekle" imageurl="{_images}/insert.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="GridSaveLink" value="Kaydet" imageurl="{_images}/update.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="HideHighlight" value="Seçilenleri Gizle" client="1"/>
 	<phrase id="HomePage" value="Ana Sayfa"/>
-	<phrase id="IncorrectCreditCard" value="Incorrect credit card number"/>
-	<phrase id="IncorrectDateYMD" value="Incorrect date, format = yyyy%smm%sdd"/>
-	<phrase id="IncorrectDateMDY" value="Incorrect date, format = mm%sdd%syyyy"/>
-	<phrase id="IncorrectDateDMY" value="Incorrect date, format = dd%smm%syyyy"/>
-	<phrase id="IncorrectShortDateYMD" value="Incorrect date, format = yy%smm%sdd"/>
-	<phrase id="IncorrectShortDateMDY" value="Incorrect date, format = mm%sdd%syy"/>
-	<phrase id="IncorrectShortDateDMY" value="Incorrect date, format = dd%smm%syy"/>
-	<phrase id="IncorrectEmail" value="Incorrect email" client="1"/>
-	<phrase id="IncorrectField" value="Incorrect field" client="1"/>
-	<phrase id="IncorrectFloat" value="Incorrect floating point number" client="1"/>
-	<phrase id="IncorrectGUID" value="Incorrect GUID" client="1"/>
-	<phrase id="IncorrectInteger" value="Incorrect integer" client="1"/>
-	<phrase id="IncorrectPhone" value="Incorrect phone number" client="1"/>
-	<phrase id="IncorrectRegExp" value="Regular expression not matched" client="1"/>
-	<phrase id="IncorrectRange" value="Number must be between %1 and %2" client="1"/>
-	<phrase id="IncorrectSSN" value="Incorrect social security number" client="1"/>
-	<phrase id="IncorrectTime" value="Incorrect time (hh:mm:ss)" client="1"/>
-	<phrase id="IncorrectZip" value="Incorrect ZIP code" client="1"/>
-	<phrase id="InlineAddLink" value="Inline Add"/>
-	<phrase id="InlineCopyLink" value="Inline Copy" imageurl="{_images}/inlinecopy.gif" imagewidth="16" imageheight="16"/>
-	<phrase id="InlineEditLink" value="Inline Edit" imageurl="{_images}/inlineedit.gif" imagewidth="16" imageheight="16"/>
-	<phrase id="InsertCancelled" value="Insert cancelled"/>
-	<phrase id="InsertFailed" value="Insert failed" client="1"/>
-	<phrase id="InsertLink" value="Insert" imageurl="{_images}/insert.gif" imagewidth="16" imageheight="16"/>
-	<phrase id="InsertSuccess" value="Insert succeeded"/>
-	<phrase id="InvalidEmail" value="Invalid Email"/>
-	<phrase id="InvalidField" value="Invalid Field"/>
-	<phrase id="InvalidKeyValue" value="Invalid key value"/>
-	<phrase id="InvalidRecord" value="Invalid Record! Key is null" client="1"/>
-	<phrase id="InvalidParameter" value="Invalid Parameter"/>
+	<phrase id="IncorrectCreditCard" value="Geçersiz Kredi Kartı Numarası"/>
+	<phrase id="IncorrectDateYMD" value="Geçersiz tarih, format = yyyy%smm%sdd"/>
+	<phrase id="IncorrectDateMDY" value="Geçersiz tarih, format = mm%sdd%syyyy"/>
+	<phrase id="IncorrectDateDMY" value="Geçersiz tarih, format = dd%smm%syyyy"/>
+	<phrase id="IncorrectShortDateYMD" value="Geçersiz tarih, format = yy%smm%sdd"/>
+	<phrase id="IncorrectShortDateMDY" value="Geçersiz tarih, format = mm%sdd%syy"/>
+	<phrase id="IncorrectShortDateDMY" value="Geçersiz tarih, format = dd%smm%syy"/>
+	<phrase id="IncorrectEmail" value="Geçersiz E-Posta" client="1"/>
+	<phrase id="IncorrectField" value="Geçersiz Alan" client="1"/>
+	<phrase id="IncorrectFloat" value="Geçersiz reel sayı" client="1"/>
+	<phrase id="IncorrectGUID" value="Geçersiz GUID" client="1"/>
+	<phrase id="IncorrectInteger" value="Geçersiz tamsayı" client="1"/>
+	<phrase id="IncorrectPhone" value="Geçersiz telefon numarası" client="1"/>
+	<phrase id="IncorrectRegExp" value="RegEx eşleşmedi" client="1"/>
+	<phrase id="IncorrectRange" value="Sayı %1 ve %2 arasında olmalıdır" client="1"/>
+	<phrase id="IncorrectSSN" value="Geçersiz sosyal güvenlik numarası" client="1"/>
+	<phrase id="IncorrectTime" value="Geçersiz Zaman (hh:mm:ss)" client="1"/>
+	<phrase id="IncorrectZip" value="Geçersiz Posta Kodu" client="1"/>
+	<phrase id="InlineAddLink" value="Hızlı Ekle"/>
+	<phrase id="InlineCopyLink" value="Hızlı Kopyala" imageurl="{_images}/inlinecopy.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="InlineEditLink" value="Hızlı Düzenle" imageurl="{_images}/inlineedit.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="InsertCancelled" value="Ekleme İptal Edildi"/>
+	<phrase id="InsertFailed" value="Ekleme başarısız" client="1"/>
+	<phrase id="InsertLink" value="Ekle" imageurl="{_images}/insert.gif" imagewidth="16" imageheight="16"/>
+	<phrase id="InsertSuccess" value="Ekleme Başarılı"/>
+	<phrase id="InvalidEmail" value="Geçersiz E-posta"/>
+	<phrase id="InvalidField" value="Geçersiz Alan"/>
+	<phrase id="InvalidKeyValue" value="Geçersiz anahtar değeri"/>
+	<phrase id="InvalidRecord" value="Geçersiz Kayıt! Anahtar boş!" client="1"/>
+	<phrase id="InvalidParameter" value="Geçersiz parametre"/>
 	<phrase id="InvalidPassword" value="Geçersiz Parola"/>
-	<phrase id="InvalidNewPassword" value="Invalid New Password"/>
-	<phrase id="InvalidUidPwd" value="Incorrect user ID or password"/>
-	<phrase id="Keep" value="Keep"/>
-	<phrase id="Language" value="Language"/>
-	<phrase id="Loading" value="Loading..." client="1"/>
+	<phrase id="InvalidNewPassword" value="Geçersiz Yeni Parola"/>
+	<phrase id="InvalidUidPwd" value="Geçersiz kullanıcı adı ya da parola"/>
+	<phrase id="Keep" value="Sakla"/>
+	<phrase id="Language" value="Dil"/>
+	<phrase id="Loading" value="Yükleniyor..." client="1"/>
 	<phrase id="Login" value="Kullanıcı Girişi"/>
 	<phrase id="LoginCancelled" value="Giriş İptal Edildi"/>
 	<phrase id="LoginPage" value="Kullanıcı Girişi"/>
 	<phrase id="Logout" value="Çıkış Yap"/>
-	<phrase id="MasterRecord" value="Master Record: "/>
-	<phrase id="MaxFileSize" value="Max. file size (%s bytes) exceeded." client="1"/>
+	<phrase id="MasterRecord" value="Ana Kayıt: "/>
+	<phrase id="MaxFileSize" value="Maksimum dosya boyutu aşıldı! (%s bytes)" client="1"/>
 	<phrase id="MessageOK" value="OK" client="1"/>
-	<phrase id="MismatchPassword" value="Mismatch Password" client="1"/>
-	<phrase id="MissingLookupTableName" value="Missing lookup table name"/>
+	<phrase id="MismatchPassword" value="Parola Eşleşmedi" client="1"/>
+	<phrase id="MissingLookupTableName" value="Arama tablosu ismi bulunamadı"/>
 	<phrase id="MissingDisplayFieldName" value="Missing display field name"/>
 	<phrase id="MissingDisplayFieldValue" value="Missing display field value"/>
 	<phrase id="MissingUserLevelID" value="Missing User Level ID"/>
