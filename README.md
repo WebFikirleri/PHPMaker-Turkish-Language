@@ -15,4 +15,4 @@ C:\Program Files\PHPMaker 10\languages\
 
 Ziyaretçiler:
 
-![Sayaç](http://www.webcounter.com/550bd9a4362d2/counter.png)
+![Sayaç](http://www.webcounter.com/550bd9a4362d2/counter.png#<random_token>)
