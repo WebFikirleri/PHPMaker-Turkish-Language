@@ -15,4 +15,4 @@ C:\Program Files\PHPMaker 10\languages\
 
 Ziyaretçiler:
 
-![Sayaç](http://hitwebcounter.com/counter/counter.php?page=6019141&style=0024&nbdigits=5&type=ip&initCount=0)
+![Sayaç](http://hitwebcounter.com/counter/counter.php?page=6019141&amp;style=0024&amp;nbdigits=5&amp;type=ip&amp;initCount=0)
