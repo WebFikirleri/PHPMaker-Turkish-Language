@@ -14,5 +14,5 @@ C:\Program Files (x86)\PHPMaker 10\languages\
 C:\Program Files\PHPMaker 10\languages\
 
 Ziyaretçiler:
-
-![Sayaç](http://www.webcounter.com/550bd9a4362d2/counter.png#<random_token>)
+<build_id>
+![Sayaç](http://www.webcounter.com/550bd9a4362d2/counter.png#<build_id>)
