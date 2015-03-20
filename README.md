@@ -1,14 +1,14 @@
-PHPMaker-Turkish-Language
-=========================
+#PHPMaker Turkish Language File
+#(PHPMaker Türkçe Dil Dosyası)
 
 PHPMaker Turkish Language File XML
 
-##Usage
-Copy turkish.xml languages directory at PHPMaker directory.
+##Usage (Kullanımı)
+Copy turkish.xml to "languages" folder at PHPMaker directory.
+turkish.xml dosyasını PHPMaker dizini altındaki "languages" klasörüne kopyalayın.
 
-####For 64bit systems:
+####For 64bit systems (64bit sistemler için):
 C:\Program Files (x86)\PHPMaker 10\languages\
 
-####For 32bit systems:
+####For 32bit systems (32bit sistemler için):
 C:\Program Files\PHPMaker 10\languages\
-
