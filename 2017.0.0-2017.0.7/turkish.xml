@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2017/06/22" version="13.0.0" id="tr" name="Turkish" desc="Turkish" author="Murat Akdeniz ( Web Fikirleri ) [ http://webfikirleri.com/ ]">
+<locale>
+	<phrase id="locale" value=""/><!-- *** system locale for this language -->	
+	<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->	
+	<phrase id="decimal_point" value=","/>
+	<phrase id="thousands_sep" value=" "/>
+	<phrase id="mon_decimal_point" value=","/>
+	<phrase id="mon_thousands_sep" value=" "/>
+	<phrase id="currency_symbol" value="?"/>
+	<phrase id="positive_sign" value=""/>
+	<phrase id="negative_sign" value="-"/>
+	<phrase id="frac_digits" value="2"/>
+	<phrase id="p_cs_precedes" value="1"/>
+	<phrase id="p_sep_by_space" value="0"/>
+	<phrase id="n_cs_precedes" value="1"/>
+	<phrase id="n_sep_by_space" value="0"/>
+	<phrase id="p_sign_posn" value="3"/>
+	<phrase id="n_sign_posn" value="3"/>
+	<phrase id="time_zone" value="Europe/Istanbul"/><!-- *** used for multi-language site only *** -->
+</locale>
+<global>
+	<phrase id="ActionDeleted" value="Silindi"/>
+	<phrase id="ActionInserted" value="Eklendi"/>
+	<phrase id="ActionInsertedGridAdd" value="Eklendi(Grid-Ekleme)"/>
+	<phrase id="ActionUpdated" value="Güncellendi"/>
+	<phrase id="ActionUpdatedGridEdit" value="Güncellendi (Grid-Güncelleme)"/>
+	<phrase id="ActionUpdatedMultiUpdate" value="Güncellendi (Çoklu Güncelleme)"/>
+	<phrase id="ActivateAccount" value="Hesabınız aktive edilmiştir."/>
+	<phrase id="ActivateFailed" value="Aktivasyon hatası!"/>
+	<phrase id="Add" value="Ekle"/>
+	<phrase id="AddBlankRow" value="Boş Satır Ekle" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+	<phrase id="AddBtn" value="Ekle"/>
+	<phrase id="AddLink" value="Bağlantı Ekle" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+	<phrase id="AddMasterDetailLink" value="Ekle Master/Detail" class="icon-md-add ewIcon"/><!-- v11 -->
+	<phrase id="AddSuccess" value="Ekleme Başarılı"/>
+	<phrase id="AdvancedSearch" value="Detaylı Arama"/><!-- v11 -->
+	<phrase id="AdvancedSearchBtn" value="Detaylı Arama" class="icon-advanced-search ewIcon"/><!-- v11 -->
+	<phrase id="AllRecords" value="Tümü"/>
+	<phrase id="AllWord" value="Tüm Kelimeler"/>
+	<phrase id="AlwaysAsk" value="Kullanıcı adı ve parolayı her zaman sor."/>
+	<phrase id="AnyWord" value="Herhangi Bir Kelime"/>
+	<phrase id="AuditTrailAutoLogin" value="otomatik giriş"/>
+	<phrase id="AuditTrailFailedAttempt" value="Hatalı deneme sayısı: %n"/>
+	<phrase id="AuditTrailUserLoggedIn" value="Kullanıcı giriş yapmış."/>
+	<phrase id="AuditTrailPasswordExpired" value="Parola zaman aşımına uğramış"/>
+	<phrase id="AuditTrailLogin" value="Giriş"/>
+	<phrase id="AuditTrailLogout" value="Çıkış"/>
+	<phrase id="AutoLogin" value="Ben çıkış yapana kadar oturumu kapatma."/>
+	<phrase id="Average" value="Ortalama"/>
+	<phrase id="BackToList" value="Listeye Geri Dön"/>
+	<phrase id="BackToLogin" value="Giriş sayfasına geri dön."/>
+	<phrase id="BackToMasterRecordPage" value="Ana tabloya geri dön."/>
+	<phrase id="BatchDeleteBegin" value="*** Toplu silme işlemi başladı ***"/>
+	<phrase id="BatchDeleteRollback" value="*** Toplu silme geri alınıyor ***"/>
+	<phrase id="BatchDeleteSuccess" value="*** Toplu silme başarılı ***"/>
+	<phrase id="BatchInsertBegin" value="*** Toplu ekleme başladı ***"/>
+	<phrase id="BatchInsertRollback" value="*** Toplu ekleme geri alınıyor ***"/>
+	<phrase id="BatchInsertSuccess" value="*** Toplu ekleme başarılı ***"/>
+	<phrase id="BatchUpdateBegin" value="*** Toplu güncelleme başladı ***"/>
+	<phrase id="BatchUpdateRollback" value="*** Toplu güncelleme geri alınıyor ***"/>
+	<phrase id="BatchUpdateSuccess" value="*** Toplu güncelleme başarılı ***"/>
+	<phrase id="ButtonActions" value="Eylemler" class="icon-options ewIcon"/><!-- v11 -->
+	<phrase id="ButtonAddEdit" value="Ekle / Düzenle" class="icon-addedit ewIcon"/><!-- v11 -->
+	<phrase id="ButtonDetails" value="Detay Tabloları" class="icon-master-detail ewIcon"/><!-- v11 -->
+	<phrase id="ButtonExport" value="Çıktı Al" class="icon-export ewIcon"/><!-- v11 -->
+	<phrase id="ButtonListOptions" value="Ayarlar" class="icon-options ewIcon"/><!-- v11 -->
+	<phrase id="ButtonSearch" value="Ara" class="icon-search ewIcon"/><!-- v11 -->
+	<phrase id="CancelBtn" value="İptal"/>
+	<phrase id="CancelLink" value="İptal" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+	<phrase id="ChangePwd" value="Parola Değiştir"/>
+	<phrase id="ChangePwdPage" value="Parola Değiştir"/>
+	<phrase id="ChangePwdBtn" value="Değiştir"/>
+	<phrase id="ChooseFileBtn" value="Seçiniz..."/><!-- v11 -->
+	<phrase id="ChooseFile" value="Dosya Seçiniz"/><!-- v11 -->
+	<phrase id="ChooseFiles" value="Dosya Seçiniz"/><!-- v11 -->
+	<phrase id="ClickReCaptcha" value="Yeni CAPTCHA için tıklayınız." client="1"/><!-- v12 -->
+	<phrase id="CloseBtn" value="Kapat" client="1"/><!-- v2017 -->
+	<phrase id="Confirm" value="Onay"/>
+	<phrase id="ConfirmBtn" value="Onay" client="1"/>
+	<phrase id="ConfirmCancel" value="İptal etmek istiyor musunuz?" client="1"/><!-- v12 -->
+	<phrase id="ConfirmPassword" value="Parola Onayla"/>
+	<phrase id="ConflictCancelLink" value="İptal"/>
+	<phrase id="LightboxTitle" value=" " client="1"/><!-- v11 -->
+	<phrase id="LightboxCurrent" value="{current} / {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+	<phrase id="LightboxPrevious" value="önceki" client="1"/><!-- v11 -->
+	<phrase id="LightboxNext" value="sonraki" client="1"/><!-- v11 -->
+	<phrase id="LightboxClose" value="kapat" client="1"/><!-- v11 -->
+	<phrase id="LightboxXhrError" value="İçerik yüklenemedi!" client="1"/><!-- v11 -->
+	<phrase id="LightboxImgError" value="Resim yüklenemedi!" client="1"/><!-- v11 -->
+	<phrase id="Copy" value="Kopyala"/>
+	<phrase id="CopyLink" value="Kopyala" class="icon-copy ewIcon"/><!-- v11 -->
+	<phrase id="Count" value="Say"/>
+	<phrase id="CountSelected" value="%s seçildi" client="1"/><!-- v12 -->
+	<phrase id="CurrentPassword" value="Aktif Parola: " client="1"/><!-- v12 -->
+	<phrase id="CustomActionCompleted" value="Tamamlanan : '%s'"/>
+	<phrase id="CustomActionCancelled" value="İptal Edilen: '%s'"/>
+	<phrase id="CustomActionFailed" value="'%s' başarısız"/><!-- v12 -->
+	<phrase id="CustomActionNotAllowed" value="'%s' izin verilmedi"/><!-- v12 -->
+	<phrase id="CustomView" value="ÖZEL GÖRÜNÜM"/>
+	<phrase id="Delete" value="Sil"/>
+	<phrase id="DeleteBtn" value="Sil"/>
+	<phrase id="DeleteCancelled" value="Silme işlemi iptal edildi"/>
+	<phrase id="DeleteConfirmMsg" value="Bu kaydı silmek istediğinizden emin misiniz?" client="1"/>
+	<phrase id="DeleteFilter" value="Filtreyi temizle"/><!-- v12 -->
+	<phrase id="DeleteFilterConfirm" value="%s - filtre temizlensin mi?" client="1"/><!-- v12 -->
+	<phrase id="DeleteLink" value="Sil" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+	<phrase id="DeleteSelectedLink" value="Seçili Kayıtları Sil" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+	<phrase id="DeleteSuccess" value="Silme işlemi başarılı"/>
+	<phrase id="DetailLink" value=""/>
+	<phrase id="DetailCount" value="&lt;span dir='ltr'&gt;(%c)&lt;/span&gt;"/><!-- v11 -->
+	<phrase id="MasterDetailCopyLink" value="Detay Tablo Kopyala" class="icon-md-copy ewIcon"/><!-- v11 -->
+	<phrase id="MasterDetailEditLink" value="Detay Tablo Düzenle" class="icon-md-edit ewIcon"/><!-- v11 -->
+	<phrase id="MasterDetailListLink" value="Detay Tablo Listele" class="icon-table ewIcon"/><!-- v11 -->
+	<phrase id="MasterDetailViewLink" value="Detay Tablo Göster" class="icon-md-view ewIcon"/><!-- v11 -->
+	<phrase id="DupIndex" value="Benzersiz index '%f' için tekrarlanan değer '%v'"/>
+	<phrase id="DupKey" value="Tekrarlanan birincil anahtar: '%f'"/>
+	<phrase id="Edit" value="Düzenle"/>
+	<phrase id="EditLink" value="Düzenle" class="icon-edit ewIcon"/><!-- v11 -->
+	<phrase id="EnterFilterName" value="Filtre adı girin" client="1"/><!-- v12 -->
+	<phrase id="EnterNewPassword" value="Lütfen yeni parolanızı giriniz" client="1"/>
+	<phrase id="EnterOldPassword" value="Lütfen eski parolanızı giriniz" client="1"/>
+	<phrase id="EnterPassword" value="Lütfen parolanızı giriniz" client="1"/>
+	<phrase id="EnterPwd" value="Lütfen Parolanızı Giriniz" client="1"/>
+	<phrase id="EnterRequiredField" value="Lütfen gerekli alanları giriniz - %s"/><!-- v11 -->
+	<phrase id="EnterSearchCriteria" value="Lütfen arama kriterini giriniz."/>
+	<phrase id="EnterUserName" value="Kullanıcı adını giriniz." client="1"/>
+	<phrase id="EnterValidateCode" value="Lütfen doğrulama kodunu giriniz." client="1"/><!-- v11 -->
+	<phrase id="EnterSenderEmail" value="Lütfen gönderici e-posta adresini giriniz." client="1"/>
+	<phrase id="EnterProperSenderEmail" value="Üst e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+	<phrase id="EnterRecipientEmail" value="Lütfen alıcının e-posta adresini giriniz" client="1"/>
+	<phrase id="EnterProperRecipientEmail" value="Üst e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+	<phrase id="EnterProperCcEmail" value="Üst CC e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+	<phrase id="EnterProperBccEmail" value="Üst BCC e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+	<phrase id="EnterSubject" value="Lütfen konu giriniz" client="1"/>
+	<phrase id="EmailFormSender" value="Kimden"/>
+	<phrase id="EmailFormRecipient" value="Kime"/>
+	<phrase id="EmailFormCc" value="Cc"/>
+	<phrase id="EmailFormBcc" value="Bcc"/>
+	<phrase id="EmailFormSubject" value="Konu"/>
+	<phrase id="EmailFormMessage" value="Mesaj"/>
+	<phrase id="EmailFormContentType" value="E-Posta İçerik Tipi"/>
+	<phrase id="EmailFormContentTypeUrl" value="URL"/>
+	<phrase id="EmailFormContentTypeHtml" value="HTML"/>
+	<phrase id="EnterUid" value="Lütfen kullanıcı ID'sini giriniz." client="1"/>
+	<phrase id="EnterValidEmail" value="Lütfen geçerli bir e-posta adresi giriniz!" client="1"/>
+	<phrase id="ExactPhrase" value="Tamı tamına arama"/>
+	<phrase id="ExceedMaxRetry" value="Maksimum giriş denemesi aşıldı. Hesap kilitlendi. Lütfen %t dakika sonra tekrar deneyiniz."/>
+	<phrase id="ExceedMaxEmailExport" value="Maksimum e-posta çıktı sayısı aşıldı. Lütfen daha sonra tekrar deneyiniz."/>
+	<phrase id="ExportToCsv" value="Çıktı: CSV" class="icon-csv ewIcon"/><!-- v11 -->
+	<phrase id="ExportToCsvText" value="CSV"/>
+	<phrase id="ExportToEmail" value="Çıktı: E-Posta" class="icon-email ewIcon"/><!-- v11 -->
+	<phrase id="ExportToEmailText" value="E-Posta" client="1"/>
+	<phrase id="ExportToExcel" value="Çıktı: Excel" class="icon-excel ewIcon"/><!-- v11 -->
+	<phrase id="ExportToExcelText" value="Excel"/>
+	<phrase id="ExportToHtml" value="Çıktı: HTML" class="icon-html ewIcon"/><!-- v11 -->
+	<phrase id="ExportToHtmlText" value="HTML"/>
+	<phrase id="ExportToPDF" value="Çıktı: PDF" class="icon-pdf ewIcon"/><!-- v11 -->
+	<phrase id="ExportToPDFText" value="PDF"/>
+	<phrase id="ExportToWord" value="Çıktı: Word" class="icon-word ewIcon"/><!-- v11 -->
+	<phrase id="ExportToWordText" value="Word"/>
+	<phrase id="ExportToXml" value="Çıktı: XML" class="icon-xml ewIcon"/><!-- v11 -->
+	<phrase id="ExportToXmlText" value="XML"/>
+	<phrase id="FailedToSendMail" value="E-Posta gönderilirken hata oldu."/>
+	<phrase id="FieldName" value="Alan Adı"/>
+	<phrase id="FieldRequiredIndicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+	<phrase id="FileNotFound" value="Dosya bulunamadi!"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+	<phrase id="Filter" value="Filtre"/><!-- v12 -->
+	<phrase id="FilterName" value="Filtre Adı" client="1"/><!-- v12 -->
+	<phrase id="Filters" value="Filtreler" class="icon-filter ewIcon"/><!-- v12 -->
+	<phrase id="OverwriteBtn" value="Üzerine Yaz" client="1"/>
+	<phrase id="OverwriteLink" value="Üzerine Yaz"/>
+	<phrase id="ForgotPwd" value="Parolamı Unuttum"/>
+	<phrase id="GoBack" value="Geri Dön"/>
+	<phrase id="GridAddCancelled" value="Hızlı Ekle İptal Edildi"/><!-- v11 -->
+	<phrase id="GridAddLink" value="Hızlı Ekle" class="icon-grid-add ewIcon"/><!-- v11 -->
+	<phrase id="GridCancelLink" value="İptal" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+	<phrase id="GridEditCancelled" value="Hızlı Düzenle İptal Edildi"/><!-- v11 -->
+	<phrase id="GridEditLink" value="Hızlı Düzenle" class="icon-grid-edit ewIcon"/><!-- v11 -->
+	<phrase id="GridInsertLink" value="Ekle" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+	<phrase id="GridSaveLink" value="Kaydet" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+	<phrase id="Highlight" value="Vurgula"/><!-- v11 -->
+	<phrase id="HighlightBtn" value="Vurgula" class="icon-highlight ewIcon"/><!-- v11 -->
+	<phrase id="HomePage" value="Anasayfa" class="glyphicon glyphicon-home ewIcon"/><!-- v11 -->
+	<phrase id="IncorrectCreditCard" value="Geçersiz Kredi Kartı Numarası"/>
+	<phrase id="IncorrectDate" value="Geçersiz tarih (%s)"/>
+	<phrase id="IncorrectDateYMD" value="Geçersiz tarih, format = yyyy%smm%sdd"/>
+	<phrase id="IncorrectDateMDY" value="Geçersiz tarih, format = mm%sdd%syyyy"/>
+	<phrase id="IncorrectDateDMY" value="Geçersiz tarih, format = dd%smm%syyyy"/>
+	<phrase id="IncorrectShortDateYMD" value="Geçersiz tarih, format = yy%smm%sdd"/>
+	<phrase id="IncorrectShortDateMDY" value="Geçersiz tarih, format = mm%sdd%syy"/>
+	<phrase id="IncorrectShortDateDMY" value="Geçersiz tarih, format = dd%smm%syy"/>
+	<phrase id="IncorrectEmail" value="Geçersiz E-Posta" client="1"/>
+	<phrase id="IncorrectField" value="Geçersiz Alan" client="1"/>
+	<phrase id="IncorrectFloat" value="Geçersiz reel sayı" client="1"/>
+	<phrase id="IncorrectGUID" value="Geçersiz GUID" client="1"/>
+	<phrase id="IncorrectInteger" value="Geçersiz tamsayı" client="1"/>
+	<phrase id="IncorrectPhone" value="Geçersiz telefon numarası" client="1"/>
+	<phrase id="IncorrectRegExp" value="RegEx eşleşmedi" client="1"/>
+	<phrase id="IncorrectRange" value="Sayı %1 ve %2 arasında olmalıdır" client="1"/>
+	<phrase id="IncorrectSSN" value="Geçersiz sosyal güvenlik numarası" client="1"/>
+	<phrase id="IncorrectTime" value="Geçersiz Zaman (hh:mm:ss)" client="1"/>
+	<phrase id="IncorrectZip" value="Geçersiz Posta Kodu" client="1"/>
+	<phrase id="InlineAddLink" value="Hızlı Ekle" class="icon-inline-add ewIcon"/><!-- v11 -->
+	<phrase id="InlineCopyLink" value="Hızlı Kopyala" class="icon-inline-copy ewIcon"/><!-- v11 -->
+	<phrase id="InlineEditLink" value="Hızlı Düzenle" class="icon-inline-edit ewIcon"/><!-- v11 -->
+	<phrase id="InsertCancelled" value="Ekleme İptal Edildi"/>
+	<phrase id="InsertFailed" value="Ekleme başarısız" client="1"/>
+	<phrase id="InsertLink" value="Ekle" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+	<phrase id="InsertSuccess" value="Ekleme Başarılı"/>
+	<phrase id="InvalidEmail" value="Geçersiz E-posta"/>
+	<phrase id="InvalidField" value="Geçersiz Alan"/>
+	<phrase id="InvalidKeyValue" value="Geçersiz anahtar değeri"/>
+	<phrase id="InvalidRecord" value="Geçersiz Kayıt! Anahtar boş!" client="1"/>
+	<phrase id="InvalidPostRequest" value="Geçersiz POST isteği!"/><!-- v11 -->
+	<phrase id="InvalidParameter" value="Geçersiz parametre"/>
+	<phrase id="InvalidPassword" value="Geçersiz Parola"/>
+	<phrase id="InvalidNewPassword" value="Geçersiz Yeni Parola"/>
+	<phrase id="InvalidUidPwd" value="Geçersiz kullanıcı adı ya da parola"/>
+	<phrase id="Keep" value="Sakla"/>
+	<phrase id="Language" value="Dil"/>
+	<phrase id="ListActionButton" value="İşlemler" class="icon-user ewIcon"/><!-- v12 -->
+	<phrase id="Loading" value="Yükleniyor..." client="1"/>
+	<phrase id="Login" value="Kullanıcı Girişi"/>
+	<phrase id="LoginCancelled" value="Giriş İptal Edildi"/>
+	<phrase id="LoginOptions" value="Ayarlar"/><!-- v11 -->
+	<phrase id="LoginPage" value="Kullanıcı Girişi"/>
+	<phrase id="Logout" value="Çıkış Yap"/>
+	<phrase id="LookupLink" value="Lookup - %s" class="glyphicon glyphicon-search ewIcon"/><!-- v2017 -->
+	<phrase id="MasterRecord" value="Ana Kayıt: "/>
+	<phrase id="MaxFileSize" value="Maksimum dosya boyutu aşıldı! (%s bytes)" client="1"/>
+	<phrase id="MessageOK" value="Tamam" client="1"/>
+	<phrase id="Midnight" value="gece yarısı"/><!-- v2017 -->
+	<phrase id="MismatchPassword" value="Parola Eşleşmedi" client="1"/>
+	<phrase id="MissingLookupTableName" value="Arama tablosu ismi bulunamadı"/>
+	<phrase id="MissingDisplayFieldName" value="Kayıp alan adı"/>
+	<phrase id="MissingDisplayFieldValue" value="Kayıp alan değeri"/>
+	<phrase id="MissingUserLevelID" value="Eksik Kullenıcı Seviyesi"/>
+	<phrase id="MissingUserLevelName" value="Eksik Kullanıcı Seviye Adı"/>
+	<phrase id="MobileMenu" value="Menü"/>
+	<phrase id="MultipleMasterDetails" value="Detay Tablo" class="icon-master-detail ewIcon"/><!-- v11 -->
+	<phrase id="New" value="Yeni"/>
+	<phrase id="NewPassword" value="Yeni Parola"/>
+	<phrase id="NewValue" value="Yeni Değer"/><!-- v12 -->
+	<phrase id="Next" value="Sonraki" client="1"/>
+	<phrase id="NoAddRecord" value="Eklenecek kayıt yok" client="1"/>
+	<phrase id="NoFieldSelected" value="Güncellemek için alan seçilmedi" client="1"/>
+	<phrase id="NoPermission" value="Bu sayfaya erişmek için yetkiniz yok."/>
+	<phrase id="NoAddPermission" value="Kayıt eklemek için yetkiniz yok."/>
+	<phrase id="NoDeletePermission" value="Kayıt silmek için yetkiniz yok."/>
+	<phrase id="NoEditPermission" value="Kayıt düzenlemek için yetkiniz yok."/>
+	<phrase id="Noon" value="öğle"/><!-- v2017 -->
+	<phrase id="NoRecord" value="Gösterilecek Kayıt Bulunamadı"/>
+	<phrase id="NoRecordForKey" value="Belirtilen anahtar için kayıt bulunamadı = "/>
+	<phrase id="NoRecordSelected" value="Hiç kayıt seçilmemiş" client="1"/>
+	<phrase id="NoTableGenerated" value="Hiç tablo oluşturulmamış"/>
+	<phrase id="NoUserLevel" value="Hiç kullanıcı seviye ayarı bulunamadı."/>
+	<phrase id="Of" value="arasında. Toplam: "/>
+	<phrase id="Old" value="Eski"/>
+	<phrase id="OldPassword" value="Eski Parola"/>
+	<phrase id="OptionAlreadyExist" value="Ayar daha önce kaydedilmiş."/>
+	<phrase id="Page" value="Sayfa"/>
+	<phrase id="PagerFirst" value="İlk"/>
+	<phrase id="PagerLast" value="Son"/>
+	<phrase id="PagerNext" value="Sonraki"/>
+	<phrase id="PagerPrevious" value="Önceki"/>
+	<phrase id="Password" value="Parola"/>
+	<phrase id="PasswordMask" value="********"/><!-- v12 -->
+	<phrase id="PasswordRequest" value="Parola Gerekli"/>
+	<phrase id="PasswordChanged" value="Parola Değiştirildi"/>
+	<phrase id="PasswordExpired" value="Parolanızın geçerlilik süresi dolmuştur. Lütfen parolanızı değiştiriniz."/>
+	<phrase id="PasswordStrength" value="Güç: %p" client="1"/><!-- v12 -->
+	<phrase id="PasswordTooSimple" value="Parolanız çok basit" client="1"/><!-- v12 -->
+	<phrase id="GeneratePassword" value="Parola Oluştur" class="glyphicon glyphicon-flash ewIcon"/><!-- v12 -->
+	<phrase id="Permission" value="Izinler" class="icon-user ewIcon"/><!-- v11 -->
+	<phrase id="PermissionAddCopy" value="Ekle/Kopyala"/>
+	<phrase id="PermissionDelete" value="Sil"/>
+	<phrase id="PermissionEdit" value="Düzenle"/>
+	<phrase id="PermissionListSearchView" value="Listele/Ara/Göster"/>
+	<phrase id="PermissionList" value="Liste"/>
+	<phrase id="PermissionSearch" value="Ara"/>
+	<phrase id="PermissionView" value="Incele"/>
+	<phrase id="PickDate" value="Tarih Seçiniz"/>
+	<phrase id="PleaseSelect" value="Lütfen Seçiniz" client="1"/>
+	<phrase id="PleaseWait" value="Lütfen bekleyiniz..." client="1"/>
+	<phrase id="PrimaryKeyUnspecified" value="Birincil anahtar belirtilmemiş"/>
+	<phrase id="PrinterFriendly" value="Yazıcı Dostu" class="icon-print ewIcon"/><!-- v11 -->
+	<phrase id="PrinterFriendlyText" value="Yazıcı Dostu"/>
+	<phrase id="Prev" value="Önceki" client="1"/><!-- v12 -->
+	<phrase id="PwdEmailSent" value="Parola e-posta adresinize gönderildi."/>
+	<phrase id="ResetPwdEmailSent" value="Parola sıfırlama e-postası size gönderildi"/>
+	<phrase id="QuickSearch" value="Hızlı Arama"/>
+	<phrase id="QuickSearchBtn" value="Ara"/>
+	<phrase id="QuickSearchAuto" value="Otomatik" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAutoShort" value="" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAll" value="Tüm Kelimeler" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAllShort" value="Tümü" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAny" value="Herhangi Bir Kelime" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAnyShort" value="Herhangi" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchExact" value="Tamı Tamına" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchExactShort" value="Tam" client="1"/><!-- v11 -->
+	<phrase id="Record" value="Kayıtlar" client="1"/>
+	<phrase id="RecordChangedByOtherUser" value="Vari başka bir kullanıcı tarafından değiştirildi. [Yenile] tuşuna basarak değişen veriyi görüntüleyiniz (Kaydettiğiniz veriler kaybolacaktır!) veya [Üzerine Yaz] tuşuna tıklayarak değişen verinin üzerine yazın."/>
+	<phrase id="RecordDeleted" value="kayıt(lar) silindi"/>
+	<phrase id="RecordInserted" value="kayıt(lar) eklendi"/>
+	<phrase id="RecordUpdated" value="kayıt(lar) güncellendi"/>
+	<phrase id="RecordsPerPage" value="Sayfa Boyutu" client="1"/>
+	<phrase id="Register" value="Kayıt Ol"/>
+	<phrase id="RegisterBtn" value="Kayıt Ol"/>
+	<phrase id="RegisterSuccess" value="Kayıt Işlemi Başarılı"/>
+	<phrase id="RegisterSuccessActivate" value="Kayıt işlemi başarılı. E-posta adresinize bir posta gönderdik. Lütfen hesabınız aktive etmek için e-postadaki linke tıklayınız."/>
+	<phrase id="RegisterPage" value="Kayıt"/>
+	<phrase id="RelatedRecordRequired" value="Ana taboloda bağlantı anahtarı bulunmadığı için kayıt ekleyemezsiniz ya da kaydı güncelleyemezsiniz. '%t'"/>
+	<phrase id="RelatedRecordExists" value="Detay tablosunda bağlı kayıtlar olam bir kaydı silemezsiniz. '%t'"/>
+	<phrase id="ReloadBtn" value="Yeniden Yükle"/>
+	<phrase id="ReloadLink" value="Yeniden Yükle"/>
+	<phrase id="RememberMe" value="Beni Hatırla"/>
+	<phrase id="Remove" value="Kaldır"/>
+	<phrase id="Replace" value="Değiştir"/>
+	<phrase id="Report" value="Rapor"/>
+	<phrase id="RequestPwdPage" value="Parola İste"/>
+	<phrase id="Reset" value="Sıfırla"/>
+	<phrase id="ResendRegisterEmailBtn" value="Kayıt e-postasını yeniden gönderin."/><!-- v12 -->
+	<phrase id="ResendRegisterEmailSuccess" value="Kayıt e-postası '%u' kullanıcısı için tekrar gönderildi."/><!-- v12 -->
+	<phrase id="ResendRegisterEmailFailure" value="Kayıt e-postası '%u' kullanıcısı için tekrar gönderilirken hata oluştu!"/><!-- v12 -->
+	<phrase id="ResetConcurrentUserBtn" value="Aktif kullanıcının oturumunu sıfırla"/><!-- v12 -->
+	<phrase id="ResetConcurrentUserSuccess" value="'%u' kullanıcısı için oturum sıfırlandı"/><!-- v12 -->
+	<phrase id="ResetConcurrentUserFailure" value="'%u' kullanıcısı için oturum sıfırlanma işlemi başarısız!"/><!-- v12 -->
+	<phrase id="ResetLoginRetryBtn" value="Oturum açma tekrar deneme sayısını sıfırla"/><!-- v12 -->
+	<phrase id="ResetLoginRetrySuccess" value="'%u' kullanıcısı için tekrar deneme sayısı sıfırlandı"/><!-- v12 -->
+	<phrase id="ResetLoginRetryFailure" value="'%u' kullanıcısı için tekrar deneme sayısı sıfırlanma işlemi başarısız!"/><!-- v12 -->
+	<phrase id="ResetSearchBtn" value="Sıfırla" class="icon-reset-search ewIcon"/><!-- v11 -->
+	<phrase id="ResetSearch" value="Sıfırla"/>
+	<phrase id="RptAvg" value="Ortalama"/>
+	<phrase id="RptDtlRec" value="Detay Kayıtları"/>
+	<phrase id="RptGrandTotal" value="Genel Toplam"/>
+	<phrase id="RptMax" value="En Fazla"/>
+	<phrase id="RptMin" value="En Az"/>
+	<phrase id="RptSum" value="Toplam"/>
+	<phrase id="RptSumHead" value="Özet:"/>
+	<phrase id="SaveBtn" value="Kaydet"/><!-- v11 -->
+	<phrase id="SaveCurrentFilter" value="Filtreyi kaydet"/><!-- v12 -->
+	<phrase id="SaveUserName" value="Kullanıcı adımı kaydet"/>
+	<phrase id="Search" value="Ara" client="1"/>
+	<phrase id="SearchBtn" value="Ara" class="glyphicon glyphicon-search ewIcon"/><!-- v11 -->
+	<phrase id="SearchPanel" value="Arama Paneli"/><!-- v11 -->
+	<phrase id="SelectBtn" value="Seç" client="1"/><!-- v2017 -->
+	<phrase id="SendEmailBtn" value="Gönder"/>
+	<phrase id="SendEmailSuccess" value="E-posta başarı ile gönderilmiştir." client="1"/>
+	<phrase id="SendPwd" value="Gönder"/>
+	<phrase id="SequenceNumber" value="%s."/>
+	<phrase id="ServerCommunicationError" value="sunucuya bağlanırken hata oluştu."/><!-- v2017 -->
+	<phrase id="SessionWillExpire" value="Oturumunuz %s saniye sonra sonlanacaktır. Oturumunuza devam etmek için TAMAM'a tıklayınız." client="1"/><!-- v12 -->
+	<phrase id="SessionExpired" value="Oturumunuzun süresi doldu." client="1"/><!-- v12 -->
+	<phrase id="SetPasswordExpiredBtn" value="Parola geçerlilik süresi"/><!-- v12 -->
+	<phrase id="SetPasswordExpiredSuccess" value="'%u' kullanıcısı için parola geçerlilik süresi ayarlandı."/><!-- v12 -->
+	<phrase id="SetPasswordExpiredFailure" value="'%u' kullanıcısı için parola geçerlilik süresi ayarlanma işlemi başarısız!"/><!-- v12 -->
+	<phrase id="ShowAllBtn" value="Tümünü Göster" class="icon-reset-search ewIcon"/><!-- v11 -->
+	<phrase id="ShowAll" value="Tümünü Göster"/><!-- v11 -->
+	<phrase id="SrchLegend" value=""/>
+	<phrase id="Table" value="Tablo"/>
+	<phrase id="TblTypeTABLE" value="Tablo: "/>
+	<phrase id="TblTypeVIEW" value="Görünüm: "/>
+	<phrase id="TblTypeCUSTOMVIEW" value="Kişisel Görünüm: "/>
+	<phrase id="TblTypeREPORT" value="Rapor: "/>
+	<phrase id="To" value="ile"/>
+	<phrase id="Total" value="Toplam"/>
+	<phrase id="UnauthorizedUserID" value="Geçerli kullanıcı (%c) kullanıcıya (%u) ID atama yetkisine sahip değildir."/>
+	<phrase id="UnauthorizedParentUserID" value="Geçerli kullanıcı (%c) üst seviye kullanıcı ID'si (%p) atama yetkisine sahip değildir."/>
+	<phrase id="UnauthorizedMasterUserID" value="Geçerli kullanıcı (%c) kayıt ekleme yetkisine sahip değildir. Ana filtre: %f"/>
+	<phrase id="Update" value="Güncelle"/>
+	<phrase id="UpdateBtn" value="Güncelle" client="1"/><!-- v2017 -->
+	<phrase id="UpdateCancelled" value="Güncelleme Iptal Edildi"/>
+	<phrase id="UpdateFailed" value="Güncelleme Başarısız"/>
+	<phrase id="UpdateLink" value="Güncelle" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+	<phrase id="UpdateSelectAll" value="Tümünü Seç"/><!-- v11 -->
+	<phrase id="UpdateSelectedLink" value="Seçili Kayıtları Güncelle" class="icon-edit ewIcon"/><!-- v11 -->
+	<phrase id="UpdateSuccess" value="Güncelleme Başarılı"/>
+	<phrase id="Uploading" value="Yükleniyor..." client="1"/>
+	<phrase id="UploadStart" value="Başlat" client="1"/>
+	<phrase id="UploadCancel" value="İptal" client="1"/>
+	<phrase id="UploadDelete" value="Sil" client="1"/>
+	<phrase id="UploadOverwrite" value="Eski dosyanın üzerine yazılsın mı?" client="1"/>
+	<phrase id="UploadErrMsg1" value="Yüklenmeye çalışılan dosya php.ini içerisindeki upload_max_filesize değerinin üzerindedir."/>
+	<phrase id="UploadErrMsg2" value="Yüklenmeye çalışılan dosya formun MAX_FILE_SIZE limitinin üzerindedir."/>
+	<phrase id="UploadErrMsg3" value="Yüklenmeye çalışılan dosya kısmen yüklenebilmiştir."/>
+	<phrase id="UploadErrMsg4" value="Dosya yüklenemedi"/>
+	<phrase id="UploadErrMsg6" value="Geçici klasör bulunamadı"/>
+	<phrase id="UploadErrMsg7" value="Dosya diske kaydedilirken hata oluştu"/>
+	<phrase id="UploadErrMsg8" value="Bir PHP eklentisi dosya yüklemesini durdurdu."/>
+	<phrase id="UploadErrMsgPostMaxSize" value="Yüklenmeye çalışılan dosya php.ini içerisindeki post_max_size değerinin üzerindedir."/>
+	<phrase id="UploadErrMsgMaxFileSize" value="Dosya çok büyük" client="1"/>
+	<phrase id="UploadErrMsgMinFileSize" value="Dosya çok küçük" client="1"/>
+	<phrase id="UploadErrMsgAcceptFileTypes" value="Bu dosya tipini yüklemeye izin verilmemiş!" client="1"/>
+	<phrase id="UploadErrMsgMaxNumberOfFiles" value="Izin verilen dosya sayısı aşılmıştır" client="1"/>
+	<phrase id="UploadErrMsgMaxWidth" value="Resim izin verilen maksimum genişliğin üzerindedir"/>
+	<phrase id="UploadErrMsgMinWidth" value="Resim izin verilen minimum genişliğin altındadır"/>
+	<phrase id="UploadErrMsgMaxHeight" value="Resim izin verilen maksimum yüksekliğin üzerindedir"/>
+	<phrase id="UploadErrMsgMinHeight" value="Resim izin verilen minimum yüksekliğin altındadır"/>
+	<phrase id="UploadErrMsgMaxFileLength" value="Dosya adı uzunluğu kayıt edilecek alanın alabileceğinden daha uzun" client="1"/>
+	<phrase id="UserAdministrator" value="Yönetici" client="1"/><!-- v12 -->
+	<phrase id="UserAnonymous" value="Kimliği Bilinmeyen" client="1"/><!-- v12 -->
+	<phrase id="UserDefault" value="Geçerli" client="1"/><!-- v12 -->
+	<phrase id="UserEmail" value="E-Posta"/>
+	<phrase id="UserExists" value="Kullanıcı zaten var"/>
+	<phrase id="UserLevel" value="Kullanıcı Seviyesi: "/>
+	<phrase id="UserLevelAdministratorName" value="Kullanıcı seviyesi -1 için seviye adı 'Administrator' olmalıdır." client="1"/>
+	<phrase id="UserLevelAnonymousName" value="Kullanıcı seviyesi -1 için seviye adı 'Anonymous' olmalıdır." client="1"/><!-- v12 -->
+	<phrase id="UserLevelPermission" value="Kullanıcı Seviye Izinleri"/>
+	<phrase id="UserLevelIDInteger" value="Kullanıcı Seviye ID'si bir tamsayı olmalıdır" client="1"/>
+	<phrase id="UserLevelDefaultName" value="Kullanıcı seviyesi 0 için seviye adı 'Default' olmalıdır" client="1"/>
+	<phrase id="UserLevelIDIncorrect" value="Kullanıcı tanımlı kullanıcı seviye ID'si 0'dan büyük olmalıdır." client="1"/>
+	<phrase id="UserLevelNameIncorrect" value="Kullanıcı tanımlı seviye adı 'Administrator' ya da 'Default' olamaz." client="1"/>
+	<phrase id="UserLoggedIn" value="Kullanıcı '%u' zaten giriş yapmış!"/>
+	<phrase id="UserName" value="Kullanıcı Adı"/>
+	<phrase id="UserProfileCorrupted" value="Kullanıcı profili bozulmuş. Lütfen çıkış yaptıktan sonra tekrar giriş yapınız."/>
+	<phrase id="ValueNotExist" value="Değer Bulunamadı" client="1"/><!-- v11 -->
+	<phrase id="View" value="Göster"/>
+	<phrase id="ViewImageGallery" value="Resmi Göster"/><!-- v11 -->
+	<phrase id="ViewLink" value="Göster" class="icon-view ewIcon"/><!-- v11 -->
+	<phrase id="ViewPageAddLink" value="Ekle" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+	<phrase id="ViewPageCopyLink" value="Kopyala" class="icon-copy ewIcon"/><!-- v11 -->
+	<phrase id="ViewPageDeleteLink" value="Sil" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+	<phrase id="ViewPageDetailLink" value=""/>
+	<phrase id="ViewPageEditLink" value="Düzenle" class="icon-edit ewIcon"/><!-- v11 -->
+	<phrase id="WrongFileType" value="Dosya türü gereçli değildir." client="1"/>
+	<phrase id="TableOrView" value="Tablolar"/>
+	<phrase id="=" value="&amp;nbsp;"/><!-- v12 -->
+	<phrase id="EQUAL" value="="/><!-- v12 -->
+	<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+	<phrase id="&lt;" value="&amp;lt;"/>
+	<phrase id="&lt;=" value="&amp;lt;="/>
+	<phrase id="&gt;" value="&amp;gt;"/>
+	<phrase id="&gt;=" value="&amp;gt;="/>
+	<phrase id="LIKE" value="içerir"/>
+	<phrase id="NOT LIKE" value="içermez"/><!-- v11.0.3 -->
+	<phrase id="STARTS WITH" value="ile başlar"/>
+	<phrase id="ENDS WITH" value="ile biter"/>
+	<phrase id="IS NULL" value="null değer"/>
+	<phrase id="IS NOT NULL" value="null değildir"/>
+	<phrase id="BETWEEN" value="arasında"/>
+	<phrase id="AND" value="ve"/>
+	<phrase id="OR" value="ya da"/>
+	<phrase id="AM" value="AM"/><!-- v2017 -->
+	<phrase id="PM" value="PM"/><!-- v2017 -->
+</global>
+</ew-language>
+<!-- <phrase id="DeleteMultiConfirmMsg" value="Seçili kayıtları silmek istiyor musunuz?" client="1"/> -->
