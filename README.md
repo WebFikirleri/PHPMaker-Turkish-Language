@@ -1,10 +1,7 @@
-# PHPMaker Turkish Language File
-
-## (PHPMaker Türkçe Dil Dosyası)
-
+## PHPMaker Turkish Language File
+### (PHPMaker Türkçe Dil Dosyası)
 
 ### Usage (Kullanımı)
-
 Copy `turkish.xml` to "languages" folder at PHPMaker directory.
 `turkish.xml` dosyasını PHPMaker dizini altındaki "languages" klasörüne kopyalayın.
 
