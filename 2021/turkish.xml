@@ -9,18 +9,18 @@
 -->
 <global>
     <phrase id="Accept" value="Accept"/><!-- v2019 -->
-    <phrase id="ActionDeleted" value="Deleted"/>
-    <phrase id="ActionInserted" value="Inserted"/>
-    <phrase id="ActionInsertedGridAdd" value="Inserted (Grid-Add)"/>
-    <phrase id="ActionUpdated" value="Updated"/>
-    <phrase id="ActionUpdatedGridEdit" value="Updated (Grid-Edit)"/>
-    <phrase id="ActionUpdatedMultiUpdate" value="Updated (Multi-Update)"/>
-    <phrase id="ActivateAccount" value="Your account is activated"/>
-    <phrase id="ActivateFailed" value="Activation failed"/>
-    <phrase id="Add" value="Add"/>
-    <phrase id="AddBlankRow" value="Add Blank Row" class="fas fa-plus ew-icon"/><!-- v2019 -->
-    <phrase id="AddBtn" value="Add" client="1"/><!-- v2018 -->
-    <phrase id="AddLink" value="Add" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="ActionDeleted" value="Silindi"/>
+    <phrase id="ActionInserted" value="Eklendi"/>
+    <phrase id="ActionInsertedGridAdd" value="Eklendi (Grid)"/>
+    <phrase id="ActionUpdated" value="Güncellendi"/>
+    <phrase id="ActionUpdatedGridEdit" value="Güncellendi (Grid)"/>
+    <phrase id="ActionUpdatedMultiUpdate" value="Güncellendi (Toplu Güncelleme)"/>
+    <phrase id="ActivateAccount" value="Hesabınız aktive edilmiştir."/>
+    <phrase id="ActivateFailed" value="Aktivasyon Hatası"/>
+    <phrase id="Add" value="Ekle"/>
+    <phrase id="AddBlankRow" value="Boş Satır Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="AddBtn" value="Ekle" client="1"/><!-- v2018 -->
+    <phrase id="AddLink" value="Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
     <phrase id="AddMasterDetailLink" value="Master/Detail Add" class="icon-md-add ew-icon"/><!-- v11 -->
     <phrase id="AddSuccess" value="Added successfully"/>
     <phrase id="AdvancedSearch" value="Advanced Search"/><!-- v11 -->
