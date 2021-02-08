@@ -21,23 +21,23 @@
     <phrase id="AddBlankRow" value="Boş Satır Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
     <phrase id="AddBtn" value="Ekle" client="1"/><!-- v2018 -->
     <phrase id="AddLink" value="Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
-    <phrase id="AddMasterDetailLink" value="Master/Detail Add" class="icon-md-add ew-icon"/><!-- v11 -->
-    <phrase id="AddSuccess" value="Added successfully"/>
-    <phrase id="AdvancedSearch" value="Advanced Search"/><!-- v11 -->
-    <phrase id="AdvancedSearchBtn" value="Advanced Search" class="icon-advanced-search ew-icon"/><!-- v11 -->
+    <phrase id="AddMasterDetailLink" value="Master/Detail Ekle" class="icon-md-add ew-icon"/><!-- v11 -->
+    <phrase id="AddSuccess" value="Başarılı bir şekilde eklenmiştir"/>
+    <phrase id="AdvancedSearch" value="Gelişmiş Arama"/><!-- v11 -->
+    <phrase id="AdvancedSearchBtn" value="Gelişmiş Arama" class="icon-advanced-search ew-icon"/><!-- v11 -->
     <phrase id="AggregateColon" value=": "/><!-- v2020 (report) -->
     <phrase id="AggregateEqual" value="="/><!-- v2020 (report) -->
-    <phrase id="AllRecords" value="All"/>
-    <phrase id="AllWord" value="All words"/>
-    <phrase id="AlwaysAsk" value="Always ask for my user name and password"/><!-- Deprecated since v2018 -->
-    <phrase id="AnyWord" value="Any word"/>
+    <phrase id="AllRecords" value="Tümü"/>
+    <phrase id="AllWord" value="Tüm Kelimeler"/>
+    <phrase id="AlwaysAsk" value="Her zaman kullanıcı adı ve parolamı sor"/><!-- Deprecated since v2018 -->
+    <phrase id="AnyWord" value="Herhangi Bir Kelime"/>
     <phrase id="ApiTitle" value="REST API"/><!-- v2021 -->
     <phrase id="AuditTrailAutoLogin" value="autologin"/>
-    <phrase id="AuditTrailFailedAttempt" value="failed attempt: %n"/>
-    <phrase id="AuditTrailUserLoggedIn" value="user already logged in"/>
-    <phrase id="AuditTrailPasswordExpired" value="password expired"/>
-    <phrase id="AuditTrailLogin" value="login"/>
-    <phrase id="AuditTrailLogout" value="logout"/>
+    <phrase id="AuditTrailFailedAttempt" value="hatalı deneme: %n"/>
+    <phrase id="AuditTrailUserLoggedIn" value="kullanıcı zaten giriş yapmış"/>
+    <phrase id="AuditTrailPasswordExpired" value="parolanın süresi dolmuş"/>
+    <phrase id="AuditTrailLogin" value="giriş"/>
+    <phrase id="AuditTrailLogout" value="çıkış"/>
     <phrase id="AutoLogin" value="Auto login until I logout explicitly"/><!-- Deprecated since v2018 -->
     <phrase id="AutoLoginFailed" value="Auto login failed"/><!-- v2018 -->
     <phrase id="Average" value="Average"/>
