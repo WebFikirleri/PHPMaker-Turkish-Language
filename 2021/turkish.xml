@@ -8,548 +8,548 @@
     4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
 -->
 <global>
-    <phrase id="Accept" value="Accept"/><!-- v2019 -->
+    <phrase id="Accept" value="Kabul Et"/><!-- v2019 -->
     <phrase id="ActionDeleted" value="Silindi"/>
     <phrase id="ActionInserted" value="Eklendi"/>
-    <phrase id="ActionInsertedGridAdd" value="Eklendi (Grid)"/>
+    <phrase id="ActionInsertedGridAdd" value="Eklendi(Grid-Ekleme)"/>
     <phrase id="ActionUpdated" value="Güncellendi"/>
-    <phrase id="ActionUpdatedGridEdit" value="Güncellendi (Grid)"/>
-    <phrase id="ActionUpdatedMultiUpdate" value="Güncellendi (Toplu Güncelleme)"/>
+    <phrase id="ActionUpdatedGridEdit" value="Güncellendi (Grid-Güncelleme)"/>
+    <phrase id="ActionUpdatedMultiUpdate" value="Güncellendi (Çoklu Güncelleme)"/>
     <phrase id="ActivateAccount" value="Hesabınız aktive edilmiştir."/>
-    <phrase id="ActivateFailed" value="Aktivasyon Hatası"/>
+    <phrase id="ActivateFailed" value="Aktivasyon hatası!"/>
     <phrase id="Add" value="Ekle"/>
     <phrase id="AddBlankRow" value="Boş Satır Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
     <phrase id="AddBtn" value="Ekle" client="1"/><!-- v2018 -->
-    <phrase id="AddLink" value="Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
-    <phrase id="AddMasterDetailLink" value="Master/Detail Ekle" class="icon-md-add ew-icon"/><!-- v11 -->
-    <phrase id="AddSuccess" value="Başarılı bir şekilde eklenmiştir"/>
-    <phrase id="AdvancedSearch" value="Gelişmiş Arama"/><!-- v11 -->
-    <phrase id="AdvancedSearchBtn" value="Gelişmiş Arama" class="icon-advanced-search ew-icon"/><!-- v11 -->
+    <phrase id="AddLink" value="Bağlantı Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="AddMasterDetailLink" value="Ekle Master/Detail" class="icon-md-add ew-icon"/><!-- v11 -->
+    <phrase id="AddSuccess" value="Ekleme Başarılı"/>
+    <phrase id="AdvancedSearch" value="Detaylı Arama"/><!-- v11 -->
+    <phrase id="AdvancedSearchBtn" value="Detaylı Arama" class="icon-advanced-search ew-icon"/><!-- v11 -->
     <phrase id="AggregateColon" value=": "/><!-- v2020 (report) -->
     <phrase id="AggregateEqual" value="="/><!-- v2020 (report) -->
     <phrase id="AllRecords" value="Tümü"/>
     <phrase id="AllWord" value="Tüm Kelimeler"/>
-    <phrase id="AlwaysAsk" value="Her zaman kullanıcı adı ve parolamı sor"/><!-- Deprecated since v2018 -->
+    <phrase id="AlwaysAsk" value="Kullanıcı adı ve parolayı her zaman sor."/><!-- Deprecated since v2018 -->
     <phrase id="AnyWord" value="Herhangi Bir Kelime"/>
     <phrase id="ApiTitle" value="REST API"/><!-- v2021 -->
-    <phrase id="AuditTrailAutoLogin" value="autologin"/>
-    <phrase id="AuditTrailFailedAttempt" value="hatalı deneme: %n"/>
-    <phrase id="AuditTrailUserLoggedIn" value="kullanıcı zaten giriş yapmış"/>
-    <phrase id="AuditTrailPasswordExpired" value="parolanın süresi dolmuş"/>
-    <phrase id="AuditTrailLogin" value="giriş"/>
-    <phrase id="AuditTrailLogout" value="çıkış"/>
-    <phrase id="AutoLogin" value="Auto login until I logout explicitly"/><!-- Deprecated since v2018 -->
-    <phrase id="AutoLoginFailed" value="Auto login failed"/><!-- v2018 -->
-    <phrase id="Average" value="Average"/>
-    <phrase id="BackToList" value="Back to List"/>
-    <phrase id="BackToLogin" value="Back to login page"/>
-    <phrase id="BackToMasterRecordPage" value="Back to master table"/>
-    <phrase id="BatchDeleteBegin" value="*** Batch delete begin ***"/>
-    <phrase id="BatchDeleteRollback" value="*** Batch delete rollback ***"/>
-    <phrase id="BatchDeleteSuccess" value="*** Batch delete successful ***"/>
-    <phrase id="BatchInsertBegin" value="*** Batch insert begin ***"/>
-    <phrase id="BatchInsertRollback" value="*** Batch insert rollback ***"/>
-    <phrase id="BatchInsertSuccess" value="*** Batch insert successful ***"/>
-    <phrase id="BatchUpdateBegin" value="*** Batch update begin ***"/>
-    <phrase id="BatchUpdateRollback" value="*** Batch update rollback ***"/>
-    <phrase id="BatchUpdateSuccess" value="*** Batch update successful ***"/>
-    <phrase id="BooleanNo" value="No"/><!-- v2020 (report) -->
-    <phrase id="BooleanYes" value="Yes"/><!-- v2020 (report) -->
-    <phrase id="ButtonActions" value="Actions" class="icon-options ew-icon"/><!-- v11 -->
-    <phrase id="ButtonAddEdit" value="Add/Edit" class="icon-addedit ew-icon"/><!-- v11 -->
-    <phrase id="ButtonDetails" value="Master/Detail" class="icon-master-detail ew-icon"/><!-- v11 -->
-    <phrase id="ButtonExport" value="Export" class="fas fa-download ew-icon"/><!-- v2019 -->
-    <phrase id="ButtonImport" value="Import" class="fas fa-upload ew-icon"/><!-- v2019 -->
-    <phrase id="ButtonListOptions" value="Options" class="icon-options ew-icon"/><!-- v11 -->
-    <phrase id="ButtonSearch" value="Search" class="icon-search ew-icon"/><!-- v11 -->
-    <phrase id="CancelBtn" value="Cancel" client="1"/><!-- v2017 -->
-    <phrase id="CancelLink" value="Cancel" class="fas fa-times ew-icon"/><!-- v2019 -->
-    <phrase id="ChangePassword" value="Change Password" client="1"/><!-- v2020 -->
-    <phrase id="ChangePasswordMessage" value="Change Password"/><!-- v2019 -->
-    <phrase id="ChangePasswordPage" value="Change Password"/>
-    <phrase id="ChangePasswordBtn" value="Change"/>
-    <phrase id="ChartExportErrMsg1" value="Unable to get %t image from %e."/><!-- v2021 -->
-    <phrase id="ChartExportErrMsg2" value="Missing file name."/><!-- v2021 -->
-    <phrase id="ChartExportErrMsg3" value="Upload folder does not exist."/><!-- v2021 -->
-    <phrase id="ChartExportErrMsg4" value="Upload folder is not writable."/><!-- v2021 -->
-    <phrase id="ChartOrder" value="Order by"/><!-- v2020 (report) -->
-    <phrase id="ChartOrderXAsc" value="Labels Ascending"/><!-- v2020 (report) -->
-    <phrase id="ChartOrderXDesc" value="Labels Descending"/><!-- v2020 (report) -->
-    <phrase id="ChartOrderYAsc" value="Values Ascending"/><!-- v2020 (report) -->
-    <phrase id="ChartOrderYDesc" value="Values Descending"/><!-- v2020 (report) -->
-    <phrase id="ChooseFileBtn" value="Choose..."/><!-- v11 -->
-    <phrase id="ChooseFile" value="Choose file"/><!-- v11 -->
-    <phrase id="ChooseFiles" value="Choose files"/><!-- v11 -->
-    <phrase id="ClickReCaptcha" value="Please click reCAPTCHA checkbox" client="1"/><!-- v12 -->
-    <phrase id="ClickToDrillDown" value="Click to drill down"/><!-- v2020 (report) -->
-    <phrase id="CloseAccountBtn" value="Delete data and close my account"/><!-- v2019 -->
-    <phrase id="CloseBtn" value="Close" client="1"/><!-- v2017 -->
-    <phrase id="Confirm" value="Confirm"/>
-    <phrase id="ConfirmBtn" value="Confirm" client="1"/><!-- v2017 -->
-    <phrase id="ConfirmCancel" value="Do you want to cancel?" client="1"/><!-- v12 -->
-    <phrase id="ConfirmPassword" value="Confirm Password" client="1"/><!-- v2021 -->
-    <phrase id="ConflictCancelLink" value="Cancel"/>
-    <phrase id="CookieConsentTitle" value="Cookies" client="1"/><!-- v2021 -->
-    <phrase id="CookieConsentSummary" value="Use this space to summarize your privacy and cookie use policy." client="1"/><!-- v2021 -->
-    <phrase id="Copy" value="Copy"/>
-    <phrase id="CopyLink" value="Copy" class="icon-copy ew-icon"/><!-- v11 -->
-    <phrase id="Count" value="Count"/>
-    <phrase id="CountSelected" value="%s selected" client="1"/><!-- v12 -->
-    <phrase id="CtbSumHead" value="Summary"/><!-- v2020 (report) -->
-    <phrase id="CurrentFilters" value="Current filters:"/><!-- v2020 (report) -->
-    <phrase id="CurrentPassword" value="Current password: " client="1"/><!-- v12 -->
-    <phrase id="CustomActionCompleted" value="'%s' completed"/>
-    <phrase id="CustomActionCancelled" value="'%s' cancelled"/>
-    <phrase id="CustomActionFailed" value="'%s' failed"/><!-- v12 -->
-    <phrase id="CustomActionNotAllowed" value="'%s' not allowed"/><!-- v12 -->
-    <phrase id="CustomView" value="CUSTOM VIEW"/>
-    <phrase id="Danger" value="Error" client="1"/><!-- v2020 -->
-    <phrase id="Debug" value="Debug"/><!-- v2021 -->
-    <phrase id="Delete" value="Delete"/>
-    <phrase id="DeleteBtn" value="Delete"/>
-    <phrase id="DeleteCancelled" value="Delete cancelled"/>
-    <phrase id="DeleteConfirmMsg" value="Are you sure you want to delete?" client="1"/>
-    <phrase id="DeleteFilter" value="Delete filter"/><!-- v12 -->
-    <phrase id="DeleteFilterConfirm" value="Delete filter %s?" client="1"/><!-- v12 -->
-    <phrase id="DeleteLink" value="Delete" class="fas fa-trash ew-icon"/><!-- v2019 -->
-    <phrase id="DeleteSelectedLink" value="Delete Selected Records" class="fas fa-trash ew-icon"/><!-- v2019 -->
-    <phrase id="DeleteSuccess" value="Deleted successfully"/>
-    <phrase id="DetailLink" value=""/>
+    <phrase id="AuditTrailAutoLogin" value="otomatik giriş"/>
+    <phrase id="AuditTrailFailedAttempt" value="Hatalı deneme sayısı: %n"/>
+    <phrase id="AuditTrailUserLoggedIn" value="Kullanıcı giriş yapmış."/>
+    <phrase id="AuditTrailPasswordExpired" value="Parola zaman aşımına uğramış"/>
+    <phrase id="AuditTrailLogin" value="Giriş"/>
+    <phrase id="AuditTrailLogout" value="Çıkış"/>
+    <phrase id="AutoLogin" value="Ben çıkış yapana kadar oturumu kapatma."/><!-- Deprecated since v2018 -->
+    <phrase id="AutoLoginFailed" value="Otomatik giriş başarısız"/><!-- v2018 -->
+    <phrase id="Average" value="Ortalama"/>
+    <phrase id="BackToList" value="Listeye Geri Dön"/>
+    <phrase id="BackToLogin" value="Giriş sayfasına geri dön."/>
+    <phrase id="BackToMasterRecordPage" value="Ana tabloya geri dön."/>
+    <phrase id="BatchDeleteBegin" value="*** Toplu silme işlemi başladı ***"/>
+    <phrase id="BatchDeleteRollback" value="*** Toplu silme geri alınıyor ***"/>
+    <phrase id="BatchDeleteSuccess" value="*** Toplu silme başarılı ***"/>
+    <phrase id="BatchInsertBegin" value="*** Toplu ekleme başladı ***"/>
+    <phrase id="BatchInsertRollback" value="*** Toplu ekleme geri alınıyor ***"/>
+    <phrase id="BatchInsertSuccess" value="*** Toplu ekleme başarılı ***"/>
+    <phrase id="BatchUpdateBegin" value="*** Toplu güncelleme başladı ***"/>
+    <phrase id="BatchUpdateRollback" value="*** Toplu güncelleme geri alınıyor ***"/>
+    <phrase id="BatchUpdateSuccess" value="*** Toplu güncelleme başarılı ***"/>
+    <phrase id="BooleanNo" value="Hayır"/><!-- v2020 (report) -->
+    <phrase id="BooleanYes" value="Evet"/><!-- v2020 (report) -->
+    <phrase id="ButtonActions" value="Eylemler" class="icon-options ew-icon"/><!-- v11 -->
+    <phrase id="ButtonAddEdit" value="Ekle / Düzenle" class="icon-addedit ew-icon"/><!-- v11 -->
+    <phrase id="ButtonDetails" value="Detay Tabloları" class="icon-master-detail ew-icon"/><!-- v11 -->
+    <phrase id="ButtonExport" value="Dışarı Aktar" class="fas fa-download ew-icon"/><!-- v2019 -->
+    <phrase id="ButtonImport" value="İçeri Aktar" class="fas fa-upload ew-icon"/><!-- v2019 -->
+    <phrase id="ButtonListOptions" value="Liste Ayarları" class="icon-options ew-icon"/><!-- v11 -->
+    <phrase id="ButtonSearch" value="Ara" class="icon-search ew-icon"/><!-- v11 -->
+    <phrase id="CancelBtn" value="İptal" client="1"/><!-- v2017 -->
+    <phrase id="CancelLink" value="İptal" class="fas fa-times ew-icon"/><!-- v2019 -->
+    <phrase id="ChangePassword" value="Parola Değiştir" client="1"/><!-- v2020 -->
+    <phrase id="ChangePasswordMessage" value="Parola Değiştir"/><!-- v2019 -->
+    <phrase id="ChangePasswordPage" value="Parola Değiştir"/>
+    <phrase id="ChangePasswordBtn" value="Değiştir"/>
+    <phrase id="ChartExportErrMsg1" value="%t resmi %e 'den alınamamıştır."/><!-- v2021 -->
+    <phrase id="ChartExportErrMsg2" value="Dosya adı eksik"/><!-- v2021 -->
+    <phrase id="ChartExportErrMsg3" value="Yükleme klasörü bulunamadı"/><!-- v2021 -->
+    <phrase id="ChartExportErrMsg4" value="Yükleme klasörü yazılabilir değil"/><!-- v2021 -->
+    <phrase id="ChartOrder" value="Sırala"/><!-- v2020 (report) -->
+    <phrase id="ChartOrderXAsc" value="Başlıklar Artan"/><!-- v2020 (report) -->
+    <phrase id="ChartOrderXDesc" value="Başlıklar Azalan"/><!-- v2020 (report) -->
+    <phrase id="ChartOrderYAsc" value="Değerler Artan"/><!-- v2020 (report) -->
+    <phrase id="ChartOrderYDesc" value="Değerler Azalan"/><!-- v2020 (report) -->
+    <phrase id="ChooseFileBtn" value="Seçiniz..."/><!-- v11 -->
+    <phrase id="ChooseFile" value="Dosya Seçiniz"/><!-- v11 -->
+    <phrase id="ChooseFiles" value="Dosya Seçiniz"/><!-- v11 -->
+    <phrase id="ClickReCaptcha" value="Yeni CAPTCHA için tıklayınız." client="1"/><!-- v12 -->
+    <phrase id="ClickToDrillDown" value="Detaya İnmek İçin Tıklayınız"/><!-- v2020 (report) -->
+    <phrase id="CloseAccountBtn" value="Tüm verileri sil ve hesabımı kapat"/><!-- v2019 -->
+    <phrase id="CloseBtn" value="Kapat" client="1"/><!-- v2017 -->
+    <phrase id="Confirm" value="Onay"/>
+    <phrase id="ConfirmBtn" value="Onay" client="1"/><!-- v2017 -->
+    <phrase id="ConfirmCancel" value="İptal etmek istiyor musunuz?" client="1"/><!-- v12 -->
+    <phrase id="ConfirmPassword" value="Parola Onayla" client="1"/><!-- v2021 -->
+    <phrase id="ConflictCancelLink" value="İptal"/>
+    <phrase id="CookieConsentTitle" value="Çerezler" client="1"/><!-- v2021 -->
+    <phrase id="CookieConsentSummary" value="Bu alanı gizlilik ve çerez politikanızı özetlemek için kullanın." client="1"/><!-- v2021 -->
+    <phrase id="Copy" value="Kopyala"/>
+    <phrase id="CopyLink" value="Kopyala" class="icon-copy ew-icon"/><!-- v11 -->
+    <phrase id="Count" value="Say"/>
+    <phrase id="CountSelected" value="%s seçildi" client="1"/><!-- v12 -->
+    <phrase id="CtbSumHead" value="Özet"/><!-- v2020 (report) -->
+    <phrase id="CurrentFilters" value="Geçerli Filtreler:"/><!-- v2020 (report) -->
+    <phrase id="CurrentPassword" value="Aktif Parola: " client="1"/><!-- v12 -->
+    <phrase id="CustomActionCompleted" value="Tamamlanan : '%s'"/>
+    <phrase id="CustomActionCancelled" value="İptal Edilen: '%s'"/>
+    <phrase id="CustomActionFailed" value="'%s' başarısız"/><!-- v12 -->
+    <phrase id="CustomActionNotAllowed" value="'%s' izin verilmedi"/><!-- v12 -->
+    <phrase id="CustomView" value="ÖZEL GÖRÜNÜM"/>
+    <phrase id="Danger" value="Hata" client="1"/><!-- v2020 -->
+    <phrase id="Debug" value="Hata Ayıklama"/><!-- v2021 -->
+    <phrase id="Delete" value="Sil"/>
+    <phrase id="DeleteBtn" value="Sil"/>
+    <phrase id="DeleteCancelled" value="Silme işlemi iptal edildi"/>
+    <phrase id="DeleteConfirmMsg" value="Bu kaydı silmek istediğinizden emin misiniz?" client="1"/>
+    <phrase id="DeleteFilter" value="Filtreyi temizle"/><!-- v12 -->
+    <phrase id="DeleteFilterConfirm" value="%s - filtre temizlensin mi?" client="1"/><!-- v12 -->
+    <phrase id="DeleteLink" value="Sil" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="DeleteSelectedLink" value="Seçili Kayıtları Sil" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="DeleteSuccess" value="Silme işlemi başarılı"/>
+    <phrase id="DetailLink" value="Detay"/>
     <phrase id="DetailCount" value="&lt;span class='badge badge-info ew-detail-count%c'&gt;%c&lt;/span&gt;"/><!-- v2019 -->
-    <phrase id="DownloadBtn" value="Download"/><!-- v2019 -->
-    <phrase id="DrillDownAllRecords" value="All records"/><!-- v2020 (report) -->
-    <phrase id="DrillDownFilters" value="Drill down filters:"/><!-- v2020 (report) -->
-    <phrase id="DupIndex" value="Duplicate value '%v' for unique index '%f'"/>
-    <phrase id="DupKey" value="Duplicate primary key: '%f'"/>
-    <phrase id="Edit" value="Edit"/>
-    <phrase id="EditBtn" value="Edit" client="1"/><!-- v2018 -->
-    <phrase id="EditLink" value="Edit" class="icon-edit ew-icon"/><!-- v11 -->
-    <phrase id="Email" value="Email" client="1"/><!-- v2021 -->
-    <phrase id="EmailFormSender" value="From"/>
-    <phrase id="EmailFormRecipient" value="To"/>
+    <phrase id="DownloadBtn" value="İndir"/><!-- v2019 -->
+    <phrase id="DrillDownAllRecords" value="Tüm Kayıtlar"/><!-- v2020 (report) -->
+    <phrase id="DrillDownFilters" value="Detaya İnmek İçin Filtreler"/><!-- v2020 (report) -->
+    <phrase id="DupIndex" value="Benzersiz index '%f' için tekrarlanan değer '%v'"/>
+    <phrase id="DupKey" value="Tekrarlanan birincil anahtar: '%f'"/>
+    <phrase id="Edit" value="Düzenle"/>
+    <phrase id="EditBtn" value="Düzenle" client="1"/><!-- v2018 -->
+    <phrase id="EditLink" value="Düzenle" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="Email" value="Eposta" client="1"/><!-- v2021 -->
+    <phrase id="EmailFormSender" value="Kimden"/>
+    <phrase id="EmailFormRecipient" value="Kime"/>
     <phrase id="EmailFormCc" value="Cc"/>
     <phrase id="EmailFormBcc" value="Bcc"/>
-    <phrase id="EmailFormSubject" value="Subject"/>
-    <phrase id="EmailFormMessage" value="Message"/>
-    <phrase id="EmailFormContentType" value="Send as"/>
+    <phrase id="EmailFormSubject" value="Konu"/>
+    <phrase id="EmailFormMessage" value="Mesaj"/>
+    <phrase id="EmailFormContentType" value="E-Posta İçerik Tipi"/>
     <phrase id="EmailFormContentTypeUrl" value="URL"/>
     <phrase id="EmailFormContentTypeHtml" value="HTML"/>
-    <phrase id="EmptyLabel" value="(Empty)"/><!-- v2020 (report) -->
-    <phrase id="EnterFilterName" value="Enter filter name" client="1"/><!-- v12 -->
-    <phrase id="EnterNewPassword" value="Please enter new password" client="1"/>
-    <phrase id="EnterOldPassword" value="Please enter old password" client="1"/>
-    <phrase id="EnterPassword" value="Please enter password" client="1"/>
-    <phrase id="EnterRequiredField" value="Please enter required field - %s" client="1"/><!-- v2021 -->
-    <phrase id="EnterSearchCriteria" value="Please enter search criteria"/>
-    <phrase id="EnterUserName" value="Please enter username" client="1"/>
-    <phrase id="EnterValidateCode" value="Please enter validation code" client="1"/><!-- v11 -->
-    <phrase id="EnterProperSenderEmail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
-    <phrase id="EnterProperRecipientEmail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
-    <phrase id="EnterProperCcEmail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
-    <phrase id="EnterProperBccEmail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
-    <phrase id="EnterSubject" value="Please enter subject" client="1"/>
-    <phrase id="EnterValue" value="Please enter value" client="1"/><!-- v2021 -->
-    <phrase id="EnterValue2" value="Please enter second value" client="1"/><!-- v2021 -->
-    <phrase id="Error" value="Error"/><!-- v2021 -->
-    <phrase id="ExactPhrase" value="Exact phrase"/>
-    <phrase id="ExceedMaxRetry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
-    <phrase id="ExceedMaxEmailExport" value="Exceed maximum export email count. Please try again later"/>
-    <phrase id="ExportChart" value="Exporting chart: " client="1"/><!-- v2020 (report) -->
-    <phrase id="ExportChartData" value="Exporting chart data" client="1"/><!-- v2020 (report) -->
-    <phrase id="ExportChartError" value="Failed to export chart: " client="1"/><!-- v2020 (report) -->
-    <phrase id="ExportClassNotFound" value="Export class not found"/><!-- v2019 -->
-    <phrase id="Exporting" value="Exporting, please wait..." client="1"/><!-- v2018 -->
-    <phrase id="ExportingChart" value="Exporting chart (%c of %t), please wait..." client="1"/><!-- v2020 (report) -->
-    <phrase id="ExportToCsv" value="Export to CSV" class="icon-csv ew-icon"/><!-- v11 -->
+    <phrase id="EmptyLabel" value="(Boş)"/><!-- v2020 (report) -->
+    <phrase id="EnterFilterName" value="Filtre adı girin" client="1"/><!-- v12 -->
+    <phrase id="EnterNewPassword" value="Lütfen yeni parolanızı giriniz" client="1"/>
+    <phrase id="EnterOldPassword" value="Lütfen eski parolanızı giriniz" client="1"/>
+    <phrase id="EnterPassword" value="Lütfen parolanızı giriniz" client="1"/>
+    <phrase id="EnterRequiredField" value="Lütfen gerekli alanları giriniz - %s" client="1"/><!-- v2021 -->
+    <phrase id="EnterSearchCriteria" value="Lütfen arama kriterini giriniz."/>
+    <phrase id="EnterUserName" value="Kullanıcı adını giriniz." client="1"/>
+    <phrase id="EnterValidateCode" value="Lütfen doğrulama kodunu giriniz." client="1"/><!-- v11 -->
+    <phrase id="EnterProperSenderEmail" value="Üst e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+    <phrase id="EnterProperRecipientEmail" value="Üst e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+    <phrase id="EnterProperCcEmail" value="Üst CC e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+    <phrase id="EnterProperBccEmail" value="Üst BCC e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+    <phrase id="EnterSubject" value="Lütfen konu giriniz" client="1"/>
+    <phrase id="EnterValue" value="Lütfen değer giriniz" client="1"/><!-- v2021 -->
+    <phrase id="EnterValue2" value="Lütfen ikinci değeri giriniz" client="1"/><!-- v2021 -->
+    <phrase id="Error" value="Hata"/><!-- v2021 -->
+    <phrase id="ExactPhrase" value="Tamı tamına arama"/>
+    <phrase id="ExceedMaxRetry" value="Maksimum giriş denemesi aşıldı. Hesap kilitlendi. Lütfen %t dakika sonra tekrar deneyiniz."/>
+    <phrase id="ExceedMaxEmailExport" value="Maksimum e-posta çıktı sayısı aşıldı. Lütfen daha sonra tekrar deneyiniz."/>
+    <phrase id="ExportChart" value="Şemayı Dışarı Aktar:" client="1"/><!-- v2020 (report) -->
+    <phrase id="ExportChartData" value="Şema Verileri Dışarı Aktarılıyor" client="1"/><!-- v2020 (report) -->
+    <phrase id="ExportChartError" value="Şema dışarı aktarılırken hata oluştu" client="1"/><!-- v2020 (report) -->
+    <phrase id="ExportClassNotFound" value="Dışarı aktarma sınıfı bulunamadı"/><!-- v2019 -->
+    <phrase id="Exporting" value="Dışarı aktarılıyor. Lütfen bekleyiniz..." client="1"/><!-- v2018 -->
+    <phrase id="ExportingChart" value="Şema dışarı aktarılıyor (%c / %t), lütfen bekleyiniz..." client="1"/><!-- v2020 (report) -->
+    <phrase id="ExportToCsv" value="Çıktı: CSV" class="icon-csv ew-icon"/><!-- v11 -->
     <phrase id="ExportToCsvText" value="CSV"/>
-    <phrase id="ExportToEmail" value="Email" class="icon-email ew-icon"/><!-- v11 -->
-    <phrase id="ExportToEmailText" value="Email" client="1"/>
-    <phrase id="ExportToExcel" value="Export to Excel" class="icon-excel ew-icon"/><!-- v11 -->
+    <phrase id="ExportToEmail" value="Çıktı: E-Posta" class="icon-email ew-icon"/><!-- v11 -->
+    <phrase id="ExportToEmailText" value="E-Posta" client="1"/>
+    <phrase id="ExportToExcel" value="Çıktı: Excel" class="icon-excel ew-icon"/><!-- v11 -->
     <phrase id="ExportToExcelText" value="Excel"/>
-    <phrase id="ExportToHtml" value="Export to HTML" class="icon-html ew-icon"/><!-- v11 -->
+    <phrase id="ExportToHtml" value="Çıktı: HTML" class="icon-html ew-icon"/><!-- v11 -->
     <phrase id="ExportToHtmlText" value="HTML"/>
-    <phrase id="ExportToPDF" value="Export to PDF" class="icon-pdf ew-icon"/><!-- v11 -->
+    <phrase id="ExportToPDF" value="Çıktı: PDF" class="icon-pdf ew-icon"/><!-- v11 -->
     <phrase id="ExportToPDFText" value="PDF"/>
-    <phrase id="ExportToWord" value="Export to Word" class="icon-word ew-icon"/><!-- v11 -->
+    <phrase id="ExportToWord" value="Çıktı: Word" class="icon-word ew-icon"/><!-- v11 -->
     <phrase id="ExportToWordText" value="Word"/>
-    <phrase id="ExportToXml" value="Export to XML" class="icon-xml ew-icon"/><!-- v11 -->
+    <phrase id="ExportToXml" value="Çıktı: XML" class="icon-xml ew-icon"/><!-- v11 -->
     <phrase id="ExportToXmlText" value="XML"/>
-    <phrase id="FailedToExport" value="Failed to Export" client="1"/><!-- v2018 -->
-    <phrase id="FailedToSendMail" value="Failed to send mail. "/>
-    <phrase id="FieldName" value="Field Name"/>
+    <phrase id="FailedToExport" value="Çıktı alma hatası" client="1"/><!-- v2018 -->
+    <phrase id="FailedToSendMail" value="E-Posta gönderilirken hata oldu."/>
+    <phrase id="FieldName" value="Alan Adı"/>
     <phrase id="FieldRequiredIndicator" class="fas fa-asterisk ew-required"/><!-- v2019 -->
-    <phrase id="FileNotFound" value="File not found"/>
-    <phrase id="Filter" value="Filter"/><!-- v12 -->
-    <phrase id="FilterName" value="Filter name" client="1"/><!-- v12 -->
-    <phrase id="Filters" value="Filters" class="icon-filter ew-icon"/><!-- v12 -->
-    <phrase id="ResetPasswordResponse" value="You will receive password recovery instructions shortly if your email address is registered."/><!-- v2019 -->
-    <phrase id="ResetPassword" value="Reset Password" client="1"/><!-- v2020 -->
-    <phrase id="GeneratePassword" value="Generate password" class="fas fa-bolt ew-icon"/><!-- v2019 -->
-    <phrase id="GoBack" value="Go Back"/>
-    <phrase id="GridAddCancelled" value="Grid add cancelled"/><!-- v11 -->
-    <phrase id="GridAddLink" value="Grid Add" class="icon-grid-add ew-icon"/><!-- v11 -->
-    <phrase id="GridCancelLink" value="Cancel" class="fas fa-times ew-icon"/><!-- v2019 -->
-    <phrase id="GridEditCancelled" value="Grid edit cancelled"/><!-- v11 -->
-    <phrase id="GridEditLink" value="Grid Edit" class="icon-grid-edit ew-icon"/><!-- v11 -->
-    <phrase id="GridInsertLink" value="Insert" class="fas fa-check ew-icon"/><!-- v2019 -->
-    <phrase id="GridSaveLink" value="Save" class="fas fa-check ew-icon"/><!-- v2019 -->
-    <phrase id="Group" value="Groups"/><!-- v2020 (report) -->
-    <phrase id="GroupsPerPage" value="Groups per page"/><!-- v2020 (report) -->
-    <phrase id="Highlight" value="Highlight"/><!-- v11 -->
-    <phrase id="HighlightBtn" value="Highlight" class="icon-highlight ew-icon"/><!-- v11 -->
-    <phrase id="HomePage" value="Home" class="fas fa-home ew-icon"/><!-- v2019 -->
-    <phrase id="Import" value="Import" class="fas fa-upload ew-icon"/><!-- v2019 -->
-    <phrase id="ImportBtn" value="Import"/><!-- v2019 -->
-    <phrase id="ImportMessageError1" value="Imported %c of %t records from %f (success: %s, failure: %e)" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageError2" value=", error: %e" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageError3" value="row %i: %d" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageError4" value="log file: %l" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageInvalidFileExtension" value="Invalid file extension '%e'"/><!-- v2019 -->
-    <phrase id="ImportMessageInvalidFieldName" value="Invalid field name: %f"/><!-- v2019 -->
-    <phrase id="ImportMessageInvalidFieldValue" value="Invalid field value (field name %f): %v"/><!-- v2019 -->
-    <phrase id="ImportMessageMore" value="(%s more)" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageNoHeaderRow" value="No header row for import"/><!-- v2019 -->
-    <phrase id="ImportMessageProgress" value="Importing %c of %t records from %f..." client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageServerError" value="Server error %s: %t" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageSuccess" value="Imported %c of %t records from %f successfully" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageUploadError" value="Failed to upload %f: %s" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageUploadComplete" value="Upload completed" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageUploadProgress" value="Uploading...(p%)" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessagePleaseSelect" value="Please select file" client="1"/><!-- v2019 -->
-    <phrase id="ImportMessageIncorrectFileType" value="Incorrect file type" client="1"/><!-- v2019 -->
-    <phrase id="ImportText" value="Import" client="1"/><!-- v2019 -->
-    <phrase id="IncorrectCreditCard" value="Incorrect credit card number" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectDate" value="Incorrect date (%s)" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectDateYMD" value="Incorrect date (yyyy%smm%sdd)" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectDateMDY" value="Incorrect date (mm%sdd%syyyy)" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectDateDMY" value="Incorrect date (dd%smm%syyyy)" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectShortDateYMD" value="Incorrect date (yy%smm%sdd)" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectShortDateMDY" value="Incorrect date (mm%sdd%syy)" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectShortDateDMY" value="Incorrect date (dd%smm%syy)" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectEmail" value="Incorrect email" client="1"/>
-    <phrase id="IncorrectField" value="Incorrect field value" client="1"/>
-    <phrase id="IncorrectFloat" value="Incorrect floating point number" client="1"/>
-    <phrase id="IncorrectGUID" value="Incorrect GUID" client="1"/>
-    <phrase id="IncorrectInteger" value="Incorrect integer" client="1"/>
-    <phrase id="IncorrectPhone" value="Incorrect phone number" client="1"/>
-    <phrase id="IncorrectRange" value="Number must be between %1 and %2" client="1"/>
-    <phrase id="IncorrectRegExp" value="Regular expression not matched" client="1"/>
-    <phrase id="IncorrectSSN" value="Incorrect social security number" client="1"/>
-    <phrase id="IncorrectTime" value="Incorrect time (hh%smm(%sss))" client="1"/><!-- v2021 -->
-    <phrase id="IncorrectValidationCode" value="Incorrect validation code, please enter again." client="1"/><!-- v2021 -->
-    <phrase id="IncorrectZip" value="Incorrect ZIP code" client="1"/>
-    <phrase id="Info" value="Information" client="1"/><!-- v2020 -->
-    <phrase id="InlineAddLink" value="Inline Add" class="icon-inline-add ew-icon"/><!-- v11 -->
-    <phrase id="InlineCopyLink" value="Inline Copy" class="icon-inline-copy ew-icon"/><!-- v11 -->
-    <phrase id="InlineEditLink" value="Inline Edit" class="icon-inline-edit ew-icon"/><!-- v11 -->
-    <phrase id="InsertCancelled" value="Insert cancelled"/>
-    <phrase id="InsertFailed" value="Insert failed" client="1"/>
-    <phrase id="InsertLink" value="Insert" class="fas fa-check ew-icon"/><!-- v2019 -->
-    <phrase id="InsertSuccess" value="Inserted successfully"/>
-    <phrase id="InvalidDate" value="Invalid date" client="1"/><!-- v2021 -->
-    <phrase id="InvalidKeyValue" value="Invalid key value"/>
-    <phrase id="InvalidRecord" value="Invalid Record! Key is null" client="1"/>
-    <phrase id="InvalidPostRequest" value="Invalid post request"/><!-- v11 -->
-    <phrase id="InvalidParameter" value="Invalid Parameter"/>
-    <phrase id="InvalidPassword" value="Invalid Password"/>
-    <phrase id="InvalidPasswordChars" value="Password must not contain &amp;, &lt;, &gt;, &quot;, or &apos;" client="1"/><!-- v2021 -->
-    <phrase id="InvalidNewPassword" value="Invalid New Password"/>
-    <phrase id="InvalidUidPwd" value="Incorrect user name or password"/>
-    <phrase id="InvalidUsernameChars" value="Username must not contain &amp;, &lt;, &gt;, &quot;, or &apos;" client="1"/><!-- v2021 -->
-    <phrase id="Keep" value="Keep"/>
-    <phrase id="Language" value="Language"/>
-    <phrase id="LearnMore" value="Learn More"/><!-- v2019 -->
+    <phrase id="FileNotFound" value="Dosya bulunamadı!"/>
+    <phrase id="Filter" value="Filtre"/><!-- v12 -->
+    <phrase id="FilterName" value="Filtre Adı" client="1"/><!-- v12 -->
+    <phrase id="Filters" value="Filtreler" class="icon-filter ew-icon"/><!-- v12 -->
+    <phrase id="ResetPasswordResponse" value="Parola sıfırlama ile ilgili bilgileri kayıtlı olan eposta adresinize kısa süre içerisinde göndereceğiz."/><!-- v2019 -->
+    <phrase id="ResetPassword" value="Parola Sıfırla" client="1"/><!-- v2020 -->
+    <phrase id="GeneratePassword" value="Parola Oluştur" class="fas fa-bolt ew-icon"/><!-- v2019 -->
+    <phrase id="GoBack" value="Geri Dön"/>
+    <phrase id="GridAddCancelled" value="Hızlı Ekle İptal Edildi"/><!-- v11 -->
+    <phrase id="GridAddLink" value="Hızlı Ekle" class="icon-grid-add ew-icon"/><!-- v11 -->
+    <phrase id="GridCancelLink" value="İptal" class="fas fa-times ew-icon"/><!-- v2019 -->
+    <phrase id="GridEditCancelled" value="Hızlı Düzenle İptal Edildi"/><!-- v11 -->
+    <phrase id="GridEditLink" value="Hızlı Düzenle" class="icon-grid-edit ew-icon"/><!-- v11 -->
+    <phrase id="GridInsertLink" value="Ekle" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="GridSaveLink" value="Kaydet" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="Group" value="Gruplar"/><!-- v2020 (report) -->
+    <phrase id="GroupsPerPage" value="Sayfa Başı Grup"/><!-- v2020 (report) -->
+    <phrase id="Highlight" value="Vurgula"/><!-- v11 -->
+    <phrase id="HighlightBtn" value="Vurgula" class="icon-highlight ew-icon"/><!-- v11 -->
+    <phrase id="HomePage" value="Anasayfa" class="fas fa-home ew-icon"/><!-- v2019 -->
+    <phrase id="Import" value="İçe Aktar" class="fas fa-upload ew-icon"/><!-- v2019 -->
+    <phrase id="ImportBtn" value="İçe Aktar"/><!-- v2019 -->
+    <phrase id="ImportMessageError1" value="İçeri aktarılan %f kaydın %c / %t (Başarılı: %s, Başarısız: %e)" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageError2" value=", hata: %e" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageError3" value="satır %i: %d" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageError4" value="log dosyası: %l" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageInvalidFileExtension" value="Geçersiz dosya uzantısı '%e'"/><!-- v2019 -->
+    <phrase id="ImportMessageInvalidFieldName" value="geçersiz alan adı: %f"/><!-- v2019 -->
+    <phrase id="ImportMessageInvalidFieldValue" value="Geçersiz alan adı (alan adı %f): %v"/><!-- v2019 -->
+    <phrase id="ImportMessageMore" value="(%s fazla)" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageNoHeaderRow" value="İçeri aktarmak için başlık satırı bulunamadı"/><!-- v2019 -->
+    <phrase id="ImportMessageProgress" value="İçerik Aktarılan %c / %t Kayıt. Kaynak: %f..." client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageServerError" value="Sunucu hatası %s: %t" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageSuccess" value="İçeri Aktarılan %c / %t Kayıt. Başarılı: %f" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageUploadError" value="Yükleme Hatası %f: %s" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageUploadComplete" value="Yükleme başarılı" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageUploadProgress" value="Yükleniyor...(p%)" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessagePleaseSelect" value="Lütfen dosya seçiniz" client="1"/><!-- v2019 -->
+    <phrase id="ImportMessageIncorrectFileType" value="Hatalı dosya tipi" client="1"/><!-- v2019 -->
+    <phrase id="ImportText" value="İçeri Aktar" client="1"/><!-- v2019 -->
+    <phrase id="IncorrectCreditCard" value="Geçersiz Kredi Kartı Numarası" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectDate" value="Geçersiz tarih (%s)" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectDateYMD" value="Geçersiz tarih, format = yyyy%smm%sdd" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectDateMDY" value="Geçersiz tarih, format = mm%sdd%syyyy" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectDateDMY" value="Geçersiz tarih, format = dd%smm%syyyy" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectShortDateYMD" value="Geçersiz tarih, format = yy%smm%sdd" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectShortDateMDY" value="Geçersiz tarih, format = mm%sdd%syy" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectShortDateDMY" value="Geçersiz tarih, format = dd%smm%syy" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectEmail" value="Geçersiz E-Posta" client="1"/>
+    <phrase id="IncorrectField" value="Geçersiz Alan" client="1"/>
+    <phrase id="IncorrectFloat" value="Geçersiz reel sayı" client="1"/>
+    <phrase id="IncorrectGUID" value="Geçersiz GUID" client="1"/>
+    <phrase id="IncorrectInteger" value="Geçersiz tamsayı" client="1"/>
+    <phrase id="IncorrectPhone" value="Geçersiz telefon numarası" client="1"/>
+    <phrase id="IncorrectRange" value="Sayı %1 ve %2 arasında olmalıdır" client="1"/>
+    <phrase id="IncorrectRegExp" value="RegEx eşleşmedi" client="1"/>
+    <phrase id="IncorrectSSN" value="Geçersiz sosyal güvenlik numarası" client="1"/>
+    <phrase id="IncorrectTime" value="Geçersiz Zaman (hh:mm:ss)" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectValidationCode" value="Geçersiz doğrulama kodu, lütfen tekrar deneyiniz." client="1"/><!-- v2021 -->
+    <phrase id="IncorrectZip" value="Geçersiz Posta Kodu" client="1"/>
+    <phrase id="Info" value="Bilgi" client="1"/><!-- v2020 -->
+    <phrase id="InlineAddLink" value="Hızlı Ekle" class="icon-inline-add ew-icon"/><!-- v11 -->
+    <phrase id="InlineCopyLink" value="Hızlı Kopyala" class="icon-inline-copy ew-icon"/><!-- v11 -->
+    <phrase id="InlineEditLink" value="Hızlı Düzenle" class="icon-inline-edit ew-icon"/><!-- v11 -->
+    <phrase id="InsertCancelled" value="Ekleme İptal Edildi"/>
+    <phrase id="InsertFailed" value="Ekleme başarısız" client="1"/>
+    <phrase id="InsertLink" value="Ekle" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="InsertSuccess" value="Ekleme Başarılı"/>
+    <phrase id="InvalidDate" value="Geçersiz tarih" client="1"/><!-- v2021 -->
+    <phrase id="InvalidKeyValue" value="Geçersiz anahtar değeri"/>
+    <phrase id="InvalidRecord" value="Geçersiz Kayıt! Anahtar boş!" client="1"/>
+    <phrase id="InvalidPostRequest" value="Geçersiz POST isteği!"/><!-- v11 -->
+    <phrase id="InvalidParameter" value="Geçersiz parametre"/>
+    <phrase id="InvalidPassword" value="Geçersiz Parola"/>
+    <phrase id="InvalidPasswordChars" value="Parola şunları içermemelidir &amp;, &lt;, &gt;, " client="1"/><!-- v2021 -->
+    <phrase id="InvalidNewPassword" value="Geçersiz Yeni Parola"/>
+    <phrase id="InvalidUidPwd" value="Geçersiz kullanıcı adı ya da parola"/>
+    <phrase id="InvalidUsernameChars" value="Kullanıcı adı şunları içermemelidir &amp;, &lt;, &gt;, " client="1"/><!-- v2021 -->
+    <phrase id="Keep" value="Sakla"/>
+    <phrase id="Language" value="Dil"/>
+    <phrase id="LearnMore" value="Daha Fazla"/><!-- v2019 -->
     <phrase id="LightboxTitle" value=" " client="1"/><!-- v11 -->
-    <phrase id="LightboxCurrent" value="image {current} of {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
-    <phrase id="LightboxPrevious" value="previous" client="1"/><!-- v11 -->
-    <phrase id="LightboxNext" value="next" client="1"/><!-- v11 -->
-    <phrase id="LightboxClose" value="close" client="1"/><!-- v11 -->
-    <phrase id="LightboxXhrError" value="This content failed to load." client="1"/><!-- v11 -->
-    <phrase id="LightboxImgError" value="This image failed to load." client="1"/><!-- v11 -->
-    <phrase id="List" value=""/><!-- v2019 -->
-    <phrase id="ListActionButton" value="Actions" class="fas fa-ellipsis-v"/><!-- v2020 -->
-    <phrase id="Loading" value="Loading..." client="1"/>
-    <phrase id="Login" value="Login" client="1"/><!-- v2020 -->
-    <phrase id="LoginCancelled" value="Login cancelled"/>
-    <phrase id="LoginFacebook" value="Login with Facebook"/><!-- v2018 -->
-    <phrase id="LoginFailed" value="Login with %p failed"/><!-- v2018 -->
-    <phrase id="LoginGoogle" value="Login with Google"/><!-- v2018 -->
-    <phrase id="LoginMsg" value="Sign in to start your session"/><!-- v2019 -->
-    <phrase id="LoginOptions" value="Options"/><!-- v11 -->
-    <phrase id="LoginOr" value="- OR -"/><!-- v2018 -->
-    <phrase id="LoginPage" value="Login"/>
-    <phrase id="Logout" value="Logout"/>
-    <phrase id="LookupLink" value="Lookup - %s" class="fas fa-search ew-icon"/><!-- v2019 -->
-    <phrase id="MasterDetailCopyLink" value="Master/Detail Copy" class="icon-md-copy ew-icon"/><!-- v11 -->
-    <phrase id="MasterDetailEditLink" value="Master/Detail Edit" class="icon-md-edit ew-icon"/><!-- v11 -->
-    <phrase id="MasterDetailListLink" value="Detail List" class="icon-table ew-icon"/><!-- v11 -->
-    <phrase id="MasterDetailViewLink" value="Master/Detail View" class="icon-md-view ew-icon"/><!-- v11 -->
-    <phrase id="MasterRecord" value="Master Record: "/>
-    <phrase id="MaxFileSize" value="Max. file size (%s bytes) exceeded." client="1"/>
-    <phrase id="Midnight" value="midnight" client="1"/><!-- v2017 -->
-    <phrase id="MismatchPassword" value="Mismatch Password" client="1"/>
-    <phrase id="MissingLookupTableName" value="Missing lookup table name"/>
-    <phrase id="MissingDisplayFieldName" value="Missing display field name"/>
-    <phrase id="MissingDisplayFieldValue" value="Missing display field value"/>
-    <phrase id="MissingPDFObject" value="Missing PDFObject" client="1"/><!-- v2020 -->
-    <phrase id="MissingUserLevelID" value="Missing User Level ID"/>
-    <phrase id="MissingUserLevelName" value="Missing User Level name"/>
-    <phrase id="MobileMenu" value="Menu"/>
-    <phrase id="MonthJan" value="Jan"/><!-- v2020 (report) -->
-    <phrase id="MonthFeb" value="Feb"/><!-- v2020 (report) -->
+    <phrase id="LightboxCurrent" value="{current} / {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+    <phrase id="LightboxPrevious" value="önceki" client="1"/><!-- v11 -->
+    <phrase id="LightboxNext" value="sonraki" client="1"/><!-- v11 -->
+    <phrase id="LightboxClose" value="kapat" client="1"/><!-- v11 -->
+    <phrase id="LightboxXhrError" value="İçerik yüklenemedi!" client="1"/><!-- v11 -->
+    <phrase id="LightboxImgError" value="Resim yüklenemedi!" client="1"/><!-- v11 -->
+    <phrase id="List" value="Liste"/><!-- v2019 -->
+    <phrase id="ListActionButton" value="İşlemler" class="fas fa-ellipsis-v"/><!-- v2020 -->
+    <phrase id="Loading" value="Yükleniyor..." client="1"/>
+    <phrase id="Login" value="Kullanıcı Girişi" client="1"/><!-- v2020 -->
+    <phrase id="LoginCancelled" value="Giriş İptal Edildi"/>
+    <phrase id="LoginFacebook" value="Facebook ile giriş yap"/><!-- v2018 -->
+    <phrase id="LoginFailed" value="%p ile giriş yapılamadı"/><!-- v2018 -->
+    <phrase id="LoginGoogle" value="Google ile giriş yap"/><!-- v2018 -->
+    <phrase id="LoginMsg" value="Oturumunuzu başlatmak için giriş yapınız"/><!-- v2019 -->
+    <phrase id="LoginOptions" value="Ayarlar"/><!-- v11 -->
+    <phrase id="LoginOr" value="- YA DA -"/><!-- v2018 -->
+    <phrase id="LoginPage" value="Kullanıcı Girişi"/>
+    <phrase id="Logout" value="Çıkış Yap"/>
+    <phrase id="LookupLink" value="Bak - %s" class="fas fa-search ew-icon"/><!-- v2019 -->
+    <phrase id="MasterDetailCopyLink" value="Detay Tablo Kopyala" class="icon-md-copy ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailEditLink" value="Detay Tablo Düzenle" class="icon-md-edit ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailListLink" value="Detay Tablo Listele" class="icon-table ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailViewLink" value="Detay Tablo Göster" class="icon-md-view ew-icon"/><!-- v11 -->
+    <phrase id="MasterRecord" value="Ana Kayıt: "/>
+    <phrase id="MaxFileSize" value="Maksimum dosya boyutu aşıldı! (%s bytes)" client="1"/>
+    <phrase id="Midnight" value="gece yarısı" client="1"/><!-- v2017 -->
+    <phrase id="MismatchPassword" value="Parola Eşleşmedi" client="1"/>
+    <phrase id="MissingLookupTableName" value="Arama tablosu ismi bulunamadı"/>
+    <phrase id="MissingDisplayFieldName" value="Kayıp alan adı"/>
+    <phrase id="MissingDisplayFieldValue" value="Kayıp alan değeri"/>
+    <phrase id="MissingPDFObject" value="PDF Objesi Eksik" client="1"/><!-- v2020 -->
+    <phrase id="MissingUserLevelID" value="Eksik Kullenıcı Seviyesi"/>
+    <phrase id="MissingUserLevelName" value="Eksik Kullanıcı Seviye Adı"/>
+    <phrase id="MobileMenu" value="Menü"/>
+    <phrase id="MonthJan" value="Oca"/><!-- v2020 (report) -->
+    <phrase id="MonthFeb" value="Şub"/><!-- v2020 (report) -->
     <phrase id="MonthMar" value="Mar"/><!-- v2020 (report) -->
-    <phrase id="MonthApr" value="Apr"/><!-- v2020 (report) -->
+    <phrase id="MonthApr" value="Nis"/><!-- v2020 (report) -->
     <phrase id="MonthMay" value="May"/><!-- v2020 (report) -->
-    <phrase id="MonthJun" value="Jun"/><!-- v2020 (report) -->
-    <phrase id="MonthJul" value="Jul"/><!-- v2020 (report) -->
-    <phrase id="MonthAug" value="Aug"/><!-- v2020 (report) -->
-    <phrase id="MonthSep" value="Sep"/><!-- v2020 (report) -->
-    <phrase id="MonthOct" value="Oct"/><!-- v2020 (report) -->
-    <phrase id="MonthNov" value="Nov"/><!-- v2020 (report) -->
-    <phrase id="MonthDec" value="Dec"/><!-- v2020 (report) -->
-    <phrase id="More" value="More" client="1"/><!-- v2018 -->
-    <phrase id="MultipleMasterDetails" value="Master/Detail" class="icon-master-detail ew-icon"/><!-- v11 -->
-    <phrase id="New" value="New"/>
-    <phrase id="NewPassword" value="New Password" client="1"/><!-- v2021 -->
-    <phrase id="NewValue" value="New value"/><!-- v12 -->
-    <phrase id="Next" value="Next" client="1"/><!-- v12 -->
-    <phrase id="NoAddRecord" value="No records to be added" client="1"/>
-    <phrase id="NoFieldSelected" value="No field selected for update" client="1"/>
-    <phrase id="NoPermission" value="You do not have permission to access %s."/><!-- v12 -->
-    <phrase id="NoAddPermission" value="You do not have permission to add the record."/>
-    <phrase id="NoChartData" value="No data to display" client="1"/><!-- v2020 -->
-    <phrase id="NoDeletePermission" value="You do not have permission to delete the record."/>
-    <phrase id="NoDistinctColVals" value="No distinct column values for SQL: "/><!-- v2020 (report) -->
-    <phrase id="NoEditPermission" value="You do not have permission to edit the record."/>
-    <phrase id="Noon" value="noon"/><!-- v2017 -->
-    <phrase id="NoRecord" value="No records found" client="1"/><!-- v2017 -->
-    <phrase id="NoRecordForKey" value="No record found for key = "/>
-    <phrase id="NoReportOrCharts" value="No report or charts are available for this page."/><!-- v2020 (report) -->
-    <phrase id="NoRecordSelected" value="No records selected" client="1"/>
-    <phrase id="NoTableGenerated" value="No tables generated"/>
-    <phrase id="Notice" value="Notice"/><!-- v2021 -->
-    <phrase id="NoUserLevel" value="No user level settings."/>
+    <phrase id="MonthJun" value="Haz"/><!-- v2020 (report) -->
+    <phrase id="MonthJul" value="Tem"/><!-- v2020 (report) -->
+    <phrase id="MonthAug" value="Ağu"/><!-- v2020 (report) -->
+    <phrase id="MonthSep" value="Eyl"/><!-- v2020 (report) -->
+    <phrase id="MonthOct" value="Eki"/><!-- v2020 (report) -->
+    <phrase id="MonthNov" value="Kas"/><!-- v2020 (report) -->
+    <phrase id="MonthDec" value="Ara"/><!-- v2020 (report) -->
+    <phrase id="More" value="Daha Fazla" client="1"/><!-- v2018 -->
+    <phrase id="MultipleMasterDetails" value="Detay Tablo" class="icon-master-detail ew-icon"/><!-- v11 -->
+    <phrase id="New" value="Yeni"/>
+    <phrase id="NewPassword" value="Yeni Parola" client="1"/><!-- v2021 -->
+    <phrase id="NewValue" value="Yeni Değer"/><!-- v12 -->
+    <phrase id="Next" value="Sonraki" client="1"/><!-- v12 -->
+    <phrase id="NoAddRecord" value="Eklenecek kayıt yok" client="1"/>
+    <phrase id="NoFieldSelected" value="Güncellemek için alan seçilmedi" client="1"/>
+    <phrase id="NoPermission" value="Bu sayfaya erişmek için yetkiniz yok."/><!-- v12 -->
+    <phrase id="NoAddPermission" value="Kayıt eklemek için yetkiniz yok."/>
+    <phrase id="NoChartData" value="Gösterilecek veri yok" client="1"/><!-- v2020 -->
+    <phrase id="NoDeletePermission" value="Kayıt silmek için yetkiniz yok."/>
+    <phrase id="NoDistinctColVals" value="SQL sorgusu için özgün değer bulunamadı:"/><!-- v2020 (report) -->
+    <phrase id="NoEditPermission" value="Kayıt düzenlemek için yetkiniz yok."/>
+    <phrase id="Noon" value="öğle"/><!-- v2017 -->
+    <phrase id="NoRecord" value="Gösterilecek Kayıt Bulunamadı" client="1"/><!-- v2017 -->
+    <phrase id="NoRecordForKey" value="Belirtilen anahtar için kayıt bulunamadı = "/>
+    <phrase id="NoReportOrCharts" value="Bu sayfa için uygun rapor ya da şema bulunamadı."/><!-- v2020 (report) -->
+    <phrase id="NoRecordSelected" value="Hiç kayıt seçilmemiş" client="1"/>
+    <phrase id="NoTableGenerated" value="Hiç tablo oluşturulmamış"/>
+    <phrase id="Notice" value="Dikkat"/><!-- v2021 -->
+    <phrase id="NoUserLevel" value="Hiç kullanıcı seviye ayarı bulunamadı."/>
     <phrase id="NullLabel" value="(Null)"/><!-- v2020 (report) -->
-    <phrase id="Of" value="of" client="1"/><!-- v2017 -->
-    <phrase id="OKBtn" value="OK" client="1"/><!-- v2021 -->
-    <phrase id="Old" value="Old"/>
-    <phrase id="OldPassword" value="Old Password" client="1"/><!-- v2021 -->
-    <phrase id="OptionAlreadyExist" value="Option already exists"/>
-    <phrase id="OverwriteBtn" value="Overwrite" client="1"/><!-- v2017 -->
-    <phrase id="OverwriteLink" value="Overwrite"/>
-    <phrase id="Page" value="Page" client="1"/><!-- v2017 -->
-    <phrase id="PageNotFound" value="Route '%p' not found."/><!-- v2021 -->
-    <phrase id="PagerFirst" value="First"/>
-    <phrase id="PagerLast" value="Last"/>
-    <phrase id="PagerNext" value="Next"/>
-    <phrase id="PagerPrevious" value="Previous"/>
-    <phrase id="Password" value="Password" client="1"/><!-- v2021 -->
+    <phrase id="Of" value="arasında. Toplam: " client="1"/><!-- v2017 -->
+    <phrase id="OKBtn" value="TAMAM" client="1"/><!-- v2021 -->
+    <phrase id="Old" value="Eski"/>
+    <phrase id="OldPassword" value="Eski Parola" client="1"/><!-- v2021 -->
+    <phrase id="OptionAlreadyExist" value="Ayar daha önce kaydedilmiş."/>
+    <phrase id="OverwriteBtn" value="Üzerine Yaz" client="1"/><!-- v2017 -->
+    <phrase id="OverwriteLink" value="Üzerine Yaz"/>
+    <phrase id="Page" value="Sayfa" client="1"/><!-- v2017 -->
+    <phrase id="PageNotFound" value="Yol bulunamadı: '%p'"/><!-- v2021 -->
+    <phrase id="PagerFirst" value="İlk"/>
+    <phrase id="PagerLast" value="Son"/>
+    <phrase id="PagerNext" value="Sonraki"/>
+    <phrase id="PagerPrevious" value="Önceki"/>
+    <phrase id="Password" value="Parola" client="1"/><!-- v2021 -->
     <phrase id="PasswordMask" value="********"/><!-- v12 -->
-    <phrase id="PasswordRequest" value="Password Request"/>
-    <phrase id="PasswordChanged" value="Password Changed"/>
-    <phrase id="PasswordExpired" value="Password Expired. Please change password."/>
-    <phrase id="PasswordStrength" value="Strength: %p" client="1"/><!-- v12 -->
-    <phrase id="PasswordTooSimple" value="Your password is too simple" client="1"/><!-- v12 -->
-    <phrase id="Permission" value="Permissions" class="icon-user ew-icon"/><!-- v11 -->
-    <phrase id="PermissionAdd" value="Add/Copy" client="1"/><!-- v2020 -->
-    <phrase id="PermissionAdmin" value="Admin" client="1"/><!-- v2019 -->
-    <phrase id="PermissionDelete" value="Delete" client="1"/><!-- v2018 -->
-    <phrase id="PermissionEdit" value="Edit" client="1"/><!-- v2018 -->
-    <phrase id="PermissionImport" value="Import" client="1"/><!-- v2020 -->
-    <phrase id="PermissionListSearchView" value="List/Search/View" client="1"/><!-- v2018 -->
-    <phrase id="PermissionList" value="List" client="1"/><!-- v2018 -->
-    <phrase id="PermissionLookup" value="Lookup" client="1"/><!-- v2020 -->
-    <phrase id="PermissionSearch" value="Search" client="1"/><!-- v2018 -->
-    <phrase id="PermissionView" value="View" client="1"/><!-- v2018 -->
-    <phrase id="PersonalDataBtn" value="Personal Data"/><!-- v2019 -->
-    <phrase id="PersonalDataContent" value="Your account contains personal data that you have given us. This page allows you to download or delete that data."/><!-- v2019 -->
-    <phrase id="PersonalDataDeleteFailure" value="Unexpected error occurred deleting user"/><!-- v2019 -->
-    <phrase id="PersonalDataDeleteSuccess" value="Personal data deleted successfully"/><!-- v2019 -->
-    <phrase id="PersonalDataTitle" value="Personal Data"/><!-- v2019 -->
-    <phrase id="PersonalDataWarning" value="Deleting this data will permanently remove your account, and this cannot be recovered."/><!-- v2019 -->
-    <phrase id="PickDate" value="Pick a date"/>
-    <phrase id="PleaseSelect" value="Please select" client="1"/><!-- v12 -->
-    <phrase id="PleaseWait" value="Please wait..." client="1"/>
-    <phrase id="Prev" value="Prev" client="1"/><!-- v12 -->
-    <phrase id="PrimaryKeyUnspecified" value="Primary key unspecified"/>
-    <phrase id="PrinterFriendly" value="Printer Friendly" class="icon-print ew-icon"/><!-- v11 -->
-    <phrase id="PrinterFriendlyText" value="Printer Friendly"/>
-    <phrase id="PrivacyPolicy" value="Privacy Policy"/><!-- v2019 -->
-    <phrase id="PrivacyPolicyContent" value="Use this page to detail your site's privacy policy."/><!-- v2019 -->
-    <phrase id="Qtr1" value="1st Quarter"/><!-- v2020 (report) -->
-    <phrase id="Qtr2" value="2nd Quarter"/><!-- v2020 (report) -->
-    <phrase id="Qtr3" value="3rd Quarter"/><!-- v2020 (report) -->
-    <phrase id="Qtr4" value="4th Quarter"/><!-- v2020 (report) -->
-    <phrase id="QuickSearch" value="Quick Search"/>
-    <phrase id="QuickSearchBtn" value="Search"/>
-    <phrase id="QuickSearchAuto" value="Auto" client="1"/><!-- v11 -->
+    <phrase id="PasswordRequest" value="Parola Gerekli"/>
+    <phrase id="PasswordChanged" value="Parola Değiştirildi"/>
+    <phrase id="PasswordExpired" value="Parolanızın geçerlilik süresi dolmuştur. Lütfen parolanızı değiştiriniz."/>
+    <phrase id="PasswordStrength" value="Güç: %p" client="1"/><!-- v12 -->
+    <phrase id="PasswordTooSimple" value="Parolanız çok basit" client="1"/><!-- v12 -->
+    <phrase id="Permission" value="Izinler" class="icon-user ew-icon"/><!-- v11 -->
+    <phrase id="PermissionAdd" value="Ekle/Kopyala" client="1"/><!-- v2020 -->
+    <phrase id="PermissionAdmin" value="Yönetici" client="1"/><!-- v2019 -->
+    <phrase id="PermissionDelete" value="Sil" client="1"/><!-- v2018 -->
+    <phrase id="PermissionEdit" value="Düzenle" client="1"/><!-- v2018 -->
+    <phrase id="PermissionImport" value="İçeri Aktar" client="1"/><!-- v2020 -->
+    <phrase id="PermissionListSearchView" value="Listele/Ara/Göster" client="1"/><!-- v2018 -->
+    <phrase id="PermissionList" value="Liste" client="1"/><!-- v2018 -->
+    <phrase id="PermissionLookup" value="Bakış" client="1"/><!-- v2020 -->
+    <phrase id="PermissionSearch" value="Ara" client="1"/><!-- v2018 -->
+    <phrase id="PermissionView" value="Incele" client="1"/><!-- v2018 -->
+    <phrase id="PersonalDataBtn" value="Kişisel Veri"/><!-- v2019 -->
+    <phrase id="PersonalDataContent" value="Hesabınız bizimle paylaştığınız kişisel verileri içeriyor. Bu sayfa size bu verileri indirmenize ya da silmenize izin verir."/><!-- v2019 -->
+    <phrase id="PersonalDataDeleteFailure" value="Kullanıcı silinirken beklenmeyen bir hata oluştu"/><!-- v2019 -->
+    <phrase id="PersonalDataDeleteSuccess" value="Kişisel veriler başarı ile silindi"/><!-- v2019 -->
+    <phrase id="PersonalDataTitle" value="Kişisel Veri"/><!-- v2019 -->
+    <phrase id="PersonalDataWarning" value="Bu veriyi silmek hesabınızın tamamen kaldırılmasına neden olur ve bu işlem geri alınamaz."/><!-- v2019 -->
+    <phrase id="PickDate" value="Tarih Seçiniz"/>
+    <phrase id="PleaseSelect" value="Lütfen Seçiniz" client="1"/><!-- v12 -->
+    <phrase id="PleaseWait" value="Lütfen bekleyiniz..." client="1"/>
+    <phrase id="Prev" value="Önceki" client="1"/><!-- v12 -->
+    <phrase id="PrimaryKeyUnspecified" value="Birincil anahtar belirtilmemiş"/>
+    <phrase id="PrinterFriendly" value="Yazıcı Dostu" class="icon-print ew-icon"/><!-- v11 -->
+    <phrase id="PrinterFriendlyText" value="Yazıcı Dostu"/>
+    <phrase id="PrivacyPolicy" value="Gizlilik Politikası"/><!-- v2019 -->
+    <phrase id="PrivacyPolicyContent" value="Bu sayfayı sitenizin gizlilik politikası detaylarını girmek için kullanın."/><!-- v2019 -->
+    <phrase id="Qtr1" value="1. Çeyrek"/><!-- v2020 (report) -->
+    <phrase id="Qtr2" value="2. Çeyrek"/><!-- v2020 (report) -->
+    <phrase id="Qtr3" value="3. Çeyrek"/><!-- v2020 (report) -->
+    <phrase id="Qtr4" value="4. Çeyrek"/><!-- v2020 (report) -->
+    <phrase id="QuickSearch" value="Hızlı Arama"/>
+    <phrase id="QuickSearchBtn" value="Ara"/>
+    <phrase id="QuickSearchAuto" value="Otomatik" client="1"/><!-- v11 -->
     <phrase id="QuickSearchAutoShort" value="" client="1"/><!-- v11 -->
-    <phrase id="QuickSearchAll" value="All keywords" client="1"/><!-- v11 -->
-    <phrase id="QuickSearchAllShort" value="All" client="1"/><!-- v11 -->
-    <phrase id="QuickSearchAny" value="Any keywords" client="1"/><!-- v11 -->
-    <phrase id="QuickSearchAnyShort" value="Any" client="1"/><!-- v11 -->
-    <phrase id="QuickSearchExact" value="Exact match" client="1"/><!-- v11 -->
-    <phrase id="QuickSearchExactShort" value="Exact" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAll" value="Tüm Kelimeler" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAllShort" value="Tümü" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAny" value="Herhangi Bir Kelime" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAnyShort" value="Herhangi" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchExact" value="Tamı Tamına" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchExactShort" value="Tam" client="1"/><!-- v11 -->
     <phrase id="Recipient" value="Recipient(s)" client="1"/><!-- v2021 -->
-    <phrase id="Record" value="Records" client="1"/><!-- v2017 -->
-    <phrase id="RecordChangedByOtherUser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
-    <phrase id="RecordDeleted" value="record(s) deleted"/>
-    <phrase id="RecordInserted" value="record(s) inserted"/>
-    <phrase id="RecordUpdated" value="record(s) updated"/>
-    <phrase id="RecordsPerPage" value="Page size" client="1"/><!-- v2017 -->
-    <phrase id="Register" value="Register" client="1"/><!-- v2020 -->
-    <phrase id="RegisterBtn" value="Register"/>
-    <phrase id="RegisterSuccess" value="Registration succeeded"/>
-    <phrase id="RegisterSuccessActivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
-    <phrase id="RegisterPage" value="Registration"/>
-    <phrase id="RelatedRecordRequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'"/>
-    <phrase id="RelatedRecordExists" value="You cannot delete a record because related records exist in the detail table '%t'"/>
-    <phrase id="ReloadBtn" value="Reload" client="1"/><!-- v2017 -->
-    <phrase id="ReloadLink" value="Reload"/>
-    <phrase id="RememberMe" value="Remember me"/>
-    <phrase id="Remove" value="Remove"/>
-    <phrase id="Replace" value="Replace"/>
-    <phrase id="Report" value="Report"/>
-    <phrase id="ResetPwd" value="Reset Password"/><!-- v2020 -->
-    <phrase id="ResetPwdMsg" value="Reset Password"/><!-- v2020 -->
-    <phrase id="ResendRegisterEmailBtn" value="Resend registration email"/><!-- v12 -->
-    <phrase id="ResendRegisterEmailSuccess" value="Registration email for user '%u' has been re-sent"/><!-- v12 -->
-    <phrase id="ResendRegisterEmailFailure" value="Failed to re-send register email for user '%u' has failed"/><!-- v12 -->
-    <phrase id="Reset" value="Reset"/>
-    <phrase id="ResetAllFilter" value="Reset all filters" class="icon-reset-search ew-icon"/><!-- v2020 (report) -->
-    <phrase id="ResetConcurrentUserBtn" value="Reset concurrent user session"/><!-- v12 -->
-    <phrase id="ResetConcurrentUserSuccess" value="Session for user '%u' has been reset"/><!-- v12 -->
-    <phrase id="ResetConcurrentUserFailure" value="Failed to reset session for user '%u'"/><!-- v12 -->
-    <phrase id="ResetLoginRetryBtn" value="Reset login retry count"/><!-- v12 -->
-    <phrase id="ResetLoginRetrySuccess" value="Login retry count for user '%u' has been reset"/><!-- v12 -->
-    <phrase id="ResetLoginRetryFailure" value="Failed to reset login retry count for user '%u'"/><!-- v12 -->
-    <phrase id="ResetSearchBtn" value="Reset" class="icon-reset-search ew-icon"/><!-- v11 -->
-    <phrase id="ResetSearch" value="Reset"/>
-    <phrase id="RptAvg" value="AVG"/><!-- v2020 (report) -->
-    <phrase id="RptCnt" value="COUNT"/><!-- v2020 (report) -->
-    <phrase id="RptDtlRec" value=" detail records"/><!-- v2020 (report) -->
-    <phrase id="RptGrandSummary" value="Grand Summary"/><!-- v2020 (report) -->
-    <phrase id="RptMax" value="MAX"/><!-- v2020 (report) -->
-    <phrase id="RptMin" value="MIN"/><!-- v2020 (report) -->
-    <phrase id="RptPageSummary" value="Page Summary"/><!-- v2020 (report) -->
-    <phrase id="RptSum" value="SUM"/><!-- v2020 (report) -->
-    <phrase id="RptSumHead" value="Summary for %c: %v"/><!-- v2020 (report) -->
-    <phrase id="SaveBtn" value="Save" client="1"/><!-- v2018 -->
-    <phrase id="SaveCurrentFilter" value="Save current filter"/><!-- v12 -->
-    <phrase id="SaveUserName" value="Save my user name"/><!-- Deprecated since v2018 -->
-    <phrase id="Search" value="Search" client="1"/><!-- v2017 -->
-    <phrase id="SearchBtn" value="Search" client="1"/><!-- v2018 -->
-    <phrase id="SearchLink" value="Search" class="fas fa-search ew-icon"/><!-- v2019 -->
-    <phrase id="SearchPanel" value="Search Panel"/><!-- v11 -->
-    <phrase id="SelectBtn" value="Select" client="1"/><!-- v2017 -->
-    <phrase id="SendEmailBtn" value="Send"/>
-    <phrase id="SendEmailSuccess" value="Email sent successfully" client="1"/>
-    <phrase id="Sender" value="Sender" client="1"/><!-- v2021 -->
-    <phrase id="SendPwd" value="Send" client="1"/><!-- v2020 -->
+    <phrase id="Record" value="Kayıtlar" client="1"/><!-- v2017 -->
+    <phrase id="RecordChangedByOtherUser" value="Vari başka bir kullanıcı tarafından değiştirildi. [Yenile] tuşuna basarak değişen veriyi görüntüleyiniz (Kaydettiğiniz veriler kaybolacaktır!) veya [Üzerine Yaz] tuşuna tıklayarak değişen verinin üzerine yazın."/>
+    <phrase id="RecordDeleted" value="kayıt(lar) silindi"/>
+    <phrase id="RecordInserted" value="kayıt(lar) eklendi"/>
+    <phrase id="RecordUpdated" value="kayıt(lar) güncellendi"/>
+    <phrase id="RecordsPerPage" value="Sayfa Boyutu" client="1"/><!-- v2017 -->
+    <phrase id="Register" value="Kayıt Ol" client="1"/><!-- v2020 -->
+    <phrase id="RegisterBtn" value="Kayıt Ol"/>
+    <phrase id="RegisterSuccess" value="Kayıt Işlemi Başarılı"/>
+    <phrase id="RegisterSuccessActivate" value="Kayıt işlemi başarılı. E-posta adresinize bir posta gönderdik. Lütfen hesabınız aktive etmek için e-postadaki linke tıklayınız."/>
+    <phrase id="RegisterPage" value="Kayıt"/>
+    <phrase id="RelatedRecordRequired" value="Ana taboloda bağlantı anahtarı bulunmadığı için kayıt ekleyemezsiniz ya da kaydı güncelleyemezsiniz. '%t'"/>
+    <phrase id="RelatedRecordExists" value="Detay tablosunda bağlı kayıtlar olam bir kaydı silemezsiniz. '%t'"/>
+    <phrase id="ReloadBtn" value="Yeniden Yükle" client="1"/><!-- v2017 -->
+    <phrase id="ReloadLink" value="Yeniden Yükle"/>
+    <phrase id="RememberMe" value="Beni Hatırla"/>
+    <phrase id="Remove" value="Kaldır"/>
+    <phrase id="Replace" value="Değiştir"/>
+    <phrase id="Report" value="Rapor"/>
+    <phrase id="ResetPwd" value="Parola Sıfırla"/><!-- v2020 -->
+    <phrase id="ResetPwdMsg" value="Parola Sıfırla"/><!-- v2020 -->
+    <phrase id="ResendRegisterEmailBtn" value="Kayıt e-postasını yeniden gönderin."/><!-- v12 -->
+    <phrase id="ResendRegisterEmailSuccess" value="Kayıt e-postası '%u' kullanıcısı için tekrar gönderildi."/><!-- v12 -->
+    <phrase id="ResendRegisterEmailFailure" value="Kayıt e-postası '%u' kullanıcısı için tekrar gönderilirken hata oluştu!"/><!-- v12 -->
+    <phrase id="Reset" value="Sıfırla"/>
+    <phrase id="ResetAllFilter" value="Tüm filtreleri temizle" class="icon-reset-search ew-icon"/><!-- v2020 (report) -->
+    <phrase id="ResetConcurrentUserBtn" value="Aktif kullanıcının oturumunu sıfırla"/><!-- v12 -->
+    <phrase id="ResetConcurrentUserSuccess" value="'%u' kullanıcısı için oturum sıfırlandı"/><!-- v12 -->
+    <phrase id="ResetConcurrentUserFailure" value="'%u' kullanıcısı için oturum sıfırlanma işlemi başarısız!"/><!-- v12 -->
+    <phrase id="ResetLoginRetryBtn" value="Oturum açma tekrar deneme sayısını sıfırla"/><!-- v12 -->
+    <phrase id="ResetLoginRetrySuccess" value="'%u' kullanıcısı için tekrar deneme sayısı sıfırlandı"/><!-- v12 -->
+    <phrase id="ResetLoginRetryFailure" value="'%u' kullanıcısı için tekrar deneme sayısı sıfırlanma işlemi başarısız!"/><!-- v12 -->
+    <phrase id="ResetSearchBtn" value="Sıfırla" class="icon-reset-search ew-icon"/><!-- v11 -->
+    <phrase id="ResetSearch" value="Sıfırla"/>
+    <phrase id="RptAvg" value="Ortalama"/><!-- v2020 (report) -->
+    <phrase id="RptCnt" value="SAY"/><!-- v2020 (report) -->
+    <phrase id="RptDtlRec" value="Detay Kayıtları"/><!-- v2020 (report) -->
+    <phrase id="RptGrandSummary" value="Genel Toplam"/><!-- v2020 (report) -->
+    <phrase id="RptMax" value="En Fazla"/><!-- v2020 (report) -->
+    <phrase id="RptMin" value="En Az"/><!-- v2020 (report) -->
+    <phrase id="RptPageSummary" value="Sayfa Toplamı"/><!-- v2020 (report) -->
+    <phrase id="RptSum" value="Toplam"/><!-- v2020 (report) -->
+    <phrase id="RptSumHead" value="Özet:"/><!-- v2020 (report) -->
+    <phrase id="SaveBtn" value="Kaydet" client="1"/><!-- v2018 -->
+    <phrase id="SaveCurrentFilter" value="Filtreyi kaydet"/><!-- v12 -->
+    <phrase id="SaveUserName" value="Kullanıcı adımı kaydet"/><!-- Deprecated since v2018 -->
+    <phrase id="Search" value="Ara" client="1"/><!-- v2017 -->
+    <phrase id="SearchBtn" value="Ara" client="1"/><!-- v2018 -->
+    <phrase id="SearchLink" value="Ara" class="fas fa-search ew-icon"/><!-- v2019 -->
+    <phrase id="SearchPanel" value="Arama Paneli"/><!-- v11 -->
+    <phrase id="SelectBtn" value="Seç" client="1"/><!-- v2017 -->
+    <phrase id="SendEmailBtn" value="Gönder"/>
+    <phrase id="SendEmailSuccess" value="E-posta başarı ile gönderilmiştir." client="1"/>
+    <phrase id="Sender" value="Gönderen" client="1"/><!-- v2021 -->
+    <phrase id="SendPwd" value="Gönder" client="1"/><!-- v2020 -->
     <phrase id="SequenceNumber" value="%s."/>
-    <phrase id="ServerCommunicationError" value="An error occured while communicating to the server."/><!-- v2017 -->
-    <phrase id="ServerError" value="An internal error has occurred while processing your request."/><!-- v2021 -->
-    <phrase id="SessionWillExpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1"/><!-- v12 -->
-    <phrase id="SessionExpired" value="Your session has expired." client="1"/><!-- v12 -->
-    <phrase id="SetPasswordExpiredBtn" value="Set password expired"/><!-- v12 -->
-    <phrase id="SetPasswordExpiredSuccess" value="Password for user '%u' has been set as expired"/><!-- v12 -->
-    <phrase id="SetPasswordExpiredFailure" value="Failed to set password for user '%u' as expired"/><!-- v12 -->
-    <phrase id="ShowAllBtn" value="Show all" class="icon-reset-search ew-icon"/><!-- v11 -->
-    <phrase id="ShowAll" value="Show all"/><!-- v11 -->
-    <phrase id="Subject" value="Subject" client="1"/><!-- v2021 -->
-    <phrase id="Success" value="Success" client="1"/><!-- v2020 -->
-    <phrase id="Summary" value="Summary"/><!-- v2020 (report) -->
+    <phrase id="ServerCommunicationError" value="sunucuya bağlanırken hata oluştu."/><!-- v2017 -->
+    <phrase id="ServerError" value="İsteğiniz işlenirken sunucu hatası oluştu."/><!-- v2021 -->
+    <phrase id="SessionWillExpire" value="Oturumunuz %s saniye sonra sonlanacaktır. Oturumunuza devam etmek için TAMAM'a tıklayınız." client="1"/><!-- v12 -->
+    <phrase id="SessionExpired" value="Oturumunuzun süresi doldu." client="1"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredBtn" value="Parola geçerlilik süresi"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredSuccess" value="'%u' kullanıcısı için parola geçerlilik süresi ayarlandı."/><!-- v12 -->
+    <phrase id="SetPasswordExpiredFailure" value="'%u' kullanıcısı için parola geçerlilik süresi ayarlanma işlemi başarısız!"/><!-- v12 -->
+    <phrase id="ShowAllBtn" value="Tümünü Göster" class="icon-reset-search ew-icon"/><!-- v11 -->
+    <phrase id="ShowAll" value="Tümünü Göster"/><!-- v11 -->
+    <phrase id="Subject" value="Konu" client="1"/><!-- v2021 -->
+    <phrase id="Success" value="Başarılı" client="1"/><!-- v2020 -->
+    <phrase id="Summary" value="Toplam"/><!-- v2020 (report) -->
     <phrase id="SummaryColon" value=": "/><!-- v2020 (report) -->
-    <phrase id="Table" value="TABLE"/>
-    <phrase id="TableOrView" value="Tables" client="1"/><!-- v2018 -->
-    <phrase id="Tasks" value="Tasks"/><!-- v2020 (report) -->
-    <phrase id="TblTypeTABLE" value="Table: "/>
-    <phrase id="TblTypeVIEW" value="View: "/>
-    <phrase id="TblTypeCUSTOMVIEW" value="Custom View: "/>
-    <phrase id="TblTypeREPORT" value="Report: "/>
-    <phrase id="To" value="to"/>
-    <phrase id="Top" value="Top"/><!-- v2020 (report) -->
-    <phrase id="Total" value="Total"/>
-    <phrase id="UnauthorizedUserID" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
-    <phrase id="UnauthorizedParentUserID" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
-    <phrase id="UnauthorizedMasterUserID" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
-    <phrase id="UnsupportedBrowser" value="Your browser is not supported by this page" client="1"/><!-- v2021 -->
-    <phrase id="Update" value="Update"/>
-    <phrase id="UpdateBtn" value="Update" client="1"/><!-- v2017 -->
-    <phrase id="UpdateCancelled" value="Update cancelled"/>
-    <phrase id="UpdateFailed" value="Update failed"/>
-    <phrase id="UpdateLink" value="Update" class="fas fa-check ew-icon"/><!-- v2019 -->
-    <phrase id="UpdateSelectAll" value="Select all"/><!-- v11 -->
-    <phrase id="UpdateSelectedLink" value="Update Selected Records" class="icon-edit ew-icon"/><!-- v11 -->
-    <phrase id="UpdateSuccess" value="Updated successfully"/>
-    <phrase id="Uploading" value="Uploading..." client="1"/>
-    <phrase id="UploadStart" value="Start" client="1"/>
-    <phrase id="UploadCancel" value="Cancel" client="1"/>
-    <phrase id="UploadDelete" value="Delete" client="1"/>
-    <phrase id="UploadOverwrite" value="Overwrite old file?" client="1"/>
-    <phrase id="UploadErrMsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini"/>
-    <phrase id="UploadErrMsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"/>
-    <phrase id="UploadErrMsg3" value="The uploaded file was only partially uploaded"/>
-    <phrase id="UploadErrMsg4" value="No file was uploaded"/>
-    <phrase id="UploadErrMsg6" value="Missing a temporary folder"/>
-    <phrase id="UploadErrMsg7" value="Failed to write file to disk"/>
-    <phrase id="UploadErrMsg8" value="A PHP extension stopped the file upload"/>
-    <phrase id="UploadErrMsgPostMaxSize" value="The uploaded file exceeds the post_max_size directive in php.ini"/>
-    <phrase id="UploadErrMsgMaxFileSize" value="File is too big" client="1"/>
-    <phrase id="UploadErrMsgMinFileSize" value="File is too small" client="1"/>
-    <phrase id="UploadErrMsgAcceptFileTypes" value="File type not allowed" client="1"/>
-    <phrase id="UploadErrMsgMaxNumberOfFiles" value="Maximum number of files exceeded" client="1"/>
-    <phrase id="UploadErrMsgMaxWidth" value="Image exceeds maximum width"/>
-    <phrase id="UploadErrMsgMinWidth" value="Image requires a minimum width"/>
-    <phrase id="UploadErrMsgMaxHeight" value="Image exceeds maximum height"/>
-    <phrase id="UploadErrMsgMinHeight" value="Image requires a minimum height"/>
-    <phrase id="UploadErrMsgMaxFileLength" value="Total length of file names exceeds field length" client="1"/>
-    <phrase id="UserAdministrator" value="Administrator" client="1"/><!-- v12 -->
-    <phrase id="UserAnonymous" value="Anonymous" client="1"/><!-- v12 -->
-    <phrase id="UserDefault" value="Default" client="1"/><!-- v12 -->
-    <phrase id="UserEmail" value="Email"/>
-    <phrase id="UserExists" value="User already exists"/>
-    <phrase id="UserLevel" value="User Level: "/>
-    <phrase id="UserLevelAdministratorName" value="User level name for user level -1 must be 'Administrator'" client="1"/>
-    <phrase id="UserLevelAnonymousName" value="User level name for user level -2 must be 'Anonymous'" client="1"/><!-- v12 -->
-    <phrase id="UserLevelPermission" value="User Level Permissions"/>
-    <phrase id="UserLevelIDInteger" value="User level ID must be integer" client="1"/>
-    <phrase id="UserLevelDefaultName" value="User level name for user level 0 must be 'Default'" client="1"/>
-    <phrase id="UserLevelIDIncorrect" value="User defined user level ID must be larger than 0" client="1"/>
-    <phrase id="UserLevelNameIncorrect" value="User defined user level name cannot be 'Anonymous', 'Administrator' or 'Default'" client="1"/>
-    <phrase id="UserLoggedIn" value="User '%u' already logged in"/>
-    <phrase id="UserName" value="User Name" client="1"/><!-- v2021 -->
-    <phrase id="UserNotFound" value="User '%u' not found"/><!-- v2018 -->
-    <phrase id="UserProfileCorrupted" value="User profile is corrupted. Please logout and login again"/>
-    <phrase id="ValueNotExist" value="Value does not exist" client="1"/><!-- v11 -->
-    <phrase id="View" value="View"/>
-    <phrase id="ViewImageGallery" value="Click to view image"/><!-- v12 -->
-    <phrase id="ViewLink" value="View" class="icon-view ew-icon"/><!-- v11 -->
-    <phrase id="ViewPageAddLink" value="Add" class="fas fa-plus ew-icon"/><!-- v2019 -->
-    <phrase id="ViewPageCopyLink" value="Copy" class="icon-copy ew-icon"/><!-- v11 -->
-    <phrase id="ViewPageDeleteLink" value="Delete" class="fas fa-trash ew-icon"/><!-- v2019 -->
-    <phrase id="ViewPageDetailLink" value=""/>
-    <phrase id="ViewPageEditLink" value="Edit" class="icon-edit ew-icon"/><!-- v11 -->
-    <phrase id="Warning" value="Warning" client="1"/><!-- v2020 -->
-    <phrase id="Week" value="Week"/><!-- v2020 (report) -->
-    <phrase id="WrongFileType" value="File type is not allowed." client="1"/>
-    <phrase id="Year" value="Year"/><!-- v2020 (report) -->
-    <phrase id="=" value="&amp;nbsp;"/><!-- v12 -->
+    <phrase id="Table" value="Tablo"/>
+    <phrase id="TableOrView" value="Tablolar" client="1"/><!-- v2018 -->
+    <phrase id="Tasks" value="Görevler"/><!-- v2020 (report) -->
+    <phrase id="TblTypeTABLE" value="Tablo: "/>
+    <phrase id="TblTypeVIEW" value="Görünüm: "/>
+    <phrase id="TblTypeCUSTOMVIEW" value="Kişisel Görünüm: "/>
+    <phrase id="TblTypeREPORT" value="Rapor: "/>
+    <phrase id="To" value="ile"/>
+    <phrase id="Top" value="Üst"/><!-- v2020 (report) -->
+    <phrase id="Total" value="Toplam"/>
+    <phrase id="UnauthorizedUserID" value="Geçerli kullanıcı (%c) kullanıcıya (%u) ID atama yetkisine sahip değildir."/>
+    <phrase id="UnauthorizedParentUserID" value="Geçerli kullanıcı (%c) üst seviye kullanıcı ID'si (%p) atama yetkisine sahip değildir."/>
+    <phrase id="UnauthorizedMasterUserID" value="Geçerli kullanıcı (%c) kayıt ekleme yetkisine sahip değildir. Ana filtre: %f"/>
+    <phrase id="UnsupportedBrowser" value="Bu sayfa için tarayıcınız desteklenmiyor" client="1"/><!-- v2021 -->
+    <phrase id="Update" value="Güncelle"/>
+    <phrase id="UpdateBtn" value="Güncelle" client="1"/><!-- v2017 -->
+    <phrase id="UpdateCancelled" value="Güncelleme Iptal Edildi"/>
+    <phrase id="UpdateFailed" value="Güncelleme Başarısız"/>
+    <phrase id="UpdateLink" value="Güncelle" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="UpdateSelectAll" value="Tümünü Seç"/><!-- v11 -->
+    <phrase id="UpdateSelectedLink" value="Seçili Kayıtları Güncelle" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="UpdateSuccess" value="Güncelleme Başarılı"/>
+    <phrase id="Uploading" value="Yükleniyor..." client="1"/>
+    <phrase id="UploadStart" value="Başlat" client="1"/>
+    <phrase id="UploadCancel" value="İptal" client="1"/>
+    <phrase id="UploadDelete" value="Sil" client="1"/>
+    <phrase id="UploadOverwrite" value="Eski dosyanın üzerine yazılsın mı?" client="1"/>
+    <phrase id="UploadErrMsg1" value="Yüklenmeye çalışılan dosya php.ini içerisindeki upload_max_filesize değerinin üzerindedir."/>
+    <phrase id="UploadErrMsg2" value="Yüklenmeye çalışılan dosya formun MAX_FILE_SIZE limitinin üzerindedir."/>
+    <phrase id="UploadErrMsg3" value="Yüklenmeye çalışılan dosya kısmen yüklenebilmiştir."/>
+    <phrase id="UploadErrMsg4" value="Dosya yüklenemedi"/>
+    <phrase id="UploadErrMsg6" value="Geçici klasör bulunamadı"/>
+    <phrase id="UploadErrMsg7" value="Dosya diske kaydedilirken hata oluştu"/>
+    <phrase id="UploadErrMsg8" value="Bir PHP eklentisi dosya yüklemesini durdurdu."/>
+    <phrase id="UploadErrMsgPostMaxSize" value="Yüklenmeye çalışılan dosya php.ini içerisindeki post_max_size değerinin üzerindedir."/>
+    <phrase id="UploadErrMsgMaxFileSize" value="Dosya çok büyük" client="1"/>
+    <phrase id="UploadErrMsgMinFileSize" value="Dosya çok küçük" client="1"/>
+    <phrase id="UploadErrMsgAcceptFileTypes" value="Bu dosya tipini yüklemeye izin verilmemiş!" client="1"/>
+    <phrase id="UploadErrMsgMaxNumberOfFiles" value="Izin verilen dosya sayısı aşılmıştır" client="1"/>
+    <phrase id="UploadErrMsgMaxWidth" value="Resim izin verilen maksimum genişliğin üzerindedir"/>
+    <phrase id="UploadErrMsgMinWidth" value="Resim izin verilen minimum genişliğin altındadır"/>
+    <phrase id="UploadErrMsgMaxHeight" value="Resim izin verilen maksimum yüksekliğin üzerindedir"/>
+    <phrase id="UploadErrMsgMinHeight" value="Resim izin verilen minimum yüksekliğin altındadır"/>
+    <phrase id="UploadErrMsgMaxFileLength" value="Dosya adı uzunluğu kayıt edilecek alanın alabileceğinden daha uzun" client="1"/>
+    <phrase id="UserAdministrator" value="Yönetici" client="1"/><!-- v12 -->
+    <phrase id="UserAnonymous" value="Kimliği Bilinmeyen" client="1"/><!-- v12 -->
+    <phrase id="UserDefault" value="Geçerli" client="1"/><!-- v12 -->
+    <phrase id="UserEmail" value="E-Posta"/>
+    <phrase id="UserExists" value="Kullanıcı zaten var"/>
+    <phrase id="UserLevel" value="Kullanıcı Seviyesi: "/>
+    <phrase id="UserLevelAdministratorName" value="Kullanıcı seviyesi -1 için seviye adı 'Administrator' olmalıdır." client="1"/>
+    <phrase id="UserLevelAnonymousName" value="Kullanıcı seviyesi -1 için seviye adı 'Anonymous' olmalıdır." client="1"/><!-- v12 -->
+    <phrase id="UserLevelPermission" value="Kullanıcı Seviye Izinleri"/>
+    <phrase id="UserLevelIDInteger" value="Kullanıcı Seviye ID'si bir tamsayı olmalıdır" client="1"/>
+    <phrase id="UserLevelDefaultName" value="Kullanıcı seviyesi 0 için seviye adı 'Default' olmalıdır" client="1"/>
+    <phrase id="UserLevelIDIncorrect" value="Kullanıcı tanımlı kullanıcı seviye ID'si 0'dan büyük olmalıdır." client="1"/>
+    <phrase id="UserLevelNameIncorrect" value="Kullanıcı tanımlı seviye adı 'Administrator' ya da 'Default' olamaz." client="1"/>
+    <phrase id="UserLoggedIn" value="Kullanıcı '%u' zaten giriş yapmış!"/>
+    <phrase id="UserName" value="Kullanıcı Adı" client="1"/><!-- v2021 -->
+    <phrase id="UserNotFound" value="'%u' kullanıcısı bulunamadı"/><!-- v2018 -->
+    <phrase id="UserProfileCorrupted" value="Kullanıcı profili bozulmuş. Lütfen çıkış yaptıktan sonra tekrar giriş yapınız."/>
+    <phrase id="ValueNotExist" value="Değer Bulunamadı" client="1"/><!-- v11 -->
+    <phrase id="View" value="Göster"/>
+    <phrase id="ViewImageGallery" value="Resmi Göster"/><!-- v12 -->
+    <phrase id="ViewLink" value="Göster" class="icon-view ew-icon"/><!-- v11 -->
+    <phrase id="ViewPageAddLink" value="Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="ViewPageCopyLink" value="Kopyala" class="icon-copy ew-icon"/><!-- v11 -->
+    <phrase id="ViewPageDeleteLink" value="Sil" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="ViewPageDetailLink" value="Detay"/>
+    <phrase id="ViewPageEditLink" value="Düzenle" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="Warning" value="Uyarı" client="1"/><!-- v2020 -->
+    <phrase id="Week" value="Hafta"/><!-- v2020 (report) -->
+    <phrase id="WrongFileType" value="Dosya türü gereçli değildir." client="1"/>
+    <phrase id="Year" value="Yıl"/><!-- v2020 (report) -->
+    <phrase id="=" value="="/><!-- v12 -->
     <phrase id="EQUAL" value="="/><!-- v12 -->
-    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
-    <phrase id="&lt;" value="&amp;lt;"/>
-    <phrase id="&lt;=" value="&amp;lt;="/>
-    <phrase id="&gt;" value="&amp;gt;"/>
-    <phrase id="&gt;=" value="&amp;gt;="/>
-    <phrase id="LIKE" value="contains"/>
+    <phrase id="&lt;&gt;" value="&lt;&gt;"/>
+    <phrase id="&lt;" value="&lt;"/>
+    <phrase id="&lt;=" value="&lt;="/>
+    <phrase id="&gt;" value="&gt;"/>
+    <phrase id="&gt;=" value="&gt;="/>
+    <phrase id="LIKE" value="içerir"/>
     <phrase id="NOT LIKE" value="does not contain"/><!-- v11.0.3 -->
     <phrase id="STARTS WITH" value="starts with"/>
     <phrase id="ENDS WITH" value="ends with"/>
     <phrase id="IS NULL" value="is null"/>
     <phrase id="IS NOT NULL" value="is not null"/>
-    <phrase id="BETWEEN" value="between"/>
-    <phrase id="AND" value="and"/>
-    <phrase id="OR" value="or"/>
+    <phrase id="BETWEEN" value="arasında"/>
+    <phrase id="AND" value="ve"/>
+    <phrase id="OR" value="ya da"/>
     <phrase id="AM" value="AM" client="1"/><!-- v2017 -->
     <phrase id="PM" value="PM" client="1"/><!-- v2017 -->
 <!-- Menu Prefix/Suffix (report) --><!-- v2020 -->
@@ -562,42 +562,42 @@
     <phrase id="ChartReportMenuItemPrefix" value=""/>
     <phrase id="ChartReportMenuItemSuffix" value=""/>
 <!-- Advanced Filter (report) --><!-- v2020 -->
-    <phrase id="Future" value="Future"/>
-    <phrase id="Past" value="Past"/>
-    <phrase id="Last14Days" value="Last 14 days"/>
-    <phrase id="Last30Days" value="Last 30 days"/>
-    <phrase id="Last7Days" value="Last 7 days"/>
-    <phrase id="Next14Days" value="Next 14 days"/>
-    <phrase id="Next30Days" value="Next 30 days"/>
-    <phrase id="Next7Days" value="Next 7 days"/>
-    <phrase id="Today" value="Today"/>
-    <phrase id="Tomorrow" value="Tomorrow"/>
-    <phrase id="Yesterday" value="Yesterday"/>
-    <phrase id="LastMonth" value="Last month"/>
-    <phrase id="NextMonth" value="Next month"/>
-    <phrase id="ThisMonth" value="This month"/>
-    <phrase id="LastTwoWeeks" value="Last two weeks"/>
-    <phrase id="LastWeek" value="Last week"/>
-    <phrase id="NextTwoWeeks" value="Next two weeks"/>
-    <phrase id="NextWeek" value="Next week"/>
-    <phrase id="ThisWeek" value="This week"/>
-    <phrase id="LastYear" value="Last year"/>
-    <phrase id="NextYear" value="Next year"/>
-    <phrase id="ThisYear" value="This year"/>
+    <phrase id="Future" value="Gelecek"/>
+    <phrase id="Past" value="Geçmiş"/>
+    <phrase id="Last14Days" value="Son 14 Gün"/>
+    <phrase id="Last30Days" value="Son 30 Gün"/>
+    <phrase id="Last7Days" value="Son 7 Gün"/>
+    <phrase id="Next14Days" value="Sonraki 14 Gün"/>
+    <phrase id="Next30Days" value="Sonraki 30 Gün"/>
+    <phrase id="Next7Days" value="Sonraki 7 Gün"/>
+    <phrase id="Today" value="Bugün"/>
+    <phrase id="Tomorrow" value="Yarın"/>
+    <phrase id="Yesterday" value="Dün"/>
+    <phrase id="LastMonth" value="Önceki Ay"/>
+    <phrase id="NextMonth" value="Sonraki Ay"/>
+    <phrase id="ThisMonth" value="Bu Ay"/>
+    <phrase id="LastTwoWeeks" value="Son 2 Hafta"/>
+    <phrase id="LastWeek" value="Geçen Hafta"/>
+    <phrase id="NextTwoWeeks" value="Önümüzdeki 2 Hafta"/>
+    <phrase id="NextWeek" value="Sonraki Hafta"/>
+    <phrase id="ThisWeek" value="Bu Hafta"/>
+    <phrase id="LastYear" value="Geçen Yıl"/>
+    <phrase id="NextYear" value="Önümüzdeki Yıl"/>
+    <phrase id="ThisYear" value="Bu Yıl"/>
 <!-- Exceptions --><!-- v2021 -->
-    <phrase id="400" value="Bad Request"/>
-    <phrase id="400Desc" value="The server cannot or will not process the request due to an apparent client error."/>
-    <phrase id="401" value="Unauthorized"/>
-    <phrase id="401Desc" value="The request requires valid user authentication."/>
-    <phrase id="403" value="Forbidden"/>
-    <phrase id="403Desc" value="You are not permitted to perform the requested operation."/>
-    <phrase id="404" value="Not Found"/>
-    <phrase id="404Desc" value="The requested resource could not be found. Please verify the URI and try again."/>
-    <phrase id="405" value="Method Not Allowed"/>
-    <phrase id="405Desc" value="The request method is not supported for the requested resource."/>
-    <phrase id="500" value="Internal Server Error"/>
-    <phrase id="500Desc" value="Unexpected condition encountered preventing server from fulfilling request."/>
-    <phrase id="501" value="Not Implemented"/>
-    <phrase id="501Desc" value="The server does not support the functionality required to fulfill the request."/>
+    <phrase id="400" value="Hatalı İstek"/>
+    <phrase id="400Desc" value="Sunucu isteğe cevap veremiyor. İstemci Hatası."/>
+    <phrase id="401" value="Yetki Verilmemiş"/>
+    <phrase id="401Desc" value="İsteğe cevap verilmesi için geçerli bir kullanıcı yetkisine ihtiyaç duyuyor"/>
+    <phrase id="403" value="Yasaklanmış"/>
+    <phrase id="403Desc" value="İstenen işlemi yapmaya yetkiniz bulunmamaktadır."/>
+    <phrase id="404" value="Sayfa Bulunamadı"/>
+    <phrase id="404Desc" value="Görüntülemeye çalıştığınız içerik bulunamamıştır. Lütfen linki kontrol ediniz."/>
+    <phrase id="405" value="Method"/>
+    <phrase id="405Desc" value="İstenen method sunucu tarafından desteklenmiyor."/>
+    <phrase id="500" value="Sunucu Hatası"/>
+    <phrase id="500Desc" value="Sunucunun isteğinizi gerçekleştirirken beklenmeyen bir hata oluştu."/>
+    <phrase id="501" value="Uygulanmamış"/>
+    <phrase id="501Desc" value="Sunucu bu fonksiyonu yerine getirmek için gerekli şartları sağlamamaktadır."/>
 </global>
 </ew-language>
