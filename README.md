@@ -17,4 +17,4 @@ https://www.patreon.com/mrtakdnz
 
 ![Counter](https://webfikirleri.com/counter?url=https://github.com/WebFikirleri/PHPMaker-Turkish-Language?)
 
-![](https://komarev.com/ghpvc/?username=WebFikirleri&color=blue)
+![](https://komarev.com/ghpvc/?username=WebFikirleri/&color=blue&label=Total+Views)
