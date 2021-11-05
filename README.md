@@ -15,4 +15,4 @@ Copy `turkish.xml` to "languages" folder at PHPMaker directory.
 If you appreciated for my works, you can buy me a coffee:
 https://www.patreon.com/mrtakdnz
 
-![Counter](https://webfikirleri.com/counter?url=https://github.com/WebFikirleri/PHPMaker-Turkish-Language)
+![Counter](https://webfikirleri.com/counter?url=https://github.com/WebFikirleri/PHPMaker-Turkish-Language&)
