@@ -11,3 +11,6 @@ Copy `turkish.xml` to "languages" folder at PHPMaker directory.
 
 #### For 32bit systems (32bit sistemler için):
 `C:\Program Files\PHPMaker XXXX\languages\`
+
+If you appreciated for my works, you can buy me a coffee:
+https://www.patreon.com/mrtakdnz
