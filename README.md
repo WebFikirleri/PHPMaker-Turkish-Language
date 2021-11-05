@@ -1,6 +1,8 @@
 ## PHPMaker Turkish Language File
 ### (PHPMaker Türkçe Dil Dosyası)
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWebFikirleri%2FPHPMaker-Turkish-Language&count_bg=%233D96C8&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Total+Visits&edge_flat=true)](https://hits.seeyoufarm.com)
+
 ### Usage (Kullanımı)
 Copy `turkish.xml` to "languages" folder at PHPMaker directory.
 
