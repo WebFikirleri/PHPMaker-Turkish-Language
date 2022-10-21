@@ -1,0 +1,758 @@
+<?xml version="1.0"?>
+<ew-language version="19.0.0" id="tr-TR" name="Turkish" desc="Turkish" author="webfikirleri.com">
+<!--
+    IMPORTANT NOTES:
+    1. Language ID must be RFC 4646 language tags (which use hyphen, not underscore), e.g. en-US, fr-CA, fr-FR,
+    2. Requires PHP Internationalization extension (Intl), see https://www.php.net/manual/en/book.intl.php,
+    3. Locale files are NOT used unless you save customized settings of a locale in the project.
+-->
+<global>
+    <phrase id="2FADisabled" value="İki aşamalı doğrulama kapalı" client="1"/><!-- v2022 -->
+    <phrase id="2FAEnabled" value="İki aşamalı doğrulama açık" client="1"/><!-- v2022 -->
+    <phrase id="2FAResetFailed" value="İki aşamalı doğrulama sıfırlama hatalı" client="1"/><!-- v2022 -->
+    <phrase id="2FAVerificationFailed" value="İki aşamalı doğrulama hatalı" client="1"/><!-- v2022 -->
+    <phrase id="Accept" value="Kabul Et"/><!-- v2019 -->
+    <phrase id="ActionDeleted" value="Silindi"/>
+    <phrase id="ActionInserted" value="Eklendi"/>
+    <phrase id="ActionInsertedGridAdd" value="Eklendi(Grid-Ekleme)"/>
+    <phrase id="ActionUpdated" value="Güncellendi"/>
+    <phrase id="ActionUpdatedGridEdit" value="Güncellendi (Grid-Güncelleme)"/>
+    <phrase id="ActionUpdatedMultiUpdate" value="Güncellendi (Çoklu Güncelleme)"/>
+    <phrase id="ActivateAccount" value="Hesabınız aktive edilmiştir."/>
+    <phrase id="ActivateFailed" value="Aktivasyon hatası!"/>
+    <phrase id="Add" value="Ekle"/>
+    <phrase id="AddBlankRow" value="Boş Satır Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="AddBtn" value="Ekle" client="1"/><!-- v2018 -->
+    <phrase id="AddEvent" value="Olay Ekle"/><!-- v2023 -->
+    <phrase id="AddLink" value="Bağlantı Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="AddMasterDetailLink" value="Ekle Master/Detail" class="icon-md-add ew-icon"/><!-- v11 -->
+    <phrase id="AddSuccess" value="Ekleme Başarılı"/>
+    <phrase id="AdvancedSearch" value="Detaylı Arama" class="icon-advanced-search ew-icon"/><!-- v11 -->
+    <phrase id="AggregateColon" value=": "/><!-- v2020 (report) -->
+    <phrase id="AggregateEqual" value="="/><!-- v2020 (report) -->
+    <phrase id="AllRecords" value="Tümü"/>
+    <phrase id="AllWord" value="Tüm Kelimeler"/>
+    <phrase id="AnyWord" value="Herhangi Bir Kelime"/>
+    <phrase id="ApiTitle" value="REST API"/><!-- v2021 -->
+    <phrase id="AuditTrailAutoLogin" value="otomatik giriş"/>
+    <phrase id="AuditTrailFailedAttempt" value="Hatalı deneme sayısı: %n"/>
+    <phrase id="AuditTrailUserLoggedIn" value="Kullanıcı giriş yapmış."/>
+    <phrase id="AuditTrailPasswordExpired" value="Parola zaman aşımına uğramış"/>
+    <phrase id="AuditTrailLogin" value="Giriş"/>
+    <phrase id="AuditTrailLogout" value="Çıkış"/>
+    <phrase id="AutoLoginFailed" value="Otomatik giriş başarısız"/><!-- v2018 -->
+    <phrase id="Average" value="Ortalama"/>
+    <phrase id="BackToList" value="Listeye Geri Dön"/>
+    <phrase id="BackToLogin" value="Giriş sayfasına geri dön."/>
+    <phrase id="BackToMasterRecordPage" value="Ana tabloya geri dön."/>
+    <phrase id="BackupCodes" value="Yedek Kodlar (2FA)" client="1"/><!-- v2022 -->
+    <phrase id="BackupCodesMsg" value="Yedekleme kodlarını güvenli ama ulaşılabilir bir yere kaydediniz. Her yedekleme kodunu sadece bir defa kullanabilirsiniz." client="1"/><!-- v2022 -->
+    <phrase id="BasicSearchKeyword" value="Search keyword"/><!-- v2023 -->
+    <phrase id="BatchDeleteBegin" value="*** Toplu silme işlemi başladı ***"/>
+    <phrase id="BatchDeleteRollback" value="*** Toplu silme geri alınıyor ***"/>
+    <phrase id="BatchDeleteSuccess" value="*** Toplu silme başarılı ***"/>
+    <phrase id="BatchInsertBegin" value="*** Toplu ekleme başladı ***"/>
+    <phrase id="BatchInsertRollback" value="*** Toplu ekleme geri alınıyor ***"/>
+    <phrase id="BatchInsertSuccess" value="*** Toplu ekleme başarılı ***"/>
+    <phrase id="BatchUpdateBegin" value="*** Toplu güncelleme başladı ***"/>
+    <phrase id="BatchUpdateRollback" value="*** Toplu güncelleme geri alınıyor ***"/>
+    <phrase id="BatchUpdateSuccess" value="*** Toplu güncelleme başarılı ***"/>
+    <phrase id="BlankOptionText" value="&amp;nbsp;"/><!-- v2022 -->
+    <phrase id="BooleanNo" value="Hayır"/><!-- v2020 (report) -->
+    <phrase id="BooleanYes" value="Evet"/><!-- v2020 (report) -->
+    <phrase id="ButtonActions" value="Eylemler" class="icon-options ew-icon"/><!-- v11 -->
+    <phrase id="ButtonAddEdit" value="Ekle / Düzenle" class="icon-addedit ew-icon"/><!-- v11 -->
+    <phrase id="ButtonDetails" value="Detay Tabloları" class="icon-master-detail ew-icon"/><!-- v11 -->
+    <phrase id="ButtonExport" value="Dışarı Aktar" class="fas fa-download ew-icon"/><!-- v2019 -->
+    <phrase id="ButtonListOptions" value="Liste Ayarları" class="fas fa-bars ew-icon"/><!-- v2022 -->
+    <phrase id="ButtonListOptionsCard" value="Ayarlar" class="fas fa-ellipsis-v ew-icon"/><!-- v2022 -->
+    <phrase id="ButtonSearch" value="Ara" class="icon-search ew-icon"/><!-- v11 -->
+    <phrase id="CancelBtn" value="İptal" client="1"/><!-- v2017 -->
+    <phrase id="CancelLink" value="İptal" class="fas fa-times ew-icon"/><!-- v2019 -->
+    <phrase id="ChangePassword" value="Parola Değiştir" client="1"/><!-- v2020 -->
+    <phrase id="ChangePasswordMessage" value="Parola Değiştir"/><!-- v2019 -->
+    <phrase id="ChangePasswordPage" value="Parola Değiştir"/>
+    <phrase id="ChangePasswordBtn" value="Değiştir"/>
+    <phrase id="ChartExportError1" value="%t resmi %e 'den alınamamıştır."/><!-- v2021 -->
+    <phrase id="ChartExportError2" value="Dosya adı eksik"/><!-- v2021 -->
+    <phrase id="ChartExportError3" value="Yükleme klasörü bulunamadı"/><!-- v2021 -->
+    <phrase id="ChartExportError4" value="Yükleme klasörü yazılabilir değil"/><!-- v2021 -->
+    <phrase id="ChartOrder" value="Sırala"/><!-- v2020 (report) -->
+    <phrase id="ChartOrderXAsc" value="Başlıklar Artan"/><!-- v2020 (report) -->
+    <phrase id="ChartOrderXDesc" value="Başlıklar Azalan"/><!-- v2020 (report) -->
+    <phrase id="ChartOrderYAsc" value="Değerler Artan"/><!-- v2020 (report) -->
+    <phrase id="ChartOrderYDesc" value="Değerler Azalan"/><!-- v2020 (report) -->
+    <phrase id="ChooseFileBtn" value="Seçiniz..."/><!-- v11 -->
+    <phrase id="ChooseFile" value="Buraya dosya sürükleyiniz ya da tıklayıp seçiniz"/><!-- v2022 -->
+    <phrase id="ChooseFiles" value="Buraya dosya sürükleyiniz ya da tıklayıp seçiniz"/><!-- v2022 -->
+    <phrase id="Clear" value="Temizle"/><!-- v2022 -->
+    <phrase id="ClickReCaptcha" value="Yeni CAPTCHA için tıklayınız." client="1"/><!-- v12 -->
+    <phrase id="ClickToDrillDown" value="Detaya İnmek İçin Tıklayınız"/><!-- v2020 (report) -->
+    <phrase id="CloseAccountBtn" value="Tüm verileri sil ve hesabımı kapat"/><!-- v2019 -->
+    <phrase id="CloseBtn" value="Kapat" client="1"/><!-- v2017 -->
+    <phrase id="Columns" value="Kolonlar" class="fas fa-columns ew-icon"/><!-- v2022 -->
+    <phrase id="Confirm" value="Onay"/>
+    <phrase id="ConfirmBtn" value="Onay" client="1"/><!-- v2017 -->
+    <phrase id="ConfirmCancel" value="İptal etmek istiyor musunuz?" client="1"/><!-- v12 -->
+    <phrase id="ConfirmPassword" value="Parola Onayla" client="1"/><!-- v2021 -->
+    <phrase id="ConflictCancelLink" value="İptal"/>
+    <phrase id="CookieConsentTitle" value="Çerezler" client="1"/><!-- v2021 -->
+    <phrase id="CookieConsentSummary" value="Bu alanı gizlilik ve çerez politikanızı özetlemek için kullanın." client="1"/><!-- v2021 -->
+    <phrase id="Copy" value="Kopyala"/>
+    <phrase id="CopyLink" value="Kopyala" class="icon-copy ew-icon"/><!-- v11 -->
+    <phrase id="CopyToClipboard" value="Panoya Kopyala" client="1"/><!-- v2022 -->
+    <phrase id="CopiedToClipboard" value="Panoya Kopyalandı" client="1"/><!-- v2022 -->
+    <phrase id="Count" value="Say"/>
+    <phrase id="CountSelected" value="%s seçildi" client="1"/><!-- v12 -->
+    <phrase id="Crop" value="Kırp"/><!-- v2023 -->
+    <phrase id="CrosstabSummary" value="Özet"/><!-- v2023 -->
+    <phrase id="CurrentFilters" value="Geçerli Filtreler:"/><!-- v2020 (report) -->
+    <phrase id="CurrentPassword" value="Aktif Parola: " client="1"/><!-- v12 -->
+    <phrase id="CustomActionCompleted" value="Tamamlanan : '%s'"/>
+    <phrase id="CustomActionCancelled" value="İptal Edilen: '%s'"/>
+    <phrase id="CustomActionFailed" value="'%s' başarısız"/><!-- v12 -->
+    <phrase id="CustomActionNotAllowed" value="'%s' izin verilmedi"/><!-- v12 -->
+    <phrase id="CustomView" value="ÖZEL GÖRÜNÜM"/>
+    <phrase id="Danger" value="Hata" client="1"/><!-- v2020 -->
+    <phrase id="Debug" value="Hata Ayıklama"/><!-- v2021 -->
+    <phrase id="Delete" value="Sil"/>
+    <phrase id="DeleteBtn" value="Sil"/>
+    <phrase id="DeleteCancelled" value="Silme işlemi iptal edildi"/>
+    <phrase id="DeleteConfirm" value="Bu kaydı silmek istediğinizden emin misiniz?" client="1"/>
+    <phrase id="DeleteEventConfirm" value="Bu olayı silmek istediğinizden emin misiniz??"/><!-- v2023 -->
+    <phrase id="DeleteFailed" value="Kayıt/Kayıtlar Silinemedi"/><!-- v2023 -->
+    <phrase id="DeleteFilter" value="Filtreyi temizle"/><!-- v12 -->
+    <phrase id="DeleteFilterConfirm" value="%s - filtre temizlensin mi?" client="1"/><!-- v12 -->
+    <phrase id="DeleteLink" value="Sil" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="DeleteSelectedLink" value="Seçili Kayıtları Sil" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="DeleteRecordsFailed" value="Belirtilen anahtarlara sahip kayıtlar silinemedi: %k"/><!-- v2022 -->
+    <phrase id="DeleteSuccess" value="Silme işlemi başarılı"/>
+    <phrase id="DetailLink" value="Detay"/>
+    <phrase id="DetailCount" value="&lt;span class='badge badge-info ew-detail-count%c'&gt;%c&lt;/span&gt;"/><!-- v2019 -->
+    <phrase id="Details" value="Detaylar" client="1"/><!-- v2022 -->
+    <phrase id="Disable2FA" value="İki faktörlü kimlik doğrulamayı iptal et"/><!-- v2022 -->
+    <phrase id="Disable2FAConfirm" value="İki faktörlü kimlik doğrulamayı iptal etmek istediğinizden emin misiniz?" client="1"/><!-- v2022 -->
+    <phrase id="DisableNotifications" value="Bildirimleri iptal et" client="1"/><!-- v2022 -->
+    <phrase id="DisableNotificationsConfirm" value="Bildirimleri iptal etmek istediğinize emin misiniz?" client="1"/><!-- v2022 -->
+    <phrase id="DownloadBtn" value="İndir"/><!-- v2019 -->
+    <phrase id="DrillDownAllRecords" value="Tüm Kayıtlar"/><!-- v2020 (report) -->
+    <phrase id="DrillDownFilters" value="Detaya İnmek İçin Filtreler"/><!-- v2020 (report) -->
+    <phrase id="DupIndex" value="Benzersiz index '%f' için tekrarlanan değer '%v'"/>
+    <phrase id="DupKey" value="Tekrarlanan birincil anahtar: '%f'"/>
+    <phrase id="Edit" value="Düzenle"/>
+    <phrase id="EditBtn" value="Düzenle" client="1"/><!-- v2018 -->
+    <phrase id="EditLink" value="Düzenle" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="EditSelectedLink" value="Seçili kayıtları düzenle" class="icon-grid-edit ew-icon"/><!-- v2023 -->
+    <phrase id="Email" value="Eposta" client="1"/><!-- v2021 -->
+    <phrase id="EmailAddress" value="Eposta adresi"/><!-- v2023 -->
+    <phrase id="EmailFormSender" value="Kimden"/>
+    <phrase id="EmailFormRecipient" value="Kime"/>
+    <phrase id="EmailFormCc" value="Cc"/>
+    <phrase id="EmailFormBcc" value="Bcc"/>
+    <phrase id="EmailFormSubject" value="Konu"/>
+    <phrase id="EmailFormMessage" value="Mesaj"/>
+    <phrase id="EmailFormContentType" value="E-Posta İçerik Tipi"/>
+    <phrase id="EmailFormContentTypeUrl" value="URL"/>
+    <phrase id="EmailFormContentTypeHtml" value="HTML"/>
+    <phrase id="EmptyLabel" value="(Boş)"/><!-- v2020 (report) -->
+    <phrase id="Enable2FA" value="İki faktörlü kimlik doğrulamayı etkinleştir."/><!-- v2022 -->
+    <phrase id="EnableNotifications" value="Bildirimleri Etkinleştir" client="1"/><!-- v2022 -->
+    <phrase id="EnterFilterName" value="Filtre adı girin" client="1"/><!-- v12 -->
+    <phrase id="EnterNewPassword" value="Lütfen yeni parolanızı giriniz" client="1"/>
+    <phrase id="EnterOldPassword" value="Lütfen eski parolanızı giriniz" client="1"/>
+    <phrase id="EnterPassword" value="Lütfen parolanızı giriniz" client="1"/>
+    <phrase id="EnterRequiredField" value="Lütfen gerekli alanları giriniz - %s" client="1"/><!-- v2021 -->
+    <phrase id="EnterSearchCriteria" value="Lütfen arama kriterini giriniz."/>
+    <phrase id="EnterSecurityCodeGoogle" value="Lütfen Google Authenticator'den aldığınız güvenlik kodunu (ya da yedekleme kodunu) giriniz"/><!-- v2023 -->
+    <phrase id="EnterSecurityCodeEmail" value="Lütfen eposta hesabınıza gönderilen tek seferlik parolayı (ya da yedekleme kodunu) giriniz"/><!-- v2023 -->
+    <phrase id="EnterSecurityCodeSms" value="Lütfen telefonunuza gönderilen smsdeki tek seferlik parolayı (ya da yedekleme kodunu) giriniz"/><!-- v2023 -->
+    <phrase id="EnterSecurityCode" value="Lütfen doğrulamak için tek seferlik parolanızı giriniz"/><!-- v2023 -->
+    <phrase id="EnterOTPEmailAddress" value="Lütfen tek seferlik parola alabilmek için eposta adresinizi giriniz"/><!-- v2023 -->
+    <phrase id="EnterOTPMobileNumber" value="Lütfen tek seferlik parola alabilmek için telefon numaranızı giriniz"/><!-- v2023 -->
+    <phrase id="EnterUserName" value="Kullanıcı adını giriniz." client="1"/>
+    <phrase id="EnterValidateCode" value="Lütfen doğrulama kodunu giriniz." client="1"/><!-- v11 -->
+    <phrase id="EnterProperSenderEmail" value="Üst e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+    <phrase id="EnterProperRecipientEmail" value="Üst e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+    <phrase id="EnterProperCcEmail" value="Üst CC e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+    <phrase id="EnterProperBccEmail" value="Üst BCC e-posta gönderim sınırı aşıldı ya da e-posta adresi hatalı!" client="1"/>
+    <phrase id="EnterSubject" value="Lütfen konu giriniz" client="1"/>
+    <phrase id="EnterValue" value="Lütfen değer giriniz" client="1"/><!-- v2021 -->
+    <phrase id="EnterValue2" value="Lütfen ikinci değeri giriniz" client="1"/><!-- v2021 -->
+    <phrase id="Error" value="Hata"/><!-- v2021 -->
+    <phrase id="ExactPhrase" value="Tamı tamına arama"/>
+    <phrase id="ExceedMaxRetry" value="Maksimum giriş denemesi aşıldı. Hesap kilitlendi. Lütfen %t dakika sonra tekrar deneyiniz."/>
+    <phrase id="ExceedMaxEmailExport" value="Maksimum e-posta çıktı sayısı aşıldı. Lütfen daha sonra tekrar deneyiniz."/>
+    <phrase id="ExportChart" value="Şemayı Dışarı Aktar:" client="1"/><!-- v2020 (report) -->
+    <phrase id="ExportChartData" value="Şema Verileri Dışarı Aktarılıyor" client="1"/><!-- v2020 (report) -->
+    <phrase id="ExportChartError" value="Şema dışarı aktarılırken hata oluştu" client="1"/><!-- v2020 (report) -->
+    <phrase id="ExportClassNotFound" value="Dışarı aktarma sınıfı bulunamadı"/><!-- v2019 -->
+    <phrase id="Exporting" value="Dışarı aktarılıyor. Lütfen bekleyiniz..." client="1"/><!-- v2018 -->
+    <phrase id="ExportToCsv" value="Çıktı: CSV" class="icon-csv ew-icon"/><!-- v11 -->
+    <phrase id="ExportToEmail" value="Çıktı: E-Posta" class="icon-email ew-icon"/><!-- v11 -->
+    <phrase id="ExportToExcel" value="Çıktı: Excel" class="icon-excel ew-icon"/><!-- v11 -->
+    <phrase id="ExportToHtml" value="Çıktı: HTML" class="icon-html ew-icon"/><!-- v11 -->
+    <phrase id="ExportToPdf" value="Çıktı: PDF" class="icon-pdf ew-icon"/><!-- v11 -->
+    <phrase id="ExportToWord" value="Çıktı: Word" class="icon-word ew-icon"/><!-- v11 -->
+    <phrase id="ExportToXml" value="Çıktı: XML" class="icon-xml ew-icon"/><!-- v11 -->
+    <phrase id="FailedToExport" value="Çıktı alma hatası" client="1"/><!-- v2018 -->
+    <phrase id="FailedToSendMail" value="E-Posta gönderilirken hata oldu."/>
+    <phrase id="FieldName" value="Alan Adı"/>
+    <phrase id="FieldRequiredIndicator" value="" class="fas fa-asterisk ew-required"/><!-- v2019 -->
+    <phrase id="FileNotFound" value="Dosya bulunamadı!"/>
+    <phrase id="Filter" value="Filtre" class="fas fa-filter"/><!-- v2022 -->
+    <phrase id="FilterAllRecords" value="Tüm Kayıtlar" client="1"/><!-- v2022 -->
+    <phrase id="FilterCancel" value="İptal" client="1"/><!-- v2022 -->
+    <phrase id="FilterName" value="Filtre Adı" client="1"/><!-- v12 -->
+    <phrase id="FilterNoValue" value="Hiçbir değer seçilmedi" client="1"/><!-- v2022 -->
+    <phrase id="FilterOK" value="Tamam" client="1"/><!-- v2022 -->
+    <phrase id="Filters" value="Filtreler" class="fas fa-filter ew-icon"/><!-- v2022 -->
+    <phrase id="ResetPasswordResponse" value="Parola sıfırlama ile ilgili bilgileri kayıtlı olan eposta adresinize kısa süre içerisinde göndereceğiz."/><!-- v2019 -->
+    <phrase id="ResetPassword" value="Parola Sıfırla" client="1"/><!-- v2020 -->
+    <phrase id="GeneratePassword" value="Parola Oluştur" class="fas fa-bolt ew-icon"/><!-- v2019 -->
+    <phrase id="GetNewCodes" value="Yeni Kod Al" client="1"/><!-- v2022 -->
+    <phrase id="GoBack" value="Geri Dön"/>
+    <phrase id="GridAddCancelled" value="Hızlı Ekle İptal Edildi"/><!-- v11 -->
+    <phrase id="GridAddLink" value="Hızlı Ekle" class="icon-grid-add ew-icon"/><!-- v11 -->
+    <phrase id="GridCancelLink" value="İptal" class="fas fa-times ew-icon"/><!-- v2019 -->
+    <phrase id="GridEditCancelled" value="Hızlı Düzenle İptal Edildi"/><!-- v11 -->
+    <phrase id="GridEditLink" value="Hızlı Düzenle" class="icon-grid-edit ew-icon"/><!-- v11 -->
+    <phrase id="GridInsertLink" value="Ekle" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="GridSaveLink" value="Kaydet" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="Group" value="Gruplar"/><!-- v2020 (report) -->
+    <phrase id="GroupsPerPage" value="Sayfa Başı Grup"/><!-- v2020 (report) -->
+    <phrase id="Highlight" value="Vurgula"/><!-- v11 -->
+    <phrase id="HighlightBtn" value="Vurgula" class="icon-highlight ew-icon"/><!-- v11 -->
+    <phrase id="HomePage" value="Anasayfa" class="fas fa-home ew-icon"/><!-- v2019 -->
+    <phrase id="Import" value="İçe Aktar" class="fas fa-upload ew-icon"/><!-- v2019 -->
+    <phrase id="ImportMaxFailuresExceeded" value="Oluşabilecek en fazla hata sayısı (%s) aşılmıştır"/><!-- v2023 -->
+    <phrase id="ImportRowError" value="Satır içeri aktarılırken hata oluştu #%i: %e"/><!-- v2023 -->
+    <phrase id="ImportInvalidFileExtension" value="Geçersiz dosya uzantısı '%e'"/><!-- v2023 -->
+    <phrase id="ImportInvalidFieldName" value="Geçersiz dosya adı: %f"/><!-- v2023 -->
+    <phrase id="ImportInvalidFieldValue" value="Alan için geçersiz değer: '%f': %v"/><!-- v2023 -->
+    <phrase id="ImportNoHeaderRow" value="İçeri aktarım için başlık satırı bulunamadı"/><!-- v2023 -->
+    <phrase id="ImportResult" value="İçeri aktarılan %f kaydın %c / %t (Başarılı: %s, Başarısız: %e)"/><!-- v2023 -->
+    <phrase id="ImportSave" value="Kayıtlar henüz kaydedilmedi. Eğer sonuçlardan memnunsanız, 'Kaydet' butonuna basın."/><!-- v2023 -->
+    <phrase id="ImportServerError" value="Yüklenen dosya/dosyalar işlenemedi"/><!-- v2023 -->
+    <phrase id="ImportUploadError" value="Yükleme hatası %f: %s"/><!-- v2023 -->
+    <phrase id="ImportUploadComplete" value="Yükleme tamamlandı, dosyalar işleniyor..."/><!-- v2023 -->
+    <phrase id="ImportUploadProgress" value="Yükleniyor...(p%)"/><!-- v2023 -->
+    <phrase id="IncorrectCreditCard" value="Geçersiz Kredi Kartı Numarası" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectDate" value="Geçersiz tarih (%s)" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectEmail" value="Geçersiz E-Posta" client="1"/>
+    <phrase id="IncorrectField" value="Geçersiz Alan" client="1"/>
+    <phrase id="IncorrectFloat" value="Geçersiz reel sayı" client="1"/>
+    <phrase id="IncorrectGUID" value="Geçersiz GUID" client="1"/>
+    <phrase id="IncorrectInteger" value="Geçersiz tamsayı" client="1"/>
+    <phrase id="IncorrectMin" value="Girdiğiniz numara %s eşit ya da büyük olmalıdır"/><!-- v2023 -->
+    <phrase id="IncorrectMinDate" value="Girdiğiniz tarih %s tarihine eşit ya da daha sonraki bir tarih olmalıdır"/><!-- v2023 -->
+    <phrase id="IncorrectMax" value="Girdiğiniz numara %s büyük ya da eşit olmalıdır."/><!-- v2023 -->
+    <phrase id="IncorrectMaxDate" value="Date/Time must be eariler than or same as %s"/><!-- v2023 -->
+    <phrase id="IncorrectPhone" value="Geçersiz telefon numarası" client="1"/>
+    <phrase id="IncorrectRange" value="Sayı %1 ve %2 arasında olmalıdır" client="1"/>
+    <phrase id="IncorrectRegExp" value="RegEx eşleşmedi" client="1"/>
+    <phrase id="IncorrectSecurityCode" value="Geçersiz güvenlik kodu"/><!-- v2022 -->
+    <phrase id="IncorrectSSN" value="Geçersiz sosyal güvenlik numarası" client="1"/>
+    <phrase id="IncorrectTime" value="Geçersiz Zaman (%s)" client="1"/><!-- v2021 -->
+    <phrase id="IncorrectUrl" value="Geçersiz URL" client="1"/><!-- v2022 -->
+    <phrase id="IncorrectValidationCode" value="Geçersiz doğrulama kodu, lütfen tekrar deneyiniz." client="1"/><!-- v2021 -->
+    <phrase id="IncorrectZip" value="Geçersiz Posta Kodu" client="1"/>
+    <phrase id="Info" value="Bilgi" client="1"/><!-- v2020 -->
+    <phrase id="InlineAddLink" value="Hızlı Ekle" class="icon-inline-add ew-icon"/><!-- v11 -->
+    <phrase id="InlineCopyLink" value="Hızlı Kopyala" class="icon-inline-copy ew-icon"/><!-- v11 -->
+    <phrase id="InlineEditLink" value="Hızlı Düzenle" class="icon-inline-edit ew-icon"/><!-- v11 -->
+    <phrase id="InsertCancelled" value="Ekleme İptal Edildi"/>
+    <phrase id="InsertFailed" value="Ekleme başarısız" client="1"/>
+    <phrase id="InsertLink" value="Ekle" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="InsertSuccess" value="Ekleme Başarılı"/>
+    <phrase id="InvalidDate" value="Geçersiz tarih" client="1"/><!-- v2021 -->
+    <phrase id="InvalidKeyValue" value="Geçersiz anahtar değeri"/>
+    <phrase id="InvalidRecord" value="Geçersiz Kayıt! Anahtar boş!" client="1"/>
+    <phrase id="InvalidPostRequest" value="Geçersiz POST isteği!"/><!-- v11 -->
+    <phrase id="InvalidParameter" value="Geçersiz parametre"/>
+    <phrase id="InvalidPassword" value="Geçersiz Parola"/>
+    <phrase id="InvalidPasswordChars" value="Parola şunları içermemelidir &amp;, &lt;, &gt;, " client="1"/><!-- v2021 -->
+    <phrase id="InvalidNewPassword" value="Geçersiz Yeni Parola"/>
+    <phrase id="InvalidUidPwd" value="Geçersiz kullanıcı adı ya da parola"/>
+    <phrase id="InvalidUsernameChars" value="Kullanıcı adı şunları içermemelidir &amp;, &lt;, &gt;, " client="1"/><!-- v2021 -->
+    <phrase id="JwtTokenExpired" value="Oturumunuzun süresi dolmuştur. Lütfen sayfayı yenileyiniz."/><!-- v2023 -->
+    <phrase id="Language" value="Dil"/>
+    <phrase id="LearnMore" value="Daha Fazla"/><!-- v2019 -->
+    <phrase id="LightboxTitle" value=" " client="1"/><!-- v11 -->
+    <phrase id="LightboxCurrent" value="{current} / {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+    <phrase id="LightboxPrevious" value="önceki" client="1"/><!-- v11 -->
+    <phrase id="LightboxNext" value="sonraki" client="1"/><!-- v11 -->
+    <phrase id="LightboxClose" value="kapat" client="1"/><!-- v11 -->
+    <phrase id="LightboxXhrError" value="İçerik yüklenemedi!" client="1"/><!-- v11 -->
+    <phrase id="LightboxImgError" value="Resim yüklenemedi!" client="1"/><!-- v11 -->
+    <phrase id="List" value="Liste"/><!-- v2019 -->
+    <phrase id="ListActionButton" value="İşlemler" class="fas fa-ellipsis-v"/><!-- v2020 -->
+    <phrase id="Loading" value="Yükleniyor..." client="1"/>
+    <phrase id="Login" value="Kullanıcı Girişi" client="1"/><!-- v2020 -->
+    <phrase id="LoginAzure" value="Azure ile giriş yap" class="fa-brands fa-microsoft"/><!-- v2023 -->
+    <phrase id="LoginCancelled" value="Giriş İptal Edildi"/>
+    <phrase id="LoginFacebook" value="Facebook ile giriş yap"/><!-- v2018 -->
+    <phrase id="LoginSucceeded" value="Giriş başarılı, yönlendiriliyorsunuz..."/><!-- v2023 -->
+    <phrase id="LoginFailed" value="%p ile giriş yapılamadı"/><!-- v2018 -->
+    <phrase id="LoginGoogle" value="Google ile giriş yap"/><!-- v2018 -->
+    <phrase id="LoginMsg" value="Oturumunuzu başlatmak için giriş yapınız"/><!-- v2019 -->
+    <phrase id="LoginOptions" value="Ayarlar"/><!-- v11 -->
+    <phrase id="LoginOr" value="- YA DA -"/><!-- v2018 -->
+    <phrase id="LoginSaml" value="SAML ile giriş yap" class="fa-solid fa-user-shield"/><!-- v2023 -->
+    <phrase id="LoginPage" value="Kullanıcı Girişi"/>
+    <phrase id="Login2FAPage" value="Giriş (İki Faktörlü Kimlik Doğrulama)"/><!-- v2022 -->
+    <phrase id="Logout" class="fas fa-sign-out-alt ew-icon" value="Çıkış Yap"/><!-- v2022 -->
+    <phrase id="LookupTitle" value="Bak - %s" client="1"/><!-- v2022 -->
+    <phrase id="MasterDetailCopyLink" value="Detay Tablo Kopyala" class="icon-md-copy ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailEditLink" value="Detay Tablo Düzenle" class="icon-md-edit ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailListLink" value="Detay Tablo Listele" class="icon-table ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailViewLink" value="Detay Tablo Göster" class="icon-md-view ew-icon"/><!-- v11 -->
+    <phrase id="MaxFileSize" value="Maksimum dosya boyutu aşıldı! (%s bytes)" client="1"/>
+    <phrase id="MismatchPassword" value="Parola Eşleşmedi" client="1"/>
+    <phrase id="MissingLookupTableName" value="Arama tablosu ismi bulunamadı"/>
+    <phrase id="MissingDisplayFieldName" value="Kayıp alan adı"/>
+    <phrase id="MissingDisplayFieldValue" value="Kayıp alan değeri"/>
+    <phrase id="MissingPDFObject" value="PDF Objesi Eksik" client="1"/><!-- v2020 -->
+    <phrase id="MissingUserLevelID" value="Eksik Kullenıcı Seviyesi"/>
+    <phrase id="MissingUserLevelName" value="Eksik Kullanıcı Seviye Adı"/>
+    <phrase id="MobileNumber" value="Mobil telefon numarası"/><!-- v2023 -->
+    <phrase id="MultiColumnCards" value="Kart Görünümü" class="fas fa-th-large ew-icon"/><!-- v2022 -->
+    <phrase id="MultiColumnTable" value="Tablo Görünümü" class="fas fa-table ew-icon"/><!-- v2022 -->
+    <phrase id="MultipleMasterDetails" value="Detay Tablo" class="icon-master-detail ew-icon"/><!-- v11 -->
+    <phrase id="NewPassword" value="Yeni Parola" client="1"/><!-- v2021 -->
+    <phrase id="Next" value="Sonraki" client="1"/><!-- v12 -->
+    <phrase id="NoAddRecord" value="Eklenecek kayıt yok" client="1"/>
+    <phrase id="NoFieldSelected" value="Güncellemek için alan seçilmedi" client="1"/>
+    <phrase id="NoPermission" value="Bu sayfaya erişmek için yetkiniz yok."/><!-- v12 -->
+    <phrase id="NoAddPermission" value="Kayıt eklemek için yetkiniz yok."/>
+    <phrase id="NoChartData" value="Gösterilecek veri yok" client="1"/><!-- v2020 -->
+    <phrase id="NoDeletePermission" value="Kayıt silmek için yetkiniz yok."/>
+    <phrase id="NoDistinctColVals" value="SQL sorgusu için özgün değer bulunamadı:"/><!-- v2020 (report) -->
+    <phrase id="NoEditPermission" value="Kayıt düzenlemek için yetkiniz yok."/>
+    <phrase id="NoHtmlForm" value="HTML form bulunamadı"/><!-- v2022 -->
+    <phrase id="NoRecord" value="Gösterilecek Kayıt Bulunamadı" client="1"/><!-- v2017 -->
+    <phrase id="NoRecordForKey" value="Belirtilen anahtar için kayıt bulunamadı = "/>
+    <phrase id="NoReportOrCharts" value="Bu sayfa için uygun rapor ya da şema bulunamadı."/><!-- v2020 (report) -->
+    <phrase id="NoRecordSelected" value="Hiç kayıt seçilmemiş" client="1"/>
+    <phrase id="NoSubscription" value="Aboneliğiniz bulunmamaktadır" client="1"/><!-- v2022 -->
+    <phrase id="NoSubscriptions" value="Abonelik bulunamadı" client="1"/><!-- v2022 -->
+    <phrase id="NoTableGenerated" value="Hiç tablo oluşturulmamış"/>
+    <phrase id="Notice" value="Dikkat"/><!-- v2021 -->
+    <phrase id="Notifications" value="Bildirimler" class="fas fa-bell ew-icon"/><!-- v2022 -->
+    <phrase id="NotificationsDisabled" value="Bildirimler Kapatıldı" client="1"/><!-- v2022 -->
+    <phrase id="NotificationsEnabled" value="Bildirimler Aktif" client="1"/><!-- v2022 -->
+    <phrase id="NoUserLevel" value="Hiç kullanıcı seviye ayarı bulunamadı."/>
+    <phrase id="NullLabel" value="(Null)"/><!-- v2020 (report) -->
+    <phrase id="Of" value="arasında. Toplam: " client="1"/><!-- v2017 -->
+    <phrase id="OKBtn" value="TAMAM" client="1"/><!-- v2021 -->
+    <phrase id="Old" value="Eski"/>
+    <phrase id="OldPassword" value="Eski Parola" client="1"/><!-- v2021 -->
+    <phrase id="OverwriteBtn" value="Üzerine Yaz" client="1"/><!-- v2017 -->
+    <phrase id="OverwriteLink" value="Üzerine Yaz"/>
+    <phrase id="Page" value="Sayfa" client="1"/><!-- v2017 -->
+    <phrase id="PageNotFound" value="Yol bulunamadı: '%p'"/><!-- v2021 -->
+    <phrase id="PagerFirst" value="İlk"/>
+    <phrase id="PagerLast" value="Son"/>
+    <phrase id="PagerNext" value="Sonraki"/>
+    <phrase id="PagerPrevious" value="Önceki"/>
+    <phrase id="Password" value="Parola" client="1"/><!-- v2021 -->
+    <phrase id="PasswordMask" value="********"/><!-- v12 -->
+    <phrase id="PasswordRequest" value="Parola Gerekli"/>
+    <phrase id="PasswordChanged" value="Parola Değiştirildi"/>
+    <phrase id="PasswordExpired" value="Parolanızın geçerlilik süresi dolmuştur. Lütfen parolanızı değiştiriniz."/>
+    <phrase id="PasswordStrength" value="Güç: %p" client="1"/><!-- v12 -->
+    <phrase id="PasswordTooSimple" value="Parolanız çok basit" client="1"/><!-- v12 -->
+    <phrase id="Permission" value="Izinler" class="icon-user ew-icon"/><!-- v11 -->
+    <phrase id="PermissionAdd" value="Ekle/Kopyala" client="1"/><!-- v2020 -->
+    <phrase id="PermissionAdmin" value="Yönetici" client="1"/><!-- v2019 -->
+    <phrase id="PermissionDelete" value="Sil" client="1"/><!-- v2018 -->
+    <phrase id="PermissionEdit" value="Düzenle" client="1"/><!-- v2018 -->
+    <phrase id="PermissionExport" value="Dışarı Aktar"/><!-- v2023 -->
+    <phrase id="PermissionImport" value="İçeri Aktar" client="1"/><!-- v2020 -->
+    <phrase id="PermissionListSearchView" value="Listele/Ara/Göster" client="1"/><!-- v2018 -->
+    <phrase id="PermissionList" value="Liste" client="1"/><!-- v2018 -->
+    <phrase id="PermissionLookup" value="Bakış" client="1"/><!-- v2020 -->
+    <phrase id="PermissionPush" value="Push"/><!-- v2023 -->
+    <phrase id="PermissionSearch" value="Ara" client="1"/><!-- v2018 -->
+    <phrase id="PermissionView" value="Incele" client="1"/><!-- v2018 -->
+    <phrase id="PersonalDataBtn" value="Kişisel Veri"/><!-- v2019 -->
+    <phrase id="PersonalDataContent" value="Hesabınız bizimle paylaştığınız kişisel verileri içeriyor. Bu sayfa size bu verileri indirmenize ya da silmenize izin verir."/><!-- v2019 -->
+    <phrase id="PersonalDataDeleteFailure" value="Kullanıcı silinirken beklenmeyen bir hata oluştu"/><!-- v2019 -->
+    <phrase id="PersonalDataDeleteSuccess" value="Kişisel veriler başarı ile silindi"/><!-- v2019 -->
+    <phrase id="PersonalDataTitle" value="Kişisel Veri"/><!-- v2019 -->
+    <phrase id="PersonalDataWarning" value="Bu veriyi silmek hesabınızın tamamen kaldırılmasına neden olur ve bu işlem geri alınamaz."/><!-- v2019 -->
+    <phrase id="PleaseSelect" value="Lütfen Seçiniz" client="1"/><!-- v12 -->
+    <phrase id="Prev" value="Önceki" client="1"/><!-- v12 -->
+    <phrase id="PrimaryKeyUnspecified" value="Birincil anahtar belirtilmemiş"/>
+    <phrase id="PrinterFriendly" value="Yazıcı Dostu" class="icon-print ew-icon"/><!-- v11 -->
+    <phrase id="PrivacyPolicy" value="Gizlilik Politikası"/><!-- v2019 -->
+    <phrase id="PrivacyPolicyContent" value="Bu sayfayı sitenizin gizlilik politikası detaylarını girmek için kullanın."/><!-- v2019 -->
+    <phrase id="PushNotificationDefaultTitle" value="Yeni Bildirim"/><!-- v2022 -->
+    <phrase id="PushNotificationFormTitle" value="Title" client="1"/><!-- v2022 -->
+    <phrase id="PushNotificationFormBody" value="Body" client="1"/><!-- v2022 -->
+    <phrase id="PushNotificationFailure" value="Bildirim gönderme hatası (failure = %f)" client="1"/><!-- v2022 -->
+    <phrase id="PushNotificationSent" value="Bildirimler gönderildi&lt;br&gt;(success = %s, failure = %f)" client="1"/><!-- v2022 -->
+    <phrase id="PushNotificationSuccess" value="Tüm bildirimler gönderildi (success = %s)" client="1"/><!-- v2022 -->
+    <phrase id="QueryBuilder" value="Query Oluşturucu" class="fa-solid fa-sliders ew-icon"/><!-- v2023 -->
+    <phrase id="QuickSearchAuto" value="Otomatik" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAutoShort" value="" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAll" value="Tüm Kelimeler" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAllShort" value="Tümü" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAny" value="Herhangi Bir Kelime" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchAnyShort" value="Herhangi" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchExact" value="Tamı Tamına" client="1"/><!-- v11 -->
+    <phrase id="QuickSearchExactShort" value="Tam" client="1"/><!-- v11 -->
+    <phrase id="Recipient" value="Recipient(s)" client="1"/><!-- v2021 -->
+    <phrase id="Record" value="Kayıtlar" client="1"/><!-- v2017 -->
+    <phrase id="RecordChangedByOtherUser" value="Vari başka bir kullanıcı tarafından değiştirildi. [Yenile] tuşuna basarak değişen veriyi görüntüleyiniz (Kaydettiğiniz veriler kaybolacaktır!) veya [Üzerine Yaz] tuşuna tıklayarak değişen verinin üzerine yazın."/>
+    <phrase id="RecordDeleted" value="kayıt(lar) silindi"/>
+    <phrase id="RecordInserted" value="kayıt(lar) eklendi"/>
+    <phrase id="RecordUpdated" value="kayıt(lar) güncellendi"/>
+    <phrase id="RecordsPerPage" value="Sayfa Boyutu" client="1"/><!-- v2017 -->
+    <phrase id="Register" value="Kayıt Ol" client="1"/><!-- v2020 -->
+    <phrase id="RegisterBtn" value="Kayıt Ol"/>
+    <phrase id="RegisterSuccess" value="Kayıt Işlemi Başarılı"/>
+    <phrase id="RegisterSuccessActivate" value="Kayıt işlemi başarılı. E-posta adresinize bir posta gönderdik. Lütfen hesabınız aktive etmek için e-postadaki linke tıklayınız."/>
+    <phrase id="RegisterPage" value="Kayıt"/>
+    <phrase id="RelatedRecordRequired" value="Ana taboloda bağlantı anahtarı bulunmadığı için kayıt ekleyemezsiniz ya da kaydı güncelleyemezsiniz. '%t'"/>
+    <phrase id="RelatedRecordExists" value="Detay tablosunda bağlı kayıtlar olam bir kaydı silemezsiniz. '%t'"/>
+    <phrase id="ReloadBtn" value="Yeniden Yükle" client="1"/><!-- v2017 -->
+    <phrase id="ReloadLink" value="Yeniden Yükle"/>
+    <phrase id="RememberMe" value="Beni Hatırla"/>
+    <phrase id="Remove" value="Kaldır"/>
+    <phrase id="Replace" value="Değiştir"/>
+    <phrase id="Report" value="Rapor"/>
+    <phrase id="ResetPwd" value="Parola Sıfırla"/><!-- v2020 -->
+    <phrase id="ResetPwdTitle" value="Parola Sıfırla"/><!-- v2023 -->
+    <phrase id="ResendRegisterEmailBtn" value="Kayıt e-postasını yeniden gönderin."/><!-- v12 -->
+    <phrase id="ResendRegisterEmailSuccess" value="Kayıt e-postası '%u' kullanıcısı için tekrar gönderildi."/><!-- v12 -->
+    <phrase id="ResendRegisterEmailFailure" value="Kayıt e-postası '%u' kullanıcısı için tekrar gönderilirken hata oluştu!"/><!-- v12 -->
+    <phrase id="Reset" value="Sıfırla"/>
+    <phrase id="ResetAllFilter" value="Tüm filtreleri temizle" class="icon-reset-search ew-icon"/><!-- v2020 (report) -->
+    <phrase id="ResetConcurrentUserBtn" value="Aktif kullanıcının oturumunu sıfırla"/><!-- v12 -->
+    <phrase id="ResetConcurrentUserSuccess" value="'%u' kullanıcısı için oturum sıfırlandı"/><!-- v12 -->
+    <phrase id="ResetConcurrentUserFailure" value="'%u' kullanıcısı için oturum sıfırlanma işlemi başarısız!"/><!-- v12 -->
+    <phrase id="ResetLoginRetryBtn" value="Oturum açma tekrar deneme sayısını sıfırla"/><!-- v12 -->
+    <phrase id="ResetLoginRetrySuccess" value="'%u' kullanıcısı için tekrar deneme sayısı sıfırlandı"/><!-- v12 -->
+    <phrase id="ResetLoginRetryFailure" value="'%u' kullanıcısı için tekrar deneme sayısı sıfırlanma işlemi başarısız!"/><!-- v12 -->
+    <phrase id="ResetSearchBtn" value="Sıfırla" class="icon-reset-search ew-icon"/><!-- v11 -->
+    <phrase id="ResetSearch" value="Sıfırla"/>
+    <phrase id="ResetUserSecretBtn" value="Kişi parolasını sıfırla"/><!-- v2022 -->
+    <phrase id="ResetUserSecretSuccess" value="Kişi parolası '%u' kullanıcısı için sıfırlandı"/><!-- v2022 -->
+    <phrase id="ResetUserSecretFailure" value="'%u' kullanıcısı için kişi parolası sıfırlaması başarısız."/><!-- v2022 -->
+    <phrase id="RptAvg" value="Ortalama"/><!-- v2020 (report) -->
+    <phrase id="RptCnt" value="SAY"/><!-- v2020 (report) -->
+    <phrase id="RptDtlRec" value="Detay Kayıtları"/><!-- v2020 (report) -->
+    <phrase id="RptGrandSummary" value="Genel Toplam"/><!-- v2020 (report) -->
+    <phrase id="RptMax" value="En Fazla"/><!-- v2020 (report) -->
+    <phrase id="RptMin" value="En Az"/><!-- v2020 (report) -->
+    <phrase id="RptPageSummary" value="Sayfa Toplamı"/><!-- v2020 (report) -->
+    <phrase id="RptSum" value="Toplam"/><!-- v2020 (report) -->
+    <phrase id="RptSumHead" value="Özet:"/><!-- v2020 (report) -->
+    <phrase id="SaveBtn" value="Kaydet" client="1"/><!-- v2018 -->
+    <phrase id="SaveCurrentFilter" value="Filtreyi kaydet"/><!-- v12 -->
+    <phrase id="Scan2FAQrCode" value="Google Authenticator uygulamasını yükledikten sonra, yukarıdaki QR Kodunu taratıp doğrulamayı gerçekleştirin." client="1"/><!-- v2022 -->
+    <phrase id="Search" value="Ara" client="1"/><!-- v2017 -->
+    <phrase id="SearchBtn" value="Ara" client="1"/><!-- v2018 -->
+    <phrase id="SearchLink" value="Ara" class="fas fa-search ew-icon"/><!-- v2019 -->
+    <phrase id="SearchPanel" value="Arama Paneli"/><!-- v11 -->
+    <phrase id="SecurityCode" value="Güvenlik Kodu" client="1"/><!-- v2022 -->
+    <phrase id="SecurityCodeVerified" value="Güvenlik kodu doğrulandı. Yönlendiriliyorsunuz..." client="1"/><!-- v2022 -->
+    <phrase id="SelectAll" value="Tümünü seç"/><!-- v2022 -->
+    <phrase id="SelectBtn" value="Seç" client="1"/><!-- v2017 -->
+    <phrase id="SendEmailBtn" value="Gönder"/>
+    <phrase id="SendEmailSuccess" value="E-posta başarı ile gönderilmiştir." client="1"/>
+    <phrase id="Sender" value="Gönderen" client="1"/><!-- v2021 -->
+    <phrase id="SendOTP" value="Tek seferlik parola gönder"/><!-- v2023 -->
+    <phrase id="SendOTPConfirm" value="Tek seferlik parola gönderilmesini istediğinizden emin misiniz?"/><!-- v2023 -->
+    <phrase id="SendOTPSuccess" value="Tek seferlik parolanız başarı ile gönderildi."/><!-- v2023 -->
+    <phrase id="SendOTPFailed" value="Tek seferlik parolanız gönderilemedi. Hata: %e"/><!-- v2023 -->
+    <phrase id="SendOTPSkipped" value="Hesap geçersiz olduğu için tek seferlik parola gönderimi iptal edildi. '%a' kullanıcı '%u'"/><!-- v2023 -->
+    <phrase id="SendOTPCancelled" value="Tek seferlik parola kullanıcı tarafından iptal edilmiştir."/><!-- v2023 -->
+    <phrase id="SendPushNotification" value="Anlık Bildirim Gönder" class="fas fa-bell ew-icon" client="1"/><!-- v2022 -->
+    <phrase id="SendPushNotificationBtn" value="Gönder"/><!-- v2022 -->
+    <phrase id="SendPushNotificationsToAll" value="Anlık bildirim gönderilecek kişiler seçilmedi. Hepsine gönderilsin mi?" client="1"/><!-- v2022 -->
+    <phrase id="SendPwd" value="Gönder" client="1"/><!-- v2020 -->
+    <phrase id="SequenceNumber" value="%s."/>
+    <phrase id="ServerCommunicationError" value="sunucuya bağlanırken hata oluştu."/><!-- v2017 -->
+    <phrase id="ServerError" value="İsteğiniz işlenirken sunucu hatası oluştu."/><!-- v2021 -->
+    <phrase id="SessionWillExpire" value="Oturumunuz %s saniye sonra sonlanacaktır. Oturumunuza devam etmek için TAMAM'a tıklayınız." client="1"/><!-- v12 -->
+    <phrase id="SessionExpired" value="Oturumunuzun süresi doldu." client="1"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredBtn" value="Parola geçerlilik süresi"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredSuccess" value="'%u' kullanıcısı için parola geçerlilik süresi ayarlandı."/><!-- v12 -->
+    <phrase id="SetPasswordExpiredFailure" value="'%u' kullanıcısı için parola geçerlilik süresi ayarlanma işlemi başarısız!"/><!-- v12 -->
+    <phrase id="ShowAllBtn" value="Tümünü Göster" class="icon-reset-search ew-icon"/><!-- v11 -->
+    <phrase id="ShowAll" value="Tümünü Göster"/><!-- v11 -->
+    <phrase id="Skip" value="Atla"/><!-- v2023 -->
+    <phrase id="SortUp" value="Artan" class="fas fa-sort-up" client="1"/><!-- v2022 -->
+    <phrase id="SortDown" value="Azalan" class="fas fa-sort-down" client="1"/><!-- v2022 -->
+    <phrase id="Subject" value="Konu" client="1"/><!-- v2021 -->
+    <phrase id="Success" value="Başarılı" client="1"/><!-- v2020 -->
+    <phrase id="Summary" value="Toplam"/><!-- v2020 (report) -->
+    <phrase id="SummaryColon" value=": "/><!-- v2020 (report) -->
+    <phrase id="Table" value="Tablo"/>
+    <phrase id="Tables" value="Tablolar" client="1"/><!-- v2022 -->
+    <phrase id="To" value="ile"/>
+    <phrase id="Top" value="Üst"/><!-- v2020 (report) -->
+    <phrase id="Total" value="Toplam"/>
+    <phrase id="UnauthorizedUserID" value="Geçerli kullanıcı (%c) kullanıcıya (%u) ID atama yetkisine sahip değildir."/>
+    <phrase id="UnauthorizedParentUserID" value="Geçerli kullanıcı (%c) üst seviye kullanıcı ID'si (%p) atama yetkisine sahip değildir."/>
+    <phrase id="UnauthorizedMasterUserID" value="Geçerli kullanıcı (%c) kayıt ekleme yetkisine sahip değildir. Ana filtre: %f"/>
+    <phrase id="UnsupportedBrowser" value="Bu sayfa için tarayıcınız desteklenmiyor" client="1"/><!-- v2021 -->
+    <phrase id="Update" value="Güncelle"/>
+    <phrase id="UpdateBtn" value="Güncelle" client="1"/><!-- v2017 -->
+    <phrase id="UpdateCancelled" value="Güncelleme Iptal Edildi"/>
+    <phrase id="UpdateFailed" value="Güncelleme Başarısız"/>
+    <phrase id="UpdateLink" value="Güncelle" class="fas fa-check ew-icon"/><!-- v2019 -->
+    <phrase id="UpdateSelectedLink" value="Seçili Kayıtları Güncelle" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="UpdateSomeRecordsFailed" value="Belirtilen anahtarlara ait kayıtlar güncellenemedi: %k"/><!-- v2022 -->
+    <phrase id="UpdateSuccess" value="Güncelleme Başarılı"/>
+    <phrase id="Uploading" value="Yükleniyor..." client="1"/>
+    <phrase id="UploadStart" value="Başlat" client="1"/>
+    <phrase id="UploadCancel" value="İptal" client="1"/>
+    <phrase id="UploadDelete" value="Sil" client="1"/>
+    <phrase id="UploadOverwrite" value="Eski dosyanın üzerine yazılsın mı?" client="1"/>
+    <phrase id="UploadError1" value="Yüklenmeye çalışılan dosya php.ini içerisindeki upload_max_filesize değerinin üzerindedir."/>
+    <phrase id="UploadError2" value="Yüklenmeye çalışılan dosya formun MAX_FILE_SIZE limitinin üzerindedir."/>
+    <phrase id="UploadError3" value="Yüklenmeye çalışılan dosya kısmen yüklenebilmiştir."/>
+    <phrase id="UploadError4" value="Dosya yüklenemedi"/>
+    <phrase id="UploadError6" value="Geçici klasör bulunamadı"/>
+    <phrase id="UploadError7" value="Dosya diske kaydedilirken hata oluştu"/>
+    <phrase id="UploadError8" value="Bir PHP eklentisi dosya yüklemesini durdurdu."/>
+    <phrase id="UploadErrorPostMaxSize" value="Yüklenmeye çalışılan dosya php.ini içerisindeki post_max_size değerinin üzerindedir."/>
+    <phrase id="UploadErrorMaxFileSize" value="Dosya çok büyük" client="1"/>
+    <phrase id="UploadErrorMinFileSize" value="Dosya çok küçük" client="1"/>
+    <phrase id="UploadErrorAcceptFileTypes" value="Bu dosya tipini yüklemeye izin verilmemiş!" client="1"/>
+    <phrase id="UploadErrorMaxNumberOfFiles" value="Izin verilen dosya sayısı aşılmıştır" client="1"/>
+    <phrase id="UploadErrorMaxWidth" value="Resim izin verilen maksimum genişliğin üzerindedir"/>
+    <phrase id="UploadErrorMinWidth" value="Resim izin verilen minimum genişliğin altındadır"/>
+    <phrase id="UploadErrorMaxHeight" value="Resim izin verilen maksimum yüksekliğin üzerindedir"/>
+    <phrase id="UploadErrorMinHeight" value="Resim izin verilen minimum yüksekliğin altındadır"/>
+    <phrase id="UploadErrorMaxFileLength" value="Dosya adı uzunluğu kayıt edilecek alanın alabileceğinden daha uzun" client="1"/>
+    <phrase id="UserAdministrator" value="Yönetici" client="1"/><!-- v12 -->
+    <phrase id="UserAnonymous" value="Kimliği Bilinmeyen" client="1"/><!-- v12 -->
+    <phrase id="UserDefault" value="Geçerli" client="1"/><!-- v12 -->
+    <phrase id="UserEmail" value="E-Posta"/>
+    <phrase id="UserExists" value="Kullanıcı zaten var"/>
+    <phrase id="UserLevel" value="Kullanıcı Seviyesi: "/>
+    <phrase id="UserLevelAdministratorName" value="Kullanıcı seviyesi -1 için seviye adı 'Administrator' olmalıdır." client="1"/>
+    <phrase id="UserLevelAnonymousName" value="Kullanıcı seviyesi -1 için seviye adı 'Anonymous' olmalıdır." client="1"/><!-- v12 -->
+    <phrase id="UserLevelPermission" value="Kullanıcı Seviye Izinleri"/>
+    <phrase id="UserLevelIDInteger" value="Kullanıcı Seviye ID'si bir tamsayı olmalıdır" client="1"/>
+    <phrase id="UserLevelDefaultName" value="Kullanıcı seviyesi 0 için seviye adı 'Default' olmalıdır" client="1"/>
+    <phrase id="UserLevelIDIncorrect" value="Kullanıcı tanımlı kullanıcı seviye ID'si 0'dan büyük olmalıdır." client="1"/>
+    <phrase id="UserLevelNameIncorrect" value="Kullanıcı tanımlı seviye adı 'Administrator' ya da 'Default' olamaz." client="1"/>
+    <phrase id="UserLoggedIn" value="Kullanıcı '%u' zaten giriş yapmış!"/>
+    <phrase id="UserName" value="Kullanıcı Adı" client="1"/><!-- v2021 -->
+    <phrase id="UserNotFound" value="'%u' kullanıcısı bulunamadı"/><!-- v2018 -->
+    <phrase id="UserProfileCorrupted" value="Kullanıcı profili bozulmuş. Lütfen çıkış yaptıktan sonra tekrar giriş yapınız."/>
+    <phrase id="ValueNotExist" value="Değer Bulunamadı" client="1"/><!-- v11 -->
+    <phrase id="Verify" value="Doğrula" client="1"/><!-- v2022 -->
+    <phrase id="View" value="Göster"/>
+    <phrase id="ViewImageGallery" value="Resmi Göster"/><!-- v12 -->
+    <phrase id="ViewLink" value="Göster" class="icon-view ew-icon"/><!-- v11 -->
+    <phrase id="ViewPageAddLink" value="Ekle" class="fas fa-plus ew-icon"/><!-- v2019 -->
+    <phrase id="ViewPageCopyLink" value="Kopyala" class="icon-copy ew-icon"/><!-- v11 -->
+    <phrase id="ViewPageDeleteLink" value="Sil" class="fas fa-trash ew-icon"/><!-- v2019 -->
+    <phrase id="ViewPageDetailLink" value="Detay"/>
+    <phrase id="ViewPageEditLink" value="Düzenle" class="icon-edit ew-icon"/><!-- v11 -->
+    <phrase id="Warning" value="Uyarı" client="1"/><!-- v2020 -->
+    <phrase id="Week" value="Hafta"/><!-- v2020 (report) -->
+    <phrase id="WrongFileType" value="Dosya türü gereçli değildir." client="1"/>
+    <phrase id="Year" value="Yıl"/><!-- v2020 (report) -->
+    <phrase id="=" value="="/><!-- v12 -->
+    <phrase id="EQUAL" value="="/><!-- v12 -->
+    <phrase id="IN" value="içerir"/><!-- v2023 -->
+    <phrase id="NOT IN" value="içermez"/><!-- v2023 -->
+    <phrase id="&lt;&gt;" value="&lt;&gt;"/>
+    <phrase id="&lt;" value="&lt;"/>
+    <phrase id="&lt;=" value="&lt;="/>
+    <phrase id="&gt;" value="&gt;"/>
+    <phrase id="&gt;=" value="&gt;="/>
+    <phrase id="LIKE" value="içerir"/>
+    <phrase id="NOT LIKE" value="does not contain"/><!-- v11.0.3 -->
+    <phrase id="STARTS WITH" value="starts with"/>
+    <phrase id="NOT STARTS WITH" value="ile başlamaz"/><!-- v2023 -->
+    <phrase id="ENDS WITH" value="ends with"/>
+    <phrase id="NOT ENDS WITH" value="ile bitmez"/><!-- v2023 -->
+    <phrase id="IS EMPTY" value="boş"/><!-- v2023 -->
+    <phrase id="IS NOT EMPTY" value="boş değil"/><!-- v2023 -->
+    <phrase id="IS NULL" value="is null"/>
+    <phrase id="IS NOT NULL" value="is not null"/>
+    <phrase id="BETWEEN" value="arasında"/>
+    <phrase id="NOT BETWEEN" value="arasında değil"/><!-- v2023 -->
+    <phrase id="AND" value="ve"/>
+    <phrase id="OR" value="ya da"/>
+    <!-- Advanced Filter (report) --><!-- v2020 -->
+    <phrase id="Future" value="Gelecek"/>
+    <phrase id="Past" value="Geçmiş"/>
+    <phrase id="Last14Days" value="Son 14 Gün"/>
+    <phrase id="Last30Days" value="Son 30 Gün"/>
+    <phrase id="Last7Days" value="Son 7 Gün"/>
+    <phrase id="Next14Days" value="Sonraki 14 Gün"/>
+    <phrase id="Next30Days" value="Sonraki 30 Gün"/>
+    <phrase id="Next7Days" value="Sonraki 7 Gün"/>
+    <phrase id="Today" value="Bugün"/>
+    <phrase id="Tomorrow" value="Yarın"/>
+    <phrase id="Yesterday" value="Dün"/>
+    <phrase id="LastMonth" value="Önceki Ay"/>
+    <phrase id="NextMonth" value="Sonraki Ay"/>
+    <phrase id="ThisMonth" value="Bu Ay"/>
+    <phrase id="LastTwoWeeks" value="Son 2 Hafta"/>
+    <phrase id="LastWeek" value="Geçen Hafta"/>
+    <phrase id="NextTwoWeeks" value="Önümüzdeki 2 Hafta"/>
+    <phrase id="NextWeek" value="Sonraki Hafta"/>
+    <phrase id="ThisWeek" value="Bu Hafta"/>
+    <phrase id="LastYear" value="Geçen Yıl"/>
+    <phrase id="NextYear" value="Önümüzdeki Yıl"/>
+    <phrase id="ThisYear" value="Bu Yıl"/>
+    <!-- Exceptions --><!-- v2021 -->
+    <phrase id="400" value="Hatalı İstek"/>
+    <phrase id="400Desc" value="Sunucu isteğe cevap veremiyor. İstemci Hatası."/>
+    <phrase id="401" value="Yetki Verilmemiş"/>
+    <phrase id="401Desc" value="İsteğe cevap verilmesi için geçerli bir kullanıcı yetkisine ihtiyaç duyuyor"/>
+    <phrase id="403" value="Yasaklanmış"/>
+    <phrase id="403Desc" value="İstenen işlemi yapmaya yetkiniz bulunmamaktadır."/>
+    <phrase id="404" value="Sayfa Bulunamadı"/>
+    <phrase id="404Desc" value="Görüntülemeye çalıştığınız içerik bulunamamıştır. Lütfen linki kontrol ediniz."/>
+    <phrase id="405" value="Method"/>
+    <phrase id="405Desc" value="İstenen method sunucu tarafından desteklenmiyor."/>
+    <phrase id="500" value="Sunucu Hatası"/>
+    <phrase id="500Desc" value="Sunucunun isteğinizi gerçekleştirirken beklenmeyen bir hata oluştu."/>
+    <phrase id="501" value="Uygulanmamış"/>
+    <phrase id="501Desc" value="Sunucu bu fonksiyonu yerine getirmek için gerekli şartları sağlamamaktadır."/>
+       <datetimepicker>
+        <phrase id="today" value="Bügüne Git"/>,
+        <phrase id="clear" value="Seçimi Temizle"/>,
+        <phrase id="close" value="Kapat"/>,
+        <phrase id="selectMonth" value="Ay Seç"/>,
+        <phrase id="previousMonth" value="Önceki Ay"/>,
+        <phrase id="nextMonth" value="Sonraki Ay"/>,
+        <phrase id="selectYear" value="Yıl Seç"/>,
+        <phrase id="previousYear" value="Önceki Yıl"/>,
+        <phrase id="nextYear" value="Sonraki Yıl"/>,
+        <phrase id="selectDecade" value="On Yıl Seç"/>,
+        <phrase id="previousDecade" value="Önceki On Yıl"/>,
+        <phrase id="nextDecade" value="Sonraki On Yıl"/>,
+        <phrase id="previousCentury" value="Önceki Yüzyıl"/>,
+        <phrase id="nextCentury" value="Sonraki Yüzyıl"/>,
+        <phrase id="pickHour" value="Saat Seç"/>,
+        <phrase id="incrementHour" value="Saat Arttır"/>,
+        <phrase id="decrementHour" value="Saat Azalt"/>,
+        <phrase id="pickMinute" value="Dakika Seç"/>,
+        <phrase id="incrementMinute" value="Dakika Arttır"/>,
+        <phrase id="decrementMinute" value="Dakika Azalt"/>,
+        <phrase id="pickSecond" value="Saniye Seç"/>,
+        <phrase id="incrementSecond" value="Saniye Arttır"/>,
+        <phrase id="decrementSecond" value="Saniye Azalt"/>,
+        <phrase id="toggleMeridiem" value="AM/PM Seç"/>,
+        <phrase id="selectTime" value="Zaman Seç"/>,
+        <phrase id="selectDate" value="Tarih Seç"/>
+    </datetimepicker>
+<!-- Select2 --><!-- v2022 -->
+    <select2>
+        <phrase id="errorLoading" value="Sonuçlar yüklenemedi."/>
+        <phrase id="inputTooLong" value="Lütfen %s karakter siliniz"/>
+        <phrase id="inputTooShort" value="Lütfen %s karakter daha ekleyiniz"/>
+        <phrase id="loadingMore" value="Devamı yükleniyor..."/>
+        <phrase id="maximumSelected" value="Sadece %s seçenek seçebilirsiniz"/>
+        <phrase id="noResults" value="Sonuç bulunamadı"/>
+        <phrase id="searching" value="Aranıyor..."/>
+        <phrase id="removeAllItems" value="Tüm seçenekleri kaldır"/>
+        <phrase id="removeItem" value="Seçeneği kaldır"/>
+        <phrase id="search" value="Ara"/>
+    </select2>
+<!-- jQuery Query Builder --><!-- v2023 -->
+    <querybuilderjs>
+        <phrase id="add_rule" value="Kural Ekle"/>
+        <phrase id="add_group" value="Grup Ekle"/>
+        <phrase id="delete_rule" value="Sil"/>
+        <phrase id="delete_group" value="Sil"/>
+        <phrase id="invert" value="Tersine Çevir"/>
+        <phrase id="NOT" value="DEĞİL"/>
+        <conditions>
+            <phrase id="AND" value="VE"/>
+            <phrase id="OR" value="VEYA"/>
+        </conditions>
+        <operators>
+            <phrase id="equal" value="="/>
+            <phrase id="not_equal" value="&amp;lt;&amp;gt;"/>
+            <phrase id="in" value="içinde"/>
+            <phrase id="not_in" value="içinde değil"/>
+            <phrase id="less" value="&amp;lt;"/>
+            <phrase id="less_or_equal" value="&amp;lt;="/>
+            <phrase id="greater" value="&amp;gt;"/>
+            <phrase id="greater_or_equal" value="&amp;gt;="/>
+            <phrase id="between" value="arasında"/>
+            <phrase id="not_between" value="arasında değil"/>
+            <phrase id="begins_with" value="ile başlayan"/>
+            <phrase id="not_begins_with" value="ile başlamayan"/>
+            <phrase id="contains" value="içerir"/>
+            <phrase id="not_contains" value="içermez"/>
+            <phrase id="ends_with" value="ile biten"/>
+            <phrase id="not_ends_with" value="ile bitmeyen"/>
+            <phrase id="is_empty" value="boş"/>
+            <phrase id="is_not_empty" value="boş değil"/>
+            <phrase id="is_null" value="null"/>
+            <phrase id="is_not_null" value="null değil"/>
+        </operators>
+        <errors>
+            <phrase id="no_filter" value="Filtre seçilmedi"/>
+            <phrase id="empty_group" value="Grup boş"/>
+            <phrase id="radio_empty" value="Değer seçilmedi"/>
+            <phrase id="checkbox_empty" value="Değer seçilmedi"/>
+            <phrase id="select_empty" value="Değer seçilmedi"/>
+            <phrase id="string_empty" value="Boş değer"/>
+            <phrase id="string_exceed_min_length" value="En az {0} karakter içermeli"/>
+            <phrase id="string_exceed_max_length" value="En fazla {0} karakter içerebilir"/>
+            <phrase id="string_invalid_format" value="Geçersiz Format ({0})"/>
+            <phrase id="number_nan" value="Numerik bir değer değil"/>
+            <phrase id="number_not_integer" value="Tamsayı değil"/>
+            <phrase id="number_not_double" value="Ondalık değer değil"/>
+            <phrase id="number_exceed_min" value="En az {0} olmalı"/>
+            <phrase id="number_exceed_max" value="En fazla {0} olmalı"/>
+            <phrase id="number_wrong_step" value="{0} veya katları olmalı"/>
+            <phrase id="number_between_invalid" value="Geçersiz değer, {0} büyük {1}"/>
+            <phrase id="datetime_empty" value="Boş değer"/>
+            <phrase id="datetime_invalid" value="Geçersiz tarih formatı ({0})"/>
+            <phrase id="datetime_exceed_min" value="{0} tarihinden sonra olmalı"/>
+            <phrase id="datetime_exceed_max" value="{0} tarihinden önce olmalı"/>
+            <phrase id="datetime_between_invalid" value="Geçersiz değer, {0} büyük {1}"/>
+            <phrase id="boolean_not_valid" value="Boolean Değil"/>'
+            <phrase id="operator_not_multiple" value="'{1}' birden fazla değer kabul edemez"/>
+        </errors>
+    </querybuilderjs>
+<!-- FullCalendar --><!-- v2023 -->
+    <fullcalendar>
+        <week>
+            <phrase id="dow" value="0"/><!-- Integer. Day of the week. Sunday=0, Monday=1, Tuesday=2, etc. -->
+            <phrase id="doy" value="4"/><!-- Integer. Day of year. Number of days need to be within the year to be considered the first week -->
+        </week>
+        <buttonText>
+            <phrase id="prev" value="önceki"/>
+            <phrase id="next" value="sonraki"/>
+            <phrase id="prevYear" value="önceki yıl"/>
+            <phrase id="nextYear" value="sonraki yıl"/>
+            <phrase id="year" value="yıl"/>
+            <phrase id="today" value="bugün"/>
+            <phrase id="month" value="ay"/>
+            <phrase id="week" value="hafta"/>
+            <phrase id="day" value="gün"/>
+            <phrase id="list" value="liste"/>
+        </buttonText>
+         <buttonHints>
+            <phrase id="prev" value="Önceki $0"/><!-- Do not translate '$0' -->
+            <phrase id="next" value="Sonraki $0"/><!-- Do not translate '$0' -->
+        </buttonHints>
+        <phrase id="weekText" value="H"/>
+        <phrase id="weekTextLong" value="Hafta"/>
+        <phrase id="closeHint" value="Kapat"/>
+        <phrase id="timeHint" value="Zaman"/>
+        <phrase id="eventHint" value="Olay"/>
+        <phrase id="allDayText" value="tüm gün"/>
+        <phrase id="moreLinkText" value="daha fazla"/>
+        <phrase id="noEventsText" value="Gösterilecek olay yok"/>
+        <phrase id="viewHint" value="$0 görüntüle"/><!-- Do not translate '$0' -->
+        <phrase id="navLinkHint" value="Git: $0"/><!-- Do not translate '$0' -->
+    </fullcalendar>
+</global>
+</ew-language>
